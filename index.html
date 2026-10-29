@@ -526,7 +526,7 @@ $('#todo').onclick = e => {
 let NEWS = [], newsIdx = 0, NEWS_WHY = '';
 async function loadNews(){
   if(!NEWS.length) NEWS_WHY = '';
-  if(AUTH_ON){
+  if(!IN_GAS && location.protocol.indexOf('http') === 0){   /* GitHub 주소로 열렸으면 news.json 사용 */
     try{
       const j = await fetchT('news.json?t=' + Date.now(), 10000).then(r => r.json());
       if(j.items && j.items.length){ NEWS = j.items; NEWS_WHY = ''; LS.set('office.news', NEWS); return; }
