@@ -26,6 +26,9 @@ header{display:grid;grid-template-columns:auto 1fr auto;gap:14px}
 .time{font-family:'Jua';font-size:72px;line-height:1}
 .time .ap{font-size:24px;margin-right:6px;color:var(--sub)}
 .time .sec{font-size:28px;color:var(--sub);margin-left:4px}
+.time .dg{display:inline-block;width:.6em;text-align:center}   /* 숫자 칸 너비 고정: 초가 바뀌어도 밀리지 않음 */
+.time .col{display:inline-block;width:.3em;text-align:center}
+
 .date{font-size:19px;line-height:1.4}.date b{font-family:'Jua';font-size:23px}
 .next{display:flex;flex-direction:column;justify-content:center;gap:4px;overflow:hidden}
 .next .lbl{color:var(--sub);font-size:14px}
@@ -464,7 +467,8 @@ async function loadCal(){
 /* ---------- 화면 ---------- */
 function tick(){
   const d = new Date(), h = d.getHours();
-  $('#time').innerHTML = `<span class="ap">${h<12?'오전':'오후'}</span>${(h%12)||12}:${pad(d.getMinutes())}<span class="sec">${pad(d.getSeconds())}</span>`;
+  const cells = str => [...str].map(c => `<span class="dg">${c === ' ' ? '' : c}</span>`).join('');
+  $('#time').innerHTML = `<span class="ap">${h<12?'오전':'오후'}</span>${cells(String((h%12)||12))}<span class="col">:</span>${cells(pad(d.getMinutes()))}<span class="sec">${cells(pad(d.getSeconds()))}</span>`;
   $('#date').innerHTML = `<b>${d.getMonth()+1}월 ${d.getDate()}일</b><br>${W[d.getDay()]}요일 · ${d.getFullYear()}`;
 }
 
