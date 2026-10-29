@@ -1,5 +1,216 @@
 {
- "updated": null,
- "items": [],
- "errors": ["아직 뉴스 작업이 실행되지 않았어요"]
+ "updated": "2026-10-29T00:51:34.230Z",
+ "items": [
+  {
+   "feed": "주요뉴스",
+   "title": "이 대통령 ‘외국인 노동자 발언’ 비판 확산…“언론 탓 전에 사과 먼저”",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLYzVfb0xiNl94Vk5DdW93dlJWNW94YS01Y2RvN1Vra0tyZ2JrZEZRQ2Ffa0hqa3N2SG1sLUZ0ZWRNZlJLaWsxNVVaUUtDdVU0YjJ4THJYSjdLdkFkTG9aNHp6QXgtNV8zYklndHdEczF3RTFz?oc=5",
+   "pub": "Wed, 28 Oct 2026 15:20:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "내년부터 농업인·전문가·소비자가 친환경농업 정책 결정에 참여 - 정책뉴스 | 뉴스",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pYncwMWhqdF9Lb1BsSjBfYXdDZEZPMnpRNGx1LVUyRG1waDltZFlGaGJETGw5cXJhMURlOElNRFZvaUJyOHNoWGRMR1pha3hrdTRIdVp1SjJlZlJJNV9yVzVIQWZNbHdPaWdNaw?oc=5",
+   "pub": "Tue, 27 Oct 2026 05:57:29 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "인천시·인천세관, K-제조업 보호·원산지 표시 단속 업무협약",
+   "source": "미디어인천신문",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkdmlVZFBsM2FGalVWaGxWRkFYZzJPVkhsOThNd1dYX0dBZE5aXzFzY19TcVlZOWNMU0d6NGFoZmoxaUZTOGhlTERHSUNDZjl0WG15eVBQYUxQaUpnZmY0cF9JMGpZTjR1YkE?oc=5",
+   "pub": "Thu, 29 Oct 2026 00:08:26 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "올림픽공원 투표지 검증 끝났지만…국힘 측 ‘밤샘 농성’ 돌입",
+   "source": "매일경제",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13NEtqUE4tQnpRRndDVzZYNkxiY3N6cVVURjk5WXFHenN2dzhTWnFlT0p2UHpmZUlpdndRTm04SlN2bDFsd0UtWWFxZzZfdFRnYjdJZlR3?oc=5",
+   "pub": "Wed, 28 Oct 2026 17:29:12 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농지조사 장관 제안 아닌데... 대통령에 말 못하는 농식품부",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1FpZUJfWnhwcUVPb3J5NEpUOTkwbV94Wnd6a080SGlidndvN3VCYmUxSUloQ2w0dXF2dFhBZmhITkx5YUNTelJ4TTlQTXRkSk40OU1yNzdIOEpDNWVEM1liNm50VE1XRC1sYy1ZYzQzNF9RTjJWZFBhVzdicGRwTUdPSTItZ1hvcEFKdnBB?oc=5",
+   "pub": "Tue, 27 Oct 2026 01:41:21 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "인천시, 지역 제조산업 보호 위한 K-제조업 원산지 단속 강화",
+   "source": "경기도민일보 미디어",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mRHRZcVB5RnNjWHo4b1JTTHhGSURtUEJUY2RpYlVxdE9sRjgzTWhUQjdtYkFQb2R6bTNTR0szeW90VGpGVnQ2YlhfMXNXX2lTUkxJb19lNFNtaW4zNmpxNGEwRlFfTDhOQ0E?oc=5",
+   "pub": "Wed, 28 Oct 2026 23:55:04 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "민주당 ‘조작기소 특검’ 재추진 시사…“정치 검찰 책임 물어야 할 시간”",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBESmdKNXRWaDd5M05IT3FaNzNDalNYSnFwVk9BeWo0UDU0VlBXZTVaM3prSlkydXpwRVpiWVZkeXlubzZGaV9TV3BWUDlQSzF6QzFORkU1UFR3TDg?oc=5",
+   "pub": "Wed, 28 Oct 2026 08:48:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "녹비종자 지원 6→8종…품목별 최소 신청량 20㎏으로",
+   "source": "마켓인",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTeEpMS3pmaF9sbUNRSlJrc1ZJd1ppbTg4eXhOLU5ZQTJiUXVtdElWeW9mdngzQXd0a0hIQjEzX3NVTmE2anIyXzR2X0I1WWJ6bXlwUUtKTUNjNnplM1JXTXpydUlnUXpMNlZKNHNudW0xSDQ?oc=5",
+   "pub": "Wed, 28 Oct 2026 21:00:06 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "농수산물 원산지 표시제도 고지의무 신설! - 전체 | 카드/한컷 | 멀티미디어",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SclpwT2xDV003LUZaOUljRDNwQmxRbUZPSW96VFZuTzRtZjRUWmRhd0RQM0VSSm90RVlGdDNDd3BpbkhvMGtsVV8wa3FxR3AwUmkzcWhfMkEtRXZfeHBFcmVNWjZrVnk0ejMwT29R?oc=5",
+   "pub": "Fri, 23 Oct 2026 01:58:37 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "오후에 중부부터 비…아침 추위 내일은 풀려",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnUy1WM3NYVnpvVklkMzZXMENkdFhTWkoxTjgwUHMwYTZVeDRFWW5kMG5vRkFJYzF0SDkzNlJ2RXVpc1dTYVRtVDVyNmx0YXQ0WUswVWRZZkFhREU?oc=5",
+   "pub": "Thu, 29 Oct 2026 00:01:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 유기농업자재 지원 확대…녹비작물 종자 2종 추가",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RcEkyRXFOQWhQLUthclVJSXRlVHktcm1Vc0hGU1pLcmpkS2wtSm54Rm5PTThsT1QwT2tYSzRRQXhYaFEzRnhwdF96REhjVUZTUzJGT05wR0NyNmPSAWBBVV95cUxQVTktcmJqMXNxSHFZMFdDeUpaQnVwNzhQOGN1eDVST1REVWxSQWR6NGFMcURpNmpFOEJqSzYzejB6aVVmN0dhQVd2ZzhWZUFITlJiZnpvbHYyQzZ0OUJGV2w?oc=5",
+   "pub": "Wed, 28 Oct 2026 21:00:11 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "온라인 돼지고기 유통, 원산지 표시 관리 한층 강화",
+   "source": "돼지와사람",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNaUlvb3djMG9iLUpHTVZjMFJVWjlsTmFueFhobEFBeUlNOE1DdWE2b001bEhCSjZWVnIyNGJtMVVYektKTUlFLThYXzkzTDhDSkVadU11UDdwRzdndzVF?oc=5",
+   "pub": "Wed, 21 Oct 2026 10:43:12 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "운영위 대통령실 국감…‘레버리지 ETF·인사 의혹’ 공방 예고",
+   "source": "경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83eFlRNWxfVG8wUjJfcEM3c1h1djA5cXNfbEdRRXQ0am1xQWdwSWtZZ2I0VEswYXB2SjFrbTduX214VXVmN2hTb25GTnA0RUZGRVBEQm96R3N0Zw?oc=5",
+   "pub": "Wed, 28 Oct 2026 22:38:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "산단 근로자 아침상에 90만 식 지원…농식품부, 내년 참여기업 모집",
+   "source": "한국영농신문",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FeFBMc1NCMm1iVjhlWllBYUpNLXR2ZlVqU3NPTkdIRVhMUWpfbXVKNVRTRnozUG5nM2ozRUNaVlBRRTUzNHJSOXVqaWNyaFF3bjZGekd6Y1VrWjR0b1V2UUV1YVRQOG0wOC1TNFN3?oc=5",
+   "pub": "Wed, 28 Oct 2026 15:12:07 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "온라인 플랫폼, 입점업체에 원산지 표시 안내 의무…위반시 과태료",
+   "source": "산경일보",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PY0lFZmxpcGZZeE14d28zNFlZa082UDRJaEh3NzRwMWxmc2ZpWTYyN0lLUlBHeDNpeWRJUnRROWRzVXFBTnU0RU81SkgxUS1ERWowcnd0MGtBWWlncndTSHhzMER3TGVVOWR4V1ZFeWg?oc=5",
+   "pub": "Wed, 21 Oct 2026 06:31:43 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "“상대 후보와 이름 똑같은 사람 찾아라”…민주당의 은밀한 선거 작전 [특파원 리포트]",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJT2lLZDAwaGVNRnRFcUNFMm9aVkhYUTV5T3U4bjJyZ0daVDhrbnFNSnlRM1NBVkdITl9nSDB4UHNDbTRGSEpFOWd6dGNydm1TRUpHYVJmRUNyUjg?oc=5",
+   "pub": "Wed, 28 Oct 2026 20:36:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 아세안+3 농림장관회의 참석…스마트팜 협력·K-푸드 수출 점검",
+   "source": "아주경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10ZTkwRTdTOVl6VnJaSXJMX2FsTzQ0aVZGbHBMSF9qYTZTdTZLNElhQUdWVXZWalVKMVkySVU5LUZ5djJlOFhqZ19XUERrdk1RNEdEdl9OdGJ5d9IBWEFVX3lxTE5oVmM5UEZZeEtoY3I0djZ4RVJjbk5xaFVZTmI4NmU2WklyYzhvalhpOUU4bUZKVlJQNUNNU1Y4anRRdVp5Sm5rNGhDMGJ2S2dPakx4M0ZuWjA?oc=5",
+   "pub": "Wed, 28 Oct 2026 02:00:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "수입 육류 원산지 위반 5561건",
+   "source": "환경일보",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ucVpNSnYtLWRybGlUYlcyTU1fcS1FUWxKN3NIQXpfQkJ4RDdvNjJzbUMtdXJpMXFTMmNjWGVOQWVBSmoyNGtQdXVwelQ0T1pEbExaVUR2Skk4SlhfdVFHallpeHp5anNW?oc=5",
+   "pub": "Sat, 24 Oct 2026 05:06:06 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "[사설] 대법원장 ‘탄핵 거리’ 찾으려 국정조사 한다니",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ3hyYU9kbWsxUFR1VEtYUWVyZi1HUHlaTmRvMWRjSkQtUWpkZWtBRGV5QTJsc3JablFFU2ZfWW5jbl90QjRqYk5NbHdfeU5wUmh4dVpZZEdLUFBMN0lhTVE3bnNEQl9WbEFCZmMyNXdsLWVnVjZZcTMxREJ0OE5BVGdDbDhBdw?oc=5",
+   "pub": "Wed, 28 Oct 2026 15:20:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "[축산산업 발전 방향] 홍성현 농식품부 서기관 “축산업 AX, 이용자 인식개선 필요”",
+   "source": "아시아투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OMjA4SHJmdFdiT1lCWXpsM2lWYm1EM1ctQjQwNE5yX2hSMGI4dGpVNWZjR1VSa2s5MEU2bjVwM1dpZHVvYUIxUVRYb19fZE03MkRMXzEwUnJuSDV0TFloMW5XX1VPYmdMMmIzcjFB?oc=5",
+   "pub": "Wed, 28 Oct 2026 09:21:35 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "5년여간 수입육 원산지 거짓·미표시 5561건 적발…돼지고기",
+   "source": "농민신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tU2xmdjQtQXRmVlRNTGZPMTVoR1MzcEJ0cExxV3IzUlVfUEN2VUtjcWh6R0lMaHNDSWVaT3VNVC1QSkRFVnNUSlZpTExPVW9pVGxtREVnWVVDUQ?oc=5",
+   "pub": "Fri, 23 Oct 2026 10:29:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "유시민, 이 대통령 향해 “윤석열처럼 자기 집 해체하고 있다”",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pWlpicU5TeXY1bVkxLTVhMlhfNU9kUDJyRUx0RmNjdmZGeWtVQVU5WWY2NWUzR3AyemdsZTFvQ2RFbnY2OE9LRHQxSmJlWlp0enB2Ry1DXzJ4TFM2aUMzejMxYVhUdjJuelQzVGhFcjlaZFhw?oc=5",
+   "pub": "Wed, 28 Oct 2026 15:19:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "최정록 전 검역본부장, 주말레이시아 대사 부임",
+   "source": "데일리벳",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uRkhIX185aGFtSzQ2d0Z4RXN4U3JXb1ZlVkxtb3NkLWRhckk5ejk0UnBUUC1wc2JNTm1VZS1uQkJ1SV9mNFFucmVlMklGVFRDTmZiVw?oc=5",
+   "pub": "Mon, 26 Oct 2026 07:53:25 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "수입 육류 원산지 위반 5561건",
+   "source": "대한급식신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JY2xQNW8yVzhQNWtILVRjbGtfZE5tWHdfN3lWLWFKS3pMaWhQT1JoUW9uSDBJLXZUM3RBV2NRUXRhQTV4a1p2cWEwQVZDZjYzMGNoaVo0Z01DNElnTG5aN3d0OWpLYjFB?oc=5",
+   "pub": "Fri, 23 Oct 2026 09:40:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "‘역삼 연쇄방화’ 70대 구속송치…살인미수 혐의 적용",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kNHBpamxqVnI0THgxejJjcTlKTTRVMVlNczEwb1FmaGdXQlBmeHZVbzZOUWtxTjN1N2d4UFRQVGd0UFVSSF8xNkpxdFlCRGhUWUt6OUs4TTQ1Ykk?oc=5",
+   "pub": "Wed, 28 Oct 2026 23:15:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "녹비작물 종자 지원 6종→8종 확대…트리티케일 등 추가",
+   "source": "뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11QWx2T2NKX0RmQ05nS3ZydEpteDlGSzFMLTI4QndoS19TYlVOakRtdnRqUzBTc2hubGdoNFV6b3JCYVM1X1V6MU1ieENLX3EycGRac1R2U3hQR1VzSnBwd9IBeEFVX3lxTFBOYTRTdVNQeThCMm1YNkNXN2VIeHBzOVB2THRUZGs5ZXlxSFVGNE5JY25sZkFtOWNxRzUzMnpkZkYwZ3NSSTU1WWt3SUpBN3M3TkFScVdvSEIwOWFWM3F5cC0yazNrLUpwUmlob1RzWGhIZ01qeW9xVA?oc=5",
+   "pub": "Wed, 28 Oct 2026 21:00:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "온라인몰 입점업체에 원산지 표시 안내 의무화…위반 시 최대 400만원 과태료",
+   "source": "헤럴드경제",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rVkJpQkdPTy1CMmhkMlJIRl91X3QyZnRtb0dpREpveFk3LTJQbU9BWnRfc1BqT3VROTE5S21Fb2VLVVFyMFljMlJPWGRWOEw2OHJEX3NB?oc=5",
+   "pub": "Wed, 21 Oct 2026 02:00:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "尹 \"계엄, '십자포화로 나를 말려라' 각오로 선포\"",
+   "source": "MBC 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qLWhWTTNZSjA1ZjVJQlRIRm9mX2JKN1E5MmNmVk5nYl9JRWNTcFdjUlBxNW8tYW85eTE1eTFjVFpXNERVQXFwU2d6ZHFLcU5kR3g1ckNMbWtoZDBTRV9HWU5lVzZQaWR2Vm5CQmtrcVZsSnYxYjZB0gF3QVVfeXFMT1hpY3cxTDFXQXQ5Q05nQXM3Vms2S3Q2MzFYYnNJQWsxQzBlQXFRTkgwSGp6OXA1OWVKYnV6MWRVTlpPZDFiS09DaDJLZEo1QVJ6d2ZLQWZNY0RmWVBxb2ZtTi1wc29rX3ZiRm0zSmpyME9tNHZZNEE?oc=5",
+   "pub": "Tue, 27 Oct 2026 07:33:13 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "[농림축산식품부X농수축산신문] 2026 축산, 현장 행정을 말하다",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Uek54YXNLQk12M1MyWG5zSTBNUks0YXlWTk16clBBcGlJdEo4dG1wVzZEakZJNmlxMjc4WDZFYzJUaVdtQjIzX1V6VnNPVW5wZ0ZqeHd6anJ4R28xdkRyRjZjUm41RWxCeG9HNA?oc=5",
+   "pub": "Thu, 29 Oct 2026 00:32:12 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "제주 관광지 주변 음식점 원산지 표시 단속 결과, 위반 업체 무더기 적발",
+   "source": "헤드라인제주",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UTWphaWNoVlNhWlZKU2ZYQnpnN1JleXpTT3VZVEo2MWRFaVFEUHJ6eldNdnRKSUlBZXRBYVlKSk1LcWVrSkRDd1hBTExOZ1NWR3h0a0hZMS1qVEtGZXJYLWVENzVXZUg0TmhIbEN5Rk9CS1U?oc=5",
+   "pub": "Mon, 31 Aug 2026 07:00:00 GMT"
+  }
+ ],
+ "errors": []
 }
