@@ -92,6 +92,18 @@ footer{display:flex;align-items:center;gap:16px;font-size:13px;color:var(--sub);
 .tog{border:1px solid var(--line);background:#fff;border-radius:8px;padding:2px 10px;font-size:13px;color:var(--ink)}
 .tog.on{background:var(--ink);color:#fff}
 
+.ev,.tr[data-eid]{cursor:pointer}
+.day{cursor:copy}
+.ev:hover{filter:brightness(.95)}
+.sheet label{font-size:13px;color:var(--sub);display:flex;flex-direction:column;gap:4px}
+.sheet .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sheet .chk{flex-direction:row;align-items:center;gap:8px;font-size:15px;color:var(--ink)}
+.sheet .chk input{width:20px;height:20px}
+.sheet select{font:inherit;font-size:17px;padding:9px 10px;border:1px solid var(--line);border-radius:12px;background:#fff}
+#evMsg{font-size:14px;color:var(--sun);min-height:18px}
+.mBtns .danger{background:var(--sun);color:#fff;margin-right:auto}
+#toast{position:fixed;left:50%;bottom:76px;transform:translateX(-50%);z-index:45;background:var(--ink);color:#fff;border-radius:999px;padding:9px 18px;font-size:15px;opacity:0;transition:opacity .3s;pointer-events:none}
+#toast.on{opacity:1}
 .modal{position:fixed;inset:0;background:rgba(20,25,30,.45);display:grid;place-items:center;z-index:20}
 .hidden{display:none!important}
 .sheet{background:#fff;border-radius:20px;padding:22px;width:min(440px,92vw);display:flex;flex-direction:column;gap:12px}
@@ -139,7 +151,7 @@ footer{display:flex;align-items:center;gap:16px;font-size:13px;color:var(--sub);
   </header>
   <main>
     <section class="card cal">
-      <div class="ctitle"><span id="calTitle"></span><small>구글 캘린더에서 자동으로 불러옵니다</small></div>
+      <div class="ctitle"><span id="calTitle"></span><small>날짜를 누르면 추가 · 일정을 누르면 수정</small></div>
       <div class="calGrid" id="calGrid"></div>
     </section>
     <section class="side">
@@ -161,6 +173,19 @@ footer{display:flex;align-items:center;gap:16px;font-size:13px;color:var(--sub);
   <h3>할 일 추가</h3><input id="fText" placeholder="내용 입력">
   <div class="mBtns"><button id="mNo">취소</button><button class="primary" id="mOk">저장</button></div>
 </div></div>
+<div class="modal hidden" id="evModal"><div class="sheet">
+  <h3 id="evTitle">일정</h3>
+  <label>제목<input id="evSum" placeholder="무슨 일정인가요?"></label>
+  <label class="chk"><input type="checkbox" id="evTodo">할 일로 표시 (대시보드 체크리스트에 나옴)</label>
+  <label class="chk"><input type="checkbox" id="evAll">종일</label>
+  <div class="row2"><label>날짜<input type="date" id="evDate"></label><label id="evDate2Wrap">끝나는 날<input type="date" id="evDate2"></label></div>
+  <div class="row2" id="evTimes"><label>시작<input type="time" id="evStart"></label><label>끝<input type="time" id="evEnd"></label></div>
+  <label>장소<input id="evLoc" placeholder="(선택)"></label>
+  <label id="evCalWrap">캘린더<select id="evCal"></select></label>
+  <div id="evMsg"></div>
+  <div class="mBtns"><button class="danger hidden" id="evDel">삭제</button><button id="evNo">취소</button><button class="primary" id="evOk">저장</button></div>
+</div></div>
+<div id="toast"></div>
 <div id="login" class="hidden"><div class="lcard">
   <h2>부서 대시보드</h2>
   <p>부서 캘린더를 공유받은 구글 계정으로 로그인하면<br>일정·마감·할 일을 한눈에 볼 수 있어요.</p>
@@ -284,7 +309,7 @@ function jsonp(url){
 
 /* ---------- 구글 로그인 + 캘린더 API (브라우저에서 직접) ---------- */
 const AUTH_ON = AUTH.CLIENT_ID.indexOf('여기에') < 0 && /\.apps\.googleusercontent\.com$/.test(AUTH.CLIENT_ID);
-const SCOPES = 'https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/userinfo.email';
+const SCOPES = 'https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.email';
 let tokenClient = null, accessToken = '', tokenExp = 0, pendingTok = null;
 let userEmail = LS.get('dash.email', '');
 
@@ -351,7 +376,7 @@ async function apiData(){
         title: ev.summary || '(제목 없음)', location: ev.location || '', allDay,
         start: allDay ? ev.start.date : ev.start.dateTime,
         end: allDay ? ev.end.date : ev.end.dateTime,
-        cal: ci, id: c.id + '|' + ev.id
+        cal: ci, id: c.id + '|' + ev.id, calId: c.id, evId: ev.id
       });
     });
   }));
@@ -452,14 +477,14 @@ function renderCal(){
   for(let i=0;i<21;i++){
     const d = addDays(start,i), k = ymd(d), hol = CONFIG.holidays[k], w = dailyWx[k];
     const evs = onDay(k), MAX = 4;
-    h += `<div class="day ${k===today?'today':''} ${k<today?'past':''}">
+    h += `<div class="day ${k===today?'today':''} ${k<today?'past':''}" data-k="${k}">
       <div class="dhead"><span class="${(i%7==0||hol)?'sun':i%7==6?'sat':''}">${d.getDate()===1?(d.getMonth()+1)+'/':''}${d.getDate()}</span>
       ${hol?`<span class="hol">${esc(hol)}</span>`:''}${w?`<span class="dwx">${w.ico} ${w.min}°/${w.max}°</span>`:''}</div>
       ${evs.slice(0,MAX).map(e=> e.todo
-        ? `<div class="ev timed" style="--c:${color(e)}"><i>${gdone[e.id]?'☑':'☐'}</i>${esc(title(e))}</div>`
+        ? `<div class="ev timed" data-eid="${esc(e.id)}" style="--c:${color(e)}"><i>${gdone[e.id]?'☑':'☐'}</i>${esc(title(e))}</div>`
         : e.allDay
-        ? `<div class="ev" style="background:${color(e)}">${esc(title(e))}</div>`
-        : `<div class="ev timed" style="--c:${color(e)}"><i>${e.s.getHours()}:${pad(e.s.getMinutes())}</i>${esc(title(e))}</div>`).join('')}
+        ? `<div class="ev" data-eid="${esc(e.id)}" style="background:${color(e)}">${esc(title(e))}</div>`
+        : `<div class="ev timed" data-eid="${esc(e.id)}" style="--c:${color(e)}"><i>${e.s.getHours()}:${pad(e.s.getMinutes())}</i>${esc(title(e))}</div>`).join('')}
       ${evs.length>MAX?`<div class="more">+${evs.length-MAX}건 더</div>`:''}
     </div>`;
   }
@@ -472,7 +497,7 @@ function renderToday(){
   $('#tl').innerHTML = evs.map(e=>{
     const st = e.allDay ? '' : (now>=e.e ? 'done' : now>=e.s ? 'now' : '');
     const t = e.allDay ? '종일' : `${hm(e.s)}`;
-    return `<div class="tr ${st}"><span class="t">${t}</span><span class="bar" style="background:${color(e)}"></span>
+    return `<div class="tr ${st}" data-eid="${esc(e.id)}"><span class="t">${t}</span><span class="bar" style="background:${color(e)}"></span>
       <span>${esc(title(e))}${(!priv&&e.location)?`<span class="loc">📍 ${esc(e.location)}</span>`:''}</span></div>`;
   }).join('') || '<div class="empty">오늘은 일정이 없어요.</div>';
 
@@ -592,6 +617,106 @@ function renderLegend(){
   $('#privBtn').classList.toggle('on', priv);
 }
 $('#privBtn').onclick = () => { priv = !priv; LS.set('office.priv', priv); renderAll(); };
+
+/* ---------- 일정 추가·수정·삭제 (구글 캘린더에 바로 반영) ---------- */
+let editing = null;
+function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2600); }
+function canEdit(){
+  if(!AUTH_ON || !CAL.calendars.length){ toast('로그인한 뒤에 일정을 고칠 수 있어요'); return false; }
+  if(priv){ toast('🔒 제목 숨김을 끄면 일정을 고칠 수 있어요'); return false; }
+  return true;
+}
+function syncEvForm(){
+  const all = $('#evAll').checked;
+  $('#evTimes').classList.toggle('hidden', all);
+  $('#evDate2Wrap').classList.toggle('hidden', !all);
+}
+$('#evAll').onchange = syncEvForm;
+function openEv(e, dayKey){
+  editing = e || null;
+  $('#evTitle').textContent = e ? '일정 수정' : (+dayKey.slice(5,7)) + '월 ' + (+dayKey.slice(8)) + '일 일정 추가';
+  $('#evSum').value = e ? e.title : '';
+  $('#evTodo').checked = e ? !!e.todo : false;
+  $('#evAll').checked = e ? !!e.allDay : false;
+  $('#evDate').value = e ? e.sk : dayKey;
+  $('#evDate2').value = e ? e.ek : dayKey;
+  $('#evStart').value = e && !e.allDay ? pad(e.s.getHours()) + ':' + pad(e.s.getMinutes()) : '10:00';
+  $('#evEnd').value = e && !e.allDay ? pad(e.e.getHours()) + ':' + pad(e.e.getMinutes()) : '11:00';
+  $('#evLoc').value = e ? (e.location || '') : '';
+  $('#evCal').innerHTML = AUTH.CALENDARS.map((c, i) => `<option value="${i}">${esc(c.name)}</option>`).join('');
+  $('#evCal').value = e ? String(e.cal) : '0';
+  $('#evCal').disabled = !!e;
+  $('#evCalWrap').classList.toggle('hidden', AUTH.CALENDARS.length < 2);
+  $('#evDel').classList.toggle('hidden', !e);
+  $('#evMsg').textContent = '';
+  syncEvForm();
+  $('#evModal').classList.remove('hidden');
+  setTimeout(() => $('#evSum').focus(), 50);
+}
+function closeEv(){ $('#evModal').classList.add('hidden'); editing = null; }
+$('#evNo').onclick = closeEv;
+$('#evModal').addEventListener('click', ev => { if(ev.target.id === 'evModal') closeEv(); });
+
+async function calWrite(method, calId, evId, body){
+  if(!accessToken || Date.now() > tokenExp - 60000) await getToken(true);
+  const url = 'https://www.googleapis.com/calendar/v3/calendars/' + encodeURIComponent(calId) + '/events' +
+    (evId ? '/' + encodeURIComponent(evId) : '') + '?sendUpdates=none';
+  const r = await fetchT(url, 15000, { method, headers: { Authorization: 'Bearer ' + accessToken, 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
+  if(r.status === 401){ accessToken = ''; throw new Error('로그인이 만료됐어요. 다시 저장을 눌러 주세요'); }
+  if(r.status === 403) throw new Error('이 캘린더를 고칠 권한이 없어요 (보기 전용으로 공유됨)');
+  if(!r.ok && r.status !== 204 && r.status !== 410) throw new Error('구글 캘린더 오류 ' + r.status);
+}
+$('#evOk').onclick = async () => {
+  let sum = $('#evSum').value.trim();
+  if(!sum){ $('#evMsg').textContent = '제목을 입력해 주세요'; return; }
+  if(sum.startsWith(CONFIG.todoPrefix)) sum = sum.slice(CONFIG.todoPrefix.length).trim();
+  if($('#evTodo').checked) sum = CONFIG.todoPrefix + ' ' + sum;
+  const d1 = $('#evDate').value;
+  if(!d1){ $('#evMsg').textContent = '날짜를 골라 주세요'; return; }
+  const body = { summary: sum, location: $('#evLoc').value.trim() };
+  if($('#evAll').checked){
+    let d2 = $('#evDate2').value || d1; if(d2 < d1) d2 = d1;
+    body.start = { date: d1, dateTime: null, timeZone: null };
+    body.end = { date: ymd(addDays(new Date(d2 + 'T00:00:00'), 1)), dateTime: null, timeZone: null };
+  } else {
+    const st = $('#evStart').value, en = $('#evEnd').value;
+    if(!st || !en || en <= st){ $('#evMsg').textContent = '끝나는 시각이 시작보다 늦어야 해요'; return; }
+    body.start = { dateTime: d1 + 'T' + st + ':00', timeZone: 'Asia/Seoul', date: null };
+    body.end = { dateTime: d1 + 'T' + en + ':00', timeZone: 'Asia/Seoul', date: null };
+  }
+  $('#evMsg').textContent = '저장 중…'; $('#evOk').disabled = true;
+  try{
+    if(editing) await calWrite('PATCH', editing.calId, editing.evId, body);
+    else{
+      const c = AUTH.CALENDARS[+$('#evCal').value || 0];
+      const nb = Object.assign({}, body, { start: body.start.date ? { date: body.start.date } : { dateTime: body.start.dateTime, timeZone: 'Asia/Seoul' },
+                                           end: body.end.date ? { date: body.end.date } : { dateTime: body.end.dateTime, timeZone: 'Asia/Seoul' } });
+      await calWrite('POST', c.id, '', nb);
+    }
+    closeEv(); toast('✅ 저장했어요'); loadCal();
+  }catch(err){ $('#evMsg').textContent = '⚠ ' + err.message; }
+  finally{ $('#evOk').disabled = false; }
+};
+$('#evDel').onclick = async () => {
+  if(!editing) return;
+  if($('#evDel').dataset.sure !== '1'){ $('#evDel').dataset.sure = '1'; $('#evDel').textContent = '정말 삭제'; setTimeout(() => { $('#evDel').dataset.sure = ''; $('#evDel').textContent = '삭제'; }, 3000); return; }
+  $('#evDel').dataset.sure = ''; $('#evDel').textContent = '삭제';
+  $('#evMsg').textContent = '삭제 중…';
+  try{ await calWrite('DELETE', editing.calId, editing.evId); closeEv(); toast('🗑 삭제했어요'); loadCal(); }
+  catch(err){ $('#evMsg').textContent = '⚠ ' + err.message; }
+};
+function findEv(id){ return CAL.events.find(x => x.id === id); }
+$('#calGrid').addEventListener('click', ev => {
+  const el = ev.target.closest('.ev'), day = ev.target.closest('.day');
+  if(!el && !day) return;
+  if(!canEdit()) return;
+  if(el){ const e = findEv(el.dataset.eid); if(e && e.evId) openEv(e); return; }
+  openEv(null, day.dataset.k);
+});
+$('#tl').addEventListener('click', ev => {
+  const el = ev.target.closest('.tr[data-eid]'); if(!el || !canEdit()) return;
+  const e = findEv(el.dataset.eid); if(e && e.evId) openEv(e);
+});
 
 function renderAll(){ renderCal(); renderToday(); renderDeadlines(); renderTodo(); renderLegend(); }
 
