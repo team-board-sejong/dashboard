@@ -314,6 +314,14 @@ function jsonp(url){
 const AUTH_ON = AUTH.CLIENT_ID.indexOf('여기에') < 0 && /\.apps\.googleusercontent\.com$/.test(AUTH.CLIENT_ID);
 const SCOPES = 'https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.email';
 let tokenClient = null, accessToken = '', tokenExp = 0, pendingTok = null;
+/* 로그인 열쇠를 이 탭에만 최대 1시간 보관 → 새로고침해도 다시 로그인하지 않음 (탭을 닫으면 지워짐) */
+const TOK_KEY = 'dash.tok';
+function saveTok(){ try{ sessionStorage.setItem(TOK_KEY, JSON.stringify({ t: accessToken, e: tokenExp, s: SCOPES })); }catch(e){} }
+function clearTok(){ accessToken = ''; tokenExp = 0; try{ sessionStorage.removeItem(TOK_KEY); }catch(e){} }
+try{
+  const o = JSON.parse(sessionStorage.getItem(TOK_KEY) || 'null');
+  if(o && o.t && o.s === SCOPES && o.e > Date.now() + 120000){ accessToken = o.t; tokenExp = o.e; }
+}catch(e){}
 let userEmail = LS.get('dash.email', '');
 
 function gisReady(){
@@ -335,7 +343,7 @@ async function initAuth(){
     callback: r => {
       const p = pendingTok; pendingTok = null;
       if(r.error){ if(p) p.fail(new Error(r.error_description || r.error)); return; }
-      accessToken = r.access_token; tokenExp = Date.now() + (Number(r.expires_in) || 3600) * 1000;
+      accessToken = r.access_token; tokenExp = Date.now() + (Number(r.expires_in) || 3600) * 1000; saveTok();
       if(p) p.ok();
     },
     error_callback: e => {
@@ -416,7 +424,7 @@ async function loadCal(){
       const warn = r.noAccess.length ? ' · ⚠ 공유 안 됨: ' + r.noAccess.join(', ') : '';
       $('#sync').textContent = (r.user ? r.user + ' · ' : '') + '동기화 ' + hm(new Date()) + warn;
     }catch(err){
-      if(err.auth){ accessToken = ''; needLogin('로그인이 만료됐어요'); }
+      if(err.auth){ clearTok(); needLogin('로그인이 만료됐어요'); }
       else $('#sync').textContent = '⚠ 동기화 실패 — 마지막 저장본 표시 (' + err.message + ')';
     }
     return renderAll();
@@ -666,7 +674,7 @@ async function calWrite(method, calId, evId, body){
   const url = 'https://www.googleapis.com/calendar/v3/calendars/' + encodeURIComponent(calId) + '/events' +
     (evId ? '/' + encodeURIComponent(evId) : '') + '?sendUpdates=none';
   const r = await fetchT(url, 15000, { method, headers: { Authorization: 'Bearer ' + accessToken, 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
-  if(r.status === 401){ accessToken = ''; throw new Error('로그인이 만료됐어요. 다시 저장을 눌러 주세요'); }
+  if(r.status === 401){ clearTok(); throw new Error('로그인이 만료됐어요. 다시 저장을 눌러 주세요'); }
   if(r.status === 403) throw new Error('이 캘린더를 고칠 권한이 없어요 (보기 전용으로 공유됨)');
   if(!r.ok && r.status !== 204 && r.status !== 410) throw new Error('구글 캘린더 오류 ' + r.status);
 }
