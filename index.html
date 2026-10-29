@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>부서 대시보드</title>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f4;--card:#fff;--ink:#22272e;--sub:#7b8590;--line:#dde3e9;--accent:#2f6f9f;
+  --sun:#d0574b;--sat:#3f72b5;--today:#fff6d6;}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font-family:'Gowun Dodum',sans-serif;overflow:hidden;
+  -webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+button{font-family:inherit;cursor:pointer}
+.app{display:grid;grid-template-rows:auto 1fr 56px;height:100vh;padding:16px 18px 0;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;min-height:0}
+.ctitle{font-family:'Jua';font-size:19px;display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px}
+.ctitle small{font-family:'Gowun Dodum';color:var(--sub);font-size:13px}
+.add{border:none;background:#e8edf2;border-radius:10px;padding:4px 10px;font-size:14px}
+.demo{position:fixed;top:0;left:50%;transform:translateX(-50%);background:#e39b34;color:#fff;padding:3px 14px;border-radius:0 0 10px 10px;font-size:13px;z-index:5}
+
+header{display:grid;grid-template-columns:auto 1fr auto;gap:14px}
+.clock{display:flex;align-items:center;gap:16px;padding:10px 22px}
+.time{font-family:'Jua';font-size:72px;line-height:1}
+.time .ap{font-size:24px;margin-right:6px;color:var(--sub)}
+.time .sec{font-size:28px;color:var(--sub);margin-left:4px}
+.date{font-size:19px;line-height:1.4}.date b{font-family:'Jua';font-size:23px}
+.next{display:flex;flex-direction:column;justify-content:center;gap:4px;overflow:hidden}
+.next .lbl{color:var(--sub);font-size:14px}
+.next .ttl{font-family:'Jua';font-size:28px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.next .meta{font-size:16px;color:var(--sub)}
+.next .cd{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:1px 8px;margin-right:6px}
+.wx{display:flex;align-items:center;gap:14px;padding:10px 20px;min-width:320px}
+.wx .ico{font-size:48px}.wx .temp{font-family:'Jua';font-size:40px;line-height:1}
+.wx .desc{font-size:14px;color:var(--sub);margin-top:4px}
+.air{display:flex;flex-direction:column;gap:6px;margin-left:auto}
+.badge{border-radius:10px;padding:3px 10px;font-size:13px;color:#fff;text-align:center}
+
+main{display:grid;grid-template-columns:1.75fr 1fr;gap:14px;min-height:0}
+.cal{display:flex;flex-direction:column}
+.calGrid{flex:1;display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:26px repeat(3,1fr);gap:6px;min-height:0}
+.wd{text-align:center;font-family:'Jua';color:var(--sub);align-self:center}
+.sun{color:var(--sun)!important}.sat{color:var(--sat)!important}
+.day{border:1px solid var(--line);border-radius:12px;padding:6px 7px;overflow:hidden;display:flex;flex-direction:column;gap:3px;background:#fbfcfd}
+.day.past{opacity:.5}.day.today{background:var(--today);border:2px solid #e9c24a}
+.dhead{display:flex;align-items:center;gap:5px;font-family:'Jua';font-size:17px}
+.dhead .hol{font-family:'Gowun Dodum';font-size:12px;color:var(--sun)}
+.dhead .dwx{margin-left:auto;font-family:'Gowun Dodum';font-size:12px;color:var(--sub)}
+.ev{font-size:13px;border-radius:6px;padding:2px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff}
+.ev.timed{background:none!important;color:var(--ink);padding-left:2px}
+.ev.timed::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c);margin-right:4px;vertical-align:1px}
+.ev i{font-style:normal;color:var(--sub);margin-right:3px}
+.more{font-size:12px;color:var(--sub)}
+
+.side{display:grid;grid-template-rows:1.2fr auto 1fr;gap:14px;min-height:0}
+.side .card{display:flex;flex-direction:column}
+.tl{overflow:auto;flex:1;display:flex;flex-direction:column;gap:6px}
+.tr{display:flex;gap:10px;align-items:flex-start;font-size:16px;padding:4px 6px;border-radius:10px}
+.tr .t{width:96px;flex:none;color:var(--sub);font-size:14px;padding-top:2px}
+.tr .bar{width:4px;align-self:stretch;border-radius:2px;flex:none}
+.tr .loc{display:block;font-size:13px;color:var(--sub)}
+.tr.done{opacity:.4}.tr.now{background:#e6f0f8}
+.tr.now .t::after{content:' 진행 중';color:var(--accent);font-weight:bold}
+.empty{color:var(--sub);font-size:15px;padding:4px}
+.dl{display:flex;flex-direction:column;gap:6px;max-height:170px;overflow:auto}
+.dr{display:flex;gap:10px;align-items:center;font-size:15.5px}
+.dd{font-family:'Jua';min-width:58px;text-align:center;border-radius:8px;padding:2px 6px;background:#e8edf2}
+.dd.hot{background:var(--sun);color:#fff}
+.dr .nm{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dr .dt{color:var(--sub);font-size:13px}
+.list{list-style:none;margin:0;padding:0;overflow:auto;flex:1;display:flex;flex-direction:column;gap:4px}
+.list li{display:flex;align-items:center;gap:8px;font-size:15.5px;padding:3px 2px}
+.box{width:20px;height:20px;border:2px solid #aab4be;border-radius:6px;flex:none;display:grid;place-items:center;font-size:13px}
+.ok .box{background:var(--accent);border-color:var(--accent);color:#fff}
+.ok .lt{text-decoration:line-through;color:var(--sub)}
+.lt{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.list .x{border:none;background:none;color:#aab4be}
+
+footer{display:flex;align-items:center;gap:16px;font-size:13px;color:var(--sub);padding:0 4px 12px}
+.news{flex:1;min-width:0;display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:8px 14px;height:100%}
+.news .tag{flex:none;background:var(--ink);color:#fff;border-radius:8px;padding:2px 10px;font-size:13px}
+.news .hl{flex:1;min-width:0;font-size:18px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:opacity .4s}
+.news .hl.fade{opacity:0}
+.news .src{flex:none;font-size:13px;color:var(--sub)}
+.news .pos{flex:none;font-size:12px;color:var(--sub)}
+.legend{display:flex;gap:12px;flex:none}.legend span::before{content:'';display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:4px}
+.list .due{font-size:12px;color:var(--sub);flex:none}
+.list .due.hot{color:var(--sun)}
+.list .gc{font-size:11px;color:var(--accent);flex:none}
+.tog{border:1px solid var(--line);background:#fff;border-radius:8px;padding:2px 10px;font-size:13px;color:var(--ink)}
+.tog.on{background:var(--ink);color:#fff}
+
+.modal{position:fixed;inset:0;background:rgba(20,25,30,.45);display:grid;place-items:center;z-index:20}
+.hidden{display:none!important}
+.sheet{background:#fff;border-radius:20px;padding:22px;width:min(440px,92vw);display:flex;flex-direction:column;gap:12px}
+.sheet h3{margin:0;font-family:'Jua';font-size:21px}
+.sheet input{font:inherit;font-size:19px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;width:100%;-webkit-user-select:text;user-select:text}
+.mBtns{display:flex;gap:10px;justify-content:flex-end}
+.mBtns button{border:none;border-radius:12px;padding:10px 20px;font-size:16px;background:#e8edf2}
+.mBtns .primary{background:var(--accent);color:#fff}
+#login{position:fixed;inset:0;z-index:40;background:var(--bg);display:grid;place-items:center;padding:16px}
+#login .lcard{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px 28px;max-width:420px;width:100%;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+#login h2{font-family:'Jua';font-size:28px;margin:0 0 8px}
+#login p{color:var(--sub);line-height:1.6;margin:0 0 20px;font-size:15px}
+.gbtn{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:#fff;color:#22272e;border-radius:999px;padding:12px 22px;font-size:17px;font-weight:600}
+.gbtn:active{transform:scale(.98)}
+#loginMsg{margin-top:14px;font-size:14px;color:var(--sun);min-height:20px;line-height:1.5}
+#relogin{position:fixed;left:50%;bottom:70px;transform:translateX(-50%);z-index:35;border:none;background:var(--ink);color:#fff;border-radius:999px;padding:10px 20px;font-size:15px;box-shadow:0 6px 18px rgba(0,0,0,.2)}
+#sleep{position:fixed;inset:0;background:#000;z-index:30;display:grid;place-items:center;color:#333;font-family:'Jua';font-size:48px}
+
+@media (max-width:1000px){
+  body{overflow:auto}.app{height:auto;grid-template-rows:auto auto 40px}
+  header,main{grid-template-columns:1fr}.calGrid{min-height:520px}.time{font-size:54px}
+  .side{grid-template-rows:auto}
+}
+</style>
+</head>
+<body>
+<!-- 진단: 프로그램이 실행되지 않거나 오류가 나면 화면 위에 이유를 띄움 -->
+<div id="diag" style="display:none;position:fixed;left:0;right:0;top:0;z-index:99;background:#d0574b;color:#fff;font:15px/1.5 sans-serif;padding:10px 16px;white-space:pre-wrap"></div>
+<script>
+(function(){
+  var box = document.getElementById('diag');
+  function show(msg){ box.style.display = 'block'; box.textContent += (box.textContent ? '\n' : '') + '⚠ ' + msg; }
+  window.onerror = function(m, src, line){ show('오류: ' + m + (line ? ' (' + line + '번째 줄)' : '')); };
+  setTimeout(function(){
+    if(!window.__DASH_OK__) show('대시보드 프로그램이 실행되지 않았습니다. index.html 내용이 잘리지 않았는지(맨 끝이 </html>) 확인해 주세요.');
+  }, 4000);
+})();
+</script>
+<div class="demo hidden" id="demo">데모 데이터 표시 중 — 파일 위쪽 AUTH에 CLIENT_ID와 캘린더 ID를 넣어 주세요</div>
+<div class="app">
+  <header>
+    <div class="card clock"><div class="time" id="time"></div><div class="date" id="date"></div></div>
+    <div class="card next" id="next"></div>
+    <div class="card wx" id="wx"><div class="desc">날씨 불러오는 중…</div></div>
+  </header>
+  <main>
+    <section class="card cal">
+      <div class="ctitle"><span id="calTitle"></span><small>구글 캘린더에서 자동으로 불러옵니다</small></div>
+      <div class="calGrid" id="calGrid"></div>
+    </section>
+    <section class="side">
+      <div class="card"><div class="ctitle">오늘 일정 <small id="todayCnt"></small></div><div class="tl" id="tl"></div></div>
+      <div class="card"><div class="ctitle">다가오는 마감 <small>제목에 '마감·제출·기한' 포함</small></div><div class="dl" id="dl"></div></div>
+      <div class="card"><div class="ctitle">할 일 <button class="add" id="addTodo">＋ 추가</button></div><ul class="list" id="todo"></ul></div>
+    </section>
+  </main>
+  <footer>
+    <div class="news"><span class="tag" id="newsTag">뉴스</span><span class="hl" id="newsHl">뉴스 불러오는 중…</span>
+      <span class="src" id="newsSrc"></span><span class="pos" id="newsPos"></span></div>
+    <div class="legend" id="legend"></div>
+    <span id="sync">동기화 대기</span>
+    <button class="tog" id="privBtn">🔒 제목 숨김</button>
+  </footer>
+</div>
+
+<div class="modal hidden" id="modal"><div class="sheet">
+  <h3>할 일 추가</h3><input id="fText" placeholder="내용 입력">
+  <div class="mBtns"><button id="mNo">취소</button><button class="primary" id="mOk">저장</button></div>
+</div></div>
+<div id="login" class="hidden"><div class="lcard">
+  <h2>부서 대시보드</h2>
+  <p>부서 캘린더를 공유받은 구글 계정으로 로그인하면<br>일정·마감·할 일을 한눈에 볼 수 있어요.</p>
+  <button class="gbtn" id="loginBtn"><svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45.1 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h11.8c-.5 2.8-2.1 5.1-4.4 6.7v5.6h7.1c4.2-3.8 6.6-9.5 6.6-16.3z"/><path fill="#34A853" d="M24 46c5.9 0 10.9-2 14.5-5.3l-7.1-5.6c-2 1.3-4.5 2.1-7.4 2.1-5.7 0-10.6-3.9-12.3-9.1H4.4v5.7C8 41.1 15.4 46 24 46z"/><path fill="#FBBC05" d="M11.7 28.1c-.4-1.3-.7-2.7-.7-4.1s.3-2.8.7-4.1v-5.7H4.4C2.9 17.2 2 20.5 2 24s.9 6.8 2.4 9.8l7.3-5.7z"/><path fill="#EA4335" d="M24 10.8c3.2 0 6.1 1.1 8.4 3.3l6.3-6.3C34.9 4.2 29.9 2 24 2 15.4 2 8 6.9 4.4 14.2l7.3 5.7c1.7-5.2 6.6-9.1 12.3-9.1z"/></svg>Google 계정으로 로그인</button>
+  <div id="loginMsg"></div>
+</div></div>
+<button id="relogin" class="hidden">🔑 로그인이 끊겼어요 · 눌러서 다시 연결</button>
+<div id="sleep" class="hidden">근무시간 외 · 화면을 누르면 켜져요</div>
+
+<script>
+/* Apps Script 웹 앱 안에서 열렸는지 (구글 로그인 방식) */
+const IN_GAS = typeof google !== 'undefined' && google.script && google.script.run;
+function gasData(){
+  return new Promise((ok, fail) => google.script.run
+    .withSuccessHandler(ok).withFailureHandler(e => fail(new Error(e && e.message || '서버 오류')))
+    .getData());
+}
+
+/* ===================== 로그인·캘린더 설정: 여기만 바꾸면 됩니다 ===================== */
+const AUTH = {
+  CLIENT_ID: '여기에-클라이언트-ID.apps.googleusercontent.com',   /* 구글 클라우드에서 만든 OAuth 클라이언트 ID */
+  CALENDARS: [                                                     /* 부서원에게 공유한 캘린더 */
+    { id: '여기에-부서-공유-캘린더-ID@group.calendar.google.com', name: '부서 일정', color: '#4f7cac' }
+    /* , { id: 'xxxx@group.calendar.google.com', name: '마감·제출', color: '#e0a32e' } */
+  ],
+  DAYS: 45                                                         /* 이번 주 일요일부터 며칠치 일정을 읽을지 */
+};
+
+/* ===================== 화면 설정 ===================== */
+const CONFIG = {
+  API_URL: '',            /* (사용 안 함) */
+  TOKEN: '',
+  refreshMin: 5,          /* 몇 분마다 캘린더를 새로 불러올지 */
+  location: { name: '세종', lat: 36.48, lon: 127.29 },
+  deadlineWords: ['마감', '제출', '기한'],
+  deadlineDays: 30,
+  todoPrefix: '[할일]',   /* 구글 캘린더 일정 제목이 이걸로 시작하면 '할 일' 목록에 체크박스로 표시 */
+  newsSec: 8,             /* 뉴스 헤드라인 넘김 간격(초) */
+  newsPerFeed: 10,        /* 묶음별 헤드라인 개수 */
+  newsFeeds: [            /* 뉴스 묶음: q= 뒤의 검색어만 바꾸면 됩니다 */
+    { name: '주요뉴스', url: 'https:\/\/news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko' },
+    { name: '농식품부', url: 'https:\/\/news.google.com/rss/search?q=농림축산식품부&hl=ko&gl=KR&ceid=KR:ko' },
+    { name: '원산지',   url: 'https:\/\/news.google.com/rss/search?q=원산지표시&hl=ko&gl=KR&ceid=KR:ko' }
+  ],
+  work: { start: 7, end: 20, weekdaysOnly: true },   /* 이 시간 외에는 화면 끄기 */
+  holidays: { '2026-10-09':'한글날', '2026-12-25':'성탄절', '2027-01-01':'신정' }
+};
+/* ================================================ */
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pad = n => String(n).padStart(2,'0');
+const ymd = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const addDays = (d,n) => { const x = new Date(d); x.setDate(x.getDate()+n); return x; };
+const hm = d => `${d.getHours()<12?'오전':'오후'} ${(d.getHours()%12)||12}:${pad(d.getMinutes())}`;
+const W = ['일','월','화','수','목','금','토'];
+const LS = { get(k,d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+             set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+
+let CAL = { calendars: [], events: [], news: [] }, dailyWx = {}, priv = LS.get('office.priv', false);
+let todos = LS.get('office.todos', [{t:'회의자료 출력', ok:false}]);
+let gdone = LS.get('office.gdone', {});   /* 캘린더에서 온 [할일]의 체크 상태 */
+
+/* ---------- 데이터 정리 ---------- */
+function normalize(raw){
+  return raw.events.map((e,i) => {
+    const isTodo = e.title.startsWith(CONFIG.todoPrefix);
+    const base = { ...e, id: e.id || ('demo'+i), todo: isTodo, title: isTodo ? e.title.slice(CONFIG.todoPrefix.length).trim() : e.title };
+    if(e.allDay){
+      const s = new Date(e.start+'T00:00:00'), en = new Date(e.end+'T00:00:00');
+      return { ...base, s, e: en, sk: e.start, ek: ymd(addDays(en,-1)) };
+    }
+    const s = new Date(e.start), en = new Date(e.end);
+    return { ...base, s, e: en, sk: ymd(s), ek: ymd(s) };
+  });
+}
+function setCal(r){ CAL = { calendars: r.calendars, events: normalize(r), news: r.news || [], newsErrors: r.newsErrors || [], weather: r.weather || null, weatherError: r.weatherError || '' }; }
+const color = e => (CAL.calendars[e.cal]||{}).color || '#888';
+const title = e => priv ? ((CAL.calendars[e.cal]||{}).name || '일정') : e.title;
+const onDay = k => CAL.events.filter(e => e.sk <= k && k <= e.ek)
+  .sort((a,b) => (b.allDay-a.allDay) || (a.s-b.s));
+const plans = () => CAL.events.filter(e => !e.todo);   /* 할 일을 뺀 순수 일정 */
+
+function demoData(){
+  const t = new Date(), at = (d,h,m) => { const x = addDays(t,d); x.setHours(h,m,0,0); return x.toISOString(); };
+  const dk = d => ymd(addDays(t,d));
+  return { calendars:[{name:'내 일정',color:'#4f7cac'},{name:'과 일정',color:'#d16b86'},{name:'국회·예산',color:'#e0a32e'}],
+    events:[
+      {title:'과장님 보고',start:at(0,10,0),end:at(0,10,30),cal:1},
+      {title:'원산지 제도개선 회의',location:'3층 소회의실',start:at(0,14,0),end:at(0,15,30),cal:0},
+      {title:'외부 간담회',start:at(0,16,30),end:at(0,17,30),cal:1},
+      {title:'국정감사 자료 제출 마감',allDay:true,start:dk(2),end:dk(3),cal:2},
+      {title:'출장(세종→서울)',allDay:true,start:dk(3),end:dk(5),cal:0},
+      {title:'주간 업무회의',start:at(6,9,0),end:at(6,10,0),cal:1},
+      {title:'예산 요구서 기한',allDay:true,start:dk(12),end:dk(13),cal:2},
+      {title:'연구용역 착수보고',start:at(9,15,0),end:at(9,16,0),cal:0},
+      {title:'[할일] 주간 업무보고 작성',allDay:true,start:dk(0),end:dk(1),cal:0},
+      {title:'[할일] 간담회 참석자 명단 확정',allDay:true,start:dk(1),end:dk(2),cal:1}
+    ]};
+}
+
+/* 시간 제한이 있는 fetch (응답이 없으면 15초 뒤 실패 처리) */
+function fetchT(url, ms=15000, opts={}){
+  const c = new AbortController(), t = setTimeout(()=>c.abort(), ms);
+  return fetch(url, Object.assign({}, opts, { signal: c.signal })).finally(()=>clearTimeout(t))
+    .catch(e => { throw new Error(e.name==='AbortError' ? '응답 없음(시간 초과)' : e.message); });
+}
+
+/* 스크립트 태그로 데이터를 받아 오는 예비 경로 (JSONP) */
+function jsonp(url){
+  return new Promise((ok, fail) => {
+    const cb = 'dashCb' + Date.now(), sc = document.createElement('script');
+    const done = () => { delete window[cb]; sc.remove(); clearTimeout(t); };
+    const t = setTimeout(() => { done(); fail(new Error('응답 없음(시간 초과)')); }, 12000);
+    window[cb] = data => { done(); ok(data); };
+    sc.onerror = () => { done(); fail(new Error('불러오기 실패 — 주소창에서 직접 열어 확인 필요')); };
+    sc.src = url + '&callback=' + cb;
+    document.head.appendChild(sc);
+  });
+}
+
+/* ---------- 구글 로그인 + 캘린더 API (브라우저에서 직접) ---------- */
+const AUTH_ON = AUTH.CLIENT_ID.indexOf('여기에') < 0 && /\.apps\.googleusercontent\.com$/.test(AUTH.CLIENT_ID);
+const SCOPES = 'https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/userinfo.email';
+let tokenClient = null, accessToken = '', tokenExp = 0, pendingTok = null;
+let userEmail = LS.get('dash.email', '');
+
+function gisReady(){
+  return new Promise((ok, fail) => {
+    let n = 0;
+    (function wait(){
+      if(window.google && google.accounts && google.accounts.oauth2) return ok();
+      if(++n > 150) return fail(new Error('구글 로그인 스크립트를 불러오지 못했어요'));
+      setTimeout(wait, 100);
+    })();
+  });
+}
+async function initAuth(){
+  if(tokenClient) return;
+  await gisReady();
+  tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: AUTH.CLIENT_ID,
+    scope: SCOPES,
+    callback: r => {
+      const p = pendingTok; pendingTok = null;
+      if(r.error){ if(p) p.fail(new Error(r.error_description || r.error)); return; }
+      accessToken = r.access_token; tokenExp = Date.now() + (Number(r.expires_in) || 3600) * 1000;
+      if(p) p.ok();
+    },
+    error_callback: e => {
+      const p = pendingTok; pendingTok = null;
+      const why = e.type === 'popup_failed_to_open' ? '팝업이 차단됐어요' : e.type === 'popup_closed' ? '로그인 창이 닫혔어요' : (e.message || e.type || '로그인 실패');
+      if(p) p.fail(new Error(why));
+    }
+  });
+}
+function getToken(interactive){
+  return initAuth().then(() => new Promise((ok, fail) => {
+    pendingTok = { ok, fail };
+    const o = { prompt: (interactive && !userEmail) ? 'consent' : '' };
+    if(userEmail) o.hint = userEmail;
+    tokenClient.requestAccessToken(o);
+    setTimeout(() => { if(pendingTok && pendingTok.ok === ok){ pendingTok = null; fail(new Error('로그인 응답 없음')); } }, 90000);
+  }));
+}
+async function apiData(){
+  const H = { headers: { Authorization: 'Bearer ' + accessToken } };
+  if(!userEmail){
+    try{ const u = await fetchT('https://www.googleapis.com/oauth2/v3/userinfo', 10000, H).then(r => r.json()); if(u.email){ userEmail = u.email; LS.set('dash.email', userEmail); } }catch(e){}
+  }
+  const now = new Date();
+  const start = new Date(now.getFullYear(), now.getMonth(), now.getDate() - now.getDay());
+  const end = addDays(start, AUTH.DAYS);
+  const events = [], noAccess = [];
+  await Promise.all(AUTH.CALENDARS.map(async (c, ci) => {
+    const url = 'https://www.googleapis.com/calendar/v3/calendars/' + encodeURIComponent(c.id) +
+      '/events?singleEvents=true&orderBy=startTime&maxResults=250&timeMin=' + encodeURIComponent(start.toISOString()) +
+      '&timeMax=' + encodeURIComponent(end.toISOString());
+    const r = await fetchT(url, 15000, H);
+    if(r.status === 401){ const e = new Error('로그인 만료'); e.auth = true; throw e; }
+    if(r.status === 403 || r.status === 404){ noAccess.push(c.name); return; }
+    if(!r.ok) throw new Error('캘린더 오류 ' + r.status);
+    const j = await r.json();
+    (j.items || []).forEach(ev => {
+      if(ev.status === 'cancelled' || !ev.start) return;
+      const allDay = !!ev.start.date;
+      events.push({
+        title: ev.summary || '(제목 없음)', location: ev.location || '', allDay,
+        start: allDay ? ev.start.date : ev.start.dateTime,
+        end: allDay ? ev.end.date : ev.end.dateTime,
+        cal: ci, id: c.id + '|' + ev.id
+      });
+    });
+  }));
+  return { updated: new Date().toISOString(), user: userEmail, calendars: AUTH.CALENDARS.map(c => ({ name: c.name, color: c.color })), noAccess, events };
+}
+function needLogin(msg){
+  const hasData = CAL.events.length || LS.get('office.cache', null);
+  let hint = msg || '';
+  if(/팝업/.test(hint)) hint += ' — 아래 버튼을 직접 눌러 주세요. 자주 끊기면 주소창 오른쪽의 팝업 차단 아이콘에서 이 사이트 팝업을 허용해 두세요.';
+  $('#loginMsg').textContent = hint;
+  if(hasData){ $('#relogin').classList.remove('hidden'); $('#login').classList.add('hidden'); }
+  else { $('#login').classList.remove('hidden'); }
+  $('#sync').textContent = '🔑 로그인 필요' + (msg ? ' (' + msg + ')' : '');
+}
+function hideLogin(){ $('#login').classList.add('hidden'); $('#relogin').classList.add('hidden'); $('#loginMsg').textContent = ''; }
+function doLogin(){
+  $('#loginMsg').textContent = '로그인 창을 여는 중…';
+  getToken(true).then(() => { hideLogin(); loadCal(); }).catch(e => needLogin(e.message));
+}
+$('#loginBtn').onclick = doLogin;
+$('#relogin').onclick = doLogin;
+
+async function loadCal(){
+  if(AUTH_ON){
+    if(!CAL.events.length){ const c0 = LS.get('office.cache', null); if(c0){ setCal(c0); renderAll(); } }
+    if(!accessToken || Date.now() > tokenExp - 120000){
+      if(!userEmail){ try{ await initAuth(); }catch(e){} needLogin(''); return renderAll(); }
+      try{ await getToken(false); }catch(e){ needLogin(e.message); return renderAll(); }
+    }
+    try{
+      $('#sync').textContent = '불러오는 중…';
+      const r = await apiData();
+      setCal(r); LS.set('office.cache', r); hideLogin();
+      const warn = r.noAccess.length ? ' · ⚠ 공유 안 됨: ' + r.noAccess.join(', ') : '';
+      $('#sync').textContent = (r.user ? r.user + ' · ' : '') + '동기화 ' + hm(new Date()) + warn;
+    }catch(err){
+      if(err.auth){ accessToken = ''; needLogin('로그인이 만료됐어요'); }
+      else $('#sync').textContent = '⚠ 동기화 실패 — 마지막 저장본 표시 (' + err.message + ')';
+    }
+    return renderAll();
+  }
+  if(IN_GAS){
+    try{
+      const r = await gasData();
+      if(r.error) throw new Error(r.error);
+      setCal(r); LS.set('office.cache', r);
+      const warn = (r.noAccess && r.noAccess.length) ? ` · ⚠ 공유 안 됨: ${r.noAccess.join(', ')}` : '';
+      $('#sync').textContent = `${r.user || ''} · 동기화 ${hm(new Date())}${warn}`;
+    }catch(err){
+      const c = LS.get('office.cache', null); if(c) setCal(c);
+      $('#sync').textContent = `⚠ 동기화 실패 (${err.message})`;
+    }
+    return renderAll();
+  }
+  if(!CONFIG.API_URL){
+    $('#demo').classList.remove('hidden');
+    setCal(demoData());
+    $('#sync').textContent = '데모 모드';
+    return renderAll();
+  }
+  /* 네트워크를 기다리는 동안에도 마지막 저장본으로 화면을 먼저 그림 */
+  if(!CAL.events.length){ const c0 = LS.get('office.cache', null); if(c0) setCal(c0); renderAll(); }
+  $('#sync').textContent = '연결 중… (최대 25초)';
+  try{
+    const url = `${CONFIG.API_URL}?token=${encodeURIComponent(CONFIG.TOKEN)}`;
+    let r;
+    try{ r = await fetchT(url, 10000).then(r=>r.json()); }
+    catch(e1){
+      /* 1차(fetch) 실패 → 2차(JSONP) 시도 */
+      try{ r = await jsonp(url); }
+      catch(e2){ throw new Error(`${e1.message} / 예비경로: ${e2.message}`); }
+    }
+    if(r.error) throw new Error(r.error);
+    setCal(r);
+    LS.set('office.cache', r);
+    $('#sync').textContent = `동기화 ${hm(new Date())}`;
+  }catch(err){
+    const c = LS.get('office.cache', null);
+    if(c) setCal(c);
+    $('#sync').textContent = `⚠ 동기화 실패 — 마지막 저장본 표시 (${err.message})`;
+  }
+  renderAll();
+}
+
+/* ---------- 화면 ---------- */
+function tick(){
+  const d = new Date(), h = d.getHours();
+  $('#time').innerHTML = `<span class="ap">${h<12?'오전':'오후'}</span>${(h%12)||12}:${pad(d.getMinutes())}<span class="sec">${pad(d.getSeconds())}</span>`;
+  $('#date').innerHTML = `<b>${d.getMonth()+1}월 ${d.getDate()}일</b><br>${W[d.getDay()]}요일 · ${d.getFullYear()}`;
+}
+
+function renderCal(){
+  const now = new Date(), today = ymd(now);
+  const start = addDays(new Date(now.getFullYear(), now.getMonth(), now.getDate()), -now.getDay()), end = addDays(start,20);
+  $('#calTitle').textContent = start.getMonth()===end.getMonth()
+    ? `${start.getFullYear()}년 ${start.getMonth()+1}월` : `${start.getFullYear()}년 ${start.getMonth()+1}월 – ${end.getMonth()+1}월`;
+  let h = W.map((w,i)=>`<div class="wd ${i==0?'sun':i==6?'sat':''}">${w}</div>`).join('');
+  for(let i=0;i<21;i++){
+    const d = addDays(start,i), k = ymd(d), hol = CONFIG.holidays[k], w = dailyWx[k];
+    const evs = onDay(k), MAX = 4;
+    h += `<div class="day ${k===today?'today':''} ${k<today?'past':''}">
+      <div class="dhead"><span class="${(i%7==0||hol)?'sun':i%7==6?'sat':''}">${d.getDate()===1?(d.getMonth()+1)+'/':''}${d.getDate()}</span>
+      ${hol?`<span class="hol">${esc(hol)}</span>`:''}${w?`<span class="dwx">${w.ico} ${w.min}°/${w.max}°</span>`:''}</div>
+      ${evs.slice(0,MAX).map(e=> e.todo
+        ? `<div class="ev timed" style="--c:${color(e)}"><i>${gdone[e.id]?'☑':'☐'}</i>${esc(title(e))}</div>`
+        : e.allDay
+        ? `<div class="ev" style="background:${color(e)}">${esc(title(e))}</div>`
+        : `<div class="ev timed" style="--c:${color(e)}"><i>${e.s.getHours()}:${pad(e.s.getMinutes())}</i>${esc(title(e))}</div>`).join('')}
+      ${evs.length>MAX?`<div class="more">+${evs.length-MAX}건 더</div>`:''}
+    </div>`;
+  }
+  $('#calGrid').innerHTML = h;
+}
+
+function renderToday(){
+  const now = new Date(), evs = onDay(ymd(now)).filter(e => !e.todo);
+  $('#todayCnt').textContent = `${evs.length}건`;
+  $('#tl').innerHTML = evs.map(e=>{
+    const st = e.allDay ? '' : (now>=e.e ? 'done' : now>=e.s ? 'now' : '');
+    const t = e.allDay ? '종일' : `${hm(e.s)}`;
+    return `<div class="tr ${st}"><span class="t">${t}</span><span class="bar" style="background:${color(e)}"></span>
+      <span>${esc(title(e))}${(!priv&&e.location)?`<span class="loc">📍 ${esc(e.location)}</span>`:''}</span></div>`;
+  }).join('') || '<div class="empty">오늘은 일정이 없어요.</div>';
+
+  const nx = plans().filter(e=>!e.allDay && e.s>now).sort((a,b)=>a.s-b.s)[0];
+  if(nx){
+    const min = Math.round((nx.s-now)/60000);
+    const cd = min<60 ? `${min}분 후` : min<1440 ? `${Math.floor(min/60)}시간 ${min%60}분 후` : `${Math.floor(min/1440)}일 후`;
+    $('#next').innerHTML = `<span class="lbl">다음 일정</span><span class="ttl">${esc(title(nx))}</span>
+      <span class="meta"><span class="cd">${cd}</span>${nx.s.getMonth()+1}/${nx.s.getDate()} ${hm(nx.s)}${(!priv&&nx.location)?' · '+esc(nx.location):''}</span>`;
+  } else $('#next').innerHTML = '<span class="lbl">다음 일정</span><span class="ttl" style="color:var(--sub)">예정된 일정이 없어요</span>';
+}
+
+function renderDeadlines(){
+  const t0 = new Date(); t0.setHours(0,0,0,0);
+  const list = plans().filter(e => CONFIG.deadlineWords.some(w => e.title.includes(w)))
+    .map(e => { const d = new Date(e.s); d.setHours(0,0,0,0); return { e, n: Math.round((d-t0)/86400000) }; })
+    .filter(x => x.n>=0 && x.n<=CONFIG.deadlineDays).sort((a,b)=>a.n-b.n);
+  $('#dl').innerHTML = list.map(({e,n})=>`<div class="dr"><span class="dd ${n<=3?'hot':''}">${n===0?'D-DAY':'D-'+n}</span>
+    <span class="nm">${esc(title(e))}</span><span class="dt">${e.s.getMonth()+1}/${e.s.getDate()}</span></div>`).join('')
+    || '<div class="empty">30일 안에 마감 일정이 없어요.</div>';
+}
+
+function renderTodo(){
+  /* ① 구글 캘린더의 [할일]: 2주 안에 있는 것 + 지났는데 아직 안 끝낸 것 */
+  const t0 = new Date(); t0.setHours(0,0,0,0);
+  const today = ymd(t0), limit = ymd(addDays(t0,14));
+  const g = CAL.events.filter(e => e.todo && e.sk <= limit && (!gdone[e.id] || e.ek >= today))
+    .sort((a,b) => (!!gdone[a.id] - !!gdone[b.id]) || (a.s - b.s));
+  const dueTxt = e => { const d = new Date(e.s); d.setHours(0,0,0,0); const n = Math.round((d-t0)/86400000);
+    return n<0 ? `<span class="due hot">${-n}일 지남</span>` : n===0 ? '<span class="due hot">오늘</span>' : `<span class="due">${e.s.getMonth()+1}/${e.s.getDate()}</span>`; };
+  const gHTML = g.map(e=>`<li class="${gdone[e.id]?'ok':''}" data-g="${esc(e.id)}"><span class="box">${gdone[e.id]?'✓':''}</span>
+    <span class="lt">${esc(title(e))}</span>${dueTxt(e)}<span class="gc">캘린더</span></li>`).join('');
+  /* ② 대시보드에서 직접 넣은 할 일 */
+  const lHTML = todos.map((x,i)=>`<li class="${x.ok?'ok':''}" data-i="${i}"><span class="box">${x.ok?'✓':''}</span>
+    <span class="lt">${esc(x.t)}</span><button class="x" data-del>✕</button></li>`).join('');
+  $('#todo').innerHTML = (gHTML + lHTML) || '<div class="empty">할 일이 없어요 👍</div>';
+}
+$('#todo').onclick = e => {
+  const li = e.target.closest('li'); if(!li) return;
+  if(li.dataset.g){
+    const id = li.dataset.g; if(gdone[id]) delete gdone[id]; else gdone[id] = true;
+    LS.set('office.gdone', gdone); renderTodo(); renderCal(); return;
+  }
+  const i = +li.dataset.i;
+  if(e.target.closest('[data-del]')) todos.splice(i,1); else todos[i].ok = !todos[i].ok;
+  LS.set('office.todos', todos); renderTodo();
+};
+
+/* ---------- 주요 뉴스 (헤드라인 순환) ---------- */
+/* Apps Script가 연결돼 있으면 그쪽 뉴스를 쓰고, 아니면 브라우저가 직접 RSS를 받아 옵니다. */
+let NEWS = [], newsIdx = 0, NEWS_WHY = '';
+async function loadNews(){
+  if(!NEWS.length) NEWS_WHY = '';
+  if(AUTH_ON){
+    try{
+      const j = await fetchT('news.json?t=' + Date.now(), 10000).then(r => r.json());
+      if(j.items && j.items.length){ NEWS = j.items; NEWS_WHY = ''; LS.set('office.news', NEWS); return; }
+      NEWS_WHY = 'news.json이 비어 있어요' + (j.errors && j.errors.length ? ' — ' + j.errors.join(' / ') : ' (GitHub의 뉴스 작업을 한 번 실행해 주세요)');
+    }catch(e){ NEWS_WHY = 'news.json을 불러오지 못했어요 (' + e.message + ')'; }
+    NEWS = LS.get('office.news', []); return;
+  }
+  if((CONFIG.API_URL || IN_GAS) && CAL.news && CAL.news.length){ NEWS = CAL.news; NEWS_WHY = ''; return; }
+  /* 왜 안 되는지 화면에 적어 두기 */
+  const why = [];
+  if(IN_GAS) why.push('Apps Script 뉴스 0건' + (CAL.newsErrors && CAL.newsErrors.length ? ' — ' + CAL.newsErrors.join(' / ') : ''));
+  else if(!CONFIG.API_URL) why.push('Apps Script 미연결');
+  else if(String($('#sync').textContent).includes('실패')) why.push('Apps Script 연결 실패(오른쪽 아래 확인)');
+  else why.push('Apps Script 뉴스 0건' + (CAL.newsErrors && CAL.newsErrors.length ? ' — ' + CAL.newsErrors.join(' / ') : ''));
+  const out = [];
+  await Promise.all(CONFIG.newsFeeds.map(async f => {
+    try{
+      const r = await fetchT('https:\/\/api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(f.url), 10000).then(r=>r.json());
+      if(r.status !== 'ok') return;
+      r.items.slice(0, CONFIG.newsPerFeed).forEach(it => {
+        let title = it.title || '', source = '';
+        const cut = title.lastIndexOf(' - ');                 /* 구글 뉴스 제목 끝의 " - 언론사" 분리 */
+        if(cut > 0){ source = title.slice(cut+3); title = title.slice(0, cut); }
+        out.push({ feed: f.name, title, source, link: it.link });
+      });
+    }catch(e){}
+  }));
+  if(out.length){
+    /* 피드별로 번갈아 섞어서 한쪽 뉴스만 몰리지 않게 */
+    const by = CONFIG.newsFeeds.map(f => out.filter(x => x.feed === f.name));
+    NEWS = []; for(let i=0; i<CONFIG.newsPerFeed; i++) by.forEach(a => a[i] && NEWS.push(a[i]));
+    LS.set('office.news', NEWS);
+    NEWS_WHY = '';
+  } else {
+    NEWS = LS.get('office.news', []);                    /* 실패하면 마지막으로 받은 뉴스 */
+    why.push('직접 받기(rss2json)도 차단됨');
+    NEWS_WHY = why.join(' · ');
+  }
+}
+$('#newsHl').onclick = () => { const it = NEWS[(newsIdx-1+NEWS.length)%NEWS.length]; if(it && it.link) window.open(it.link, '_blank'); };
+function showNews(){
+  const n = NEWS;
+  if(!n.length){ $('#newsTag').textContent = '뉴스'; $('#newsHl').textContent = NEWS_WHY ? '⚠ 뉴스 없음: ' + NEWS_WHY : '뉴스 불러오는 중… (최대 30초)'; $('#newsSrc').textContent = ''; $('#newsPos').textContent = ''; return; }
+  newsIdx %= n.length;
+  const it = n[newsIdx], hl = $('#newsHl');
+  hl.classList.add('fade');
+  setTimeout(()=>{
+    $('#newsTag').textContent = it.feed || '뉴스';
+    hl.textContent = it.title;
+    $('#newsSrc').textContent = it.source || '';
+    $('#newsPos').textContent = `${newsIdx+1}/${n.length}`;
+    hl.classList.remove('fade');
+    newsIdx++;
+  }, 400);
+}
+$('#addTodo').onclick = () => { $('#fText').value=''; $('#modal').classList.remove('hidden'); setTimeout(()=>$('#fText').focus(),50); };
+$('#mNo').onclick = () => $('#modal').classList.add('hidden');
+$('#mOk').onclick = () => { const t = $('#fText').value.trim(); if(!t) return; todos.push({t,ok:false}); LS.set('office.todos',todos); renderTodo(); $('#modal').classList.add('hidden'); };
+$('#fText').onkeydown = e => { if(e.key==='Enter') $('#mOk').click(); };
+
+function renderLegend(){
+  $('#legend').innerHTML = CAL.calendars.map(c=>`<span style="--c:${c.color}">${esc(c.name)}</span>`).join('');
+  $('#privBtn').classList.toggle('on', priv);
+}
+$('#privBtn').onclick = () => { priv = !priv; LS.set('office.priv', priv); renderAll(); };
+
+function renderAll(){ renderCal(); renderToday(); renderDeadlines(); renderTodo(); renderLegend(); }
+
+/* ---------- 날씨 ---------- */
+function wxCode(c){
+  if(c===0) return ['☀️','맑음']; if(c<=2) return ['🌤️','구름 조금']; if(c===3) return ['☁️','흐림'];
+  if(c<=48) return ['🌫️','안개']; if(c<=57) return ['🌦️','이슬비']; if(c<=67) return ['🌧️','비'];
+  if(c<=77) return ['🌨️','눈']; if(c<=82) return ['🌦️','소나기']; if(c<=86) return ['🌨️','눈']; return ['⛈️','뇌우'];
+}
+const grade = (v,l) => [['좋음','#4f8fd1'],['보통','#5aa765'],['나쁨','#e39b34'],['매우나쁨','#d0574b']][v<=l[0]?0:v<=l[1]?1:v<=l[2]?2:3];
+function drawWeather(r, a, name){
+  let air = '';
+  if(a && a.current){
+    const g1 = grade(a.current.pm10,[30,80,150]), g2 = grade(a.current.pm2_5,[15,35,75]);
+    air = `<div class="air"><div class="badge" style="background:${g1[1]}">미세 ${g1[0]}</div><div class="badge" style="background:${g2[1]}">초미세 ${g2[0]}</div></div>`;
+  }
+  const [ico,label] = wxCode(r.current.weather_code), D = r.daily;
+  $('#wx').innerHTML = `<div class="ico">${ico}</div><div><div class="temp">${Math.round(r.current.temperature_2m)}°</div>
+    <div class="desc">${esc(name)} · ${label}<br>${Math.round(D.temperature_2m_min[0])}° / ${Math.round(D.temperature_2m_max[0])}° · 비 ${D.precipitation_probability_max[0]}%</div></div>${air}`;
+  dailyWx = {}; D.time.forEach((k,i)=>dailyWx[k] = {ico:wxCode(D.weather_code[i])[0], min:Math.round(D.temperature_2m_min[i]), max:Math.round(D.temperature_2m_max[i])});
+  renderCal();
+}
+async function loadWeather(){
+  if(IN_GAS){   /* Apps Script 화면: 서버가 받아 온 날씨 사용 */
+    const w = CAL.weather;
+    if(w && w.forecast && w.forecast.current) drawWeather(w.forecast, w.air, w.name);
+    else $('#wx').innerHTML = `<div class="desc">⚠ 날씨 없음${CAL.weatherError ? '<br>' + esc(CAL.weatherError) : ''}</div>`;
+    return;
+  }
+  const {lat,lon,name} = CONFIG.location;
+  try{
+    const r = await fetchT('https:\/\/api.open-meteo.com/v1/forecast?latitude=' + lat + '&longitude=' + lon + '&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FSeoul&forecast_days=7').then(r=>r.json());
+    let air = '';
+    try{ const a = await fetchT('https:\/\/air-quality-api.open-meteo.com/v1/air-quality?latitude=' + lat + '&longitude=' + lon + '&current=pm10,pm2_5&timezone=Asia%2FSeoul').then(r=>r.json());
+      const g1 = grade(a.current.pm10,[30,80,150]), g2 = grade(a.current.pm2_5,[15,35,75]);
+      air = `<div class="air"><div class="badge" style="background:${g1[1]}">미세 ${g1[0]}</div><div class="badge" style="background:${g2[1]}">초미세 ${g2[0]}</div></div>`; }catch(e){}
+    const [ico,label] = wxCode(r.current.weather_code), D = r.daily;
+    $('#wx').innerHTML = `<div class="ico">${ico}</div><div><div class="temp">${Math.round(r.current.temperature_2m)}°</div>
+      <div class="desc">${name} · ${label}<br>${Math.round(D.temperature_2m_min[0])}° / ${Math.round(D.temperature_2m_max[0])}° · 비 ${D.precipitation_probability_max[0]}%</div></div>${air}`;
+    dailyWx = {}; D.time.forEach((k,i)=>dailyWx[k] = {ico:wxCode(D.weather_code[i])[0], min:Math.round(D.temperature_2m_min[i]), max:Math.round(D.temperature_2m_max[i])});
+    renderCal();
+  }catch(e){ $('#wx').innerHTML = '<div class="desc">날씨를 불러오지 못했어요</div>'; }
+}
+
+/* ---------- 근무시간 외 화면 끄기 ---------- */
+let wakeUntil = 0;
+function checkSleep(){
+  const d = new Date(), h = d.getHours(), {start,end,weekdaysOnly} = CONFIG.work;
+  const off = h<start || h>=end || (weekdaysOnly && (d.getDay()===0 || d.getDay()===6));
+  $('#sleep').classList.toggle('hidden', !(off && Date.now()>wakeUntil));
+}
+$('#sleep').onclick = () => { wakeUntil = Date.now()+120000; checkSleep(); };
+
+/* ---------- 시작 ---------- */
+let lastDay = ymd(new Date());
+if(AUTH_ON) initAuth().catch(e => needLogin(e.message));
+tick(); const calReady = loadCal(); calReady.then(loadWeather); checkSleep();
+setInterval(()=>{ tick(); const k = ymd(new Date()); if(k!==lastDay){ lastDay=k; renderAll(); } }, 1000);
+setInterval(renderToday, 60*1000);
+setInterval(()=>loadCal().then(()=>{ loadNews(); if(IN_GAS) loadWeather(); }), CONFIG.refreshMin*60*1000);
+setInterval(loadWeather, 30*60*1000);
+setInterval(checkSleep, 30*1000);
+calReady.then(loadNews).then(showNews);
+setInterval(loadNews, 15*60*1000);
+setInterval(showNews, CONFIG.newsSec*1000);
+window.__DASH_OK__ = true;
+</script>
+</body>
+</html>
