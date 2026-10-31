@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:56:00.416Z",
+ "updated": "2026-10-31T00:15:30.065Z",
  "items": [
   {
    "feed": "주요뉴스",
@@ -24,52 +24,10 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "이 대통령, 다문화가정 산후조리원 우선 이용 “소액·소량이라고 불공정해도 되는 건 아냐”",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLU3B6ZHpHRUtqMFRwSlZCOTF2MG1IQ0JiQnh0ODV3VDZfaEpyNV9WR3BRTzBHenNORU5pVWZHWjk4LS1DUXUtNFJrZVFRd294a1EwM3M1UFBNUdIBX0FVX3lxTE9XZ2l1WFFvME93YktEcVg0TXQzVXkzbDhLOXJPWTNaTk1hVk5kWHpkbzd6Zl9rcDJyY0Raa1Zkc215cVQ5dlBpcjFSNjNhSklVb3pQbzFXWmJ4YzJWWjhN?oc=5",
-   "pub": "Fri, 30 Oct 2026 10:06:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농어촌 기본소득 시범사업으로 지역 경제 및 공동체 활력 제고 성과가 나타나고 있습니다.",
-   "source": "대한민국 정책브리핑",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlNGxBWWVRcnZhLTA5WHZrTVM2OXNwZnhjbWtiZkJMT1diX05NdW5JU0dWWno0dmRZS2x0TE1XbnUta3pqNmJjaFJjZkdlZWlwbGhCbHBhcm1TbTNtcEF0ekg0cWk2YUQ2M0pBcm0zYw?oc=5",
-   "pub": "Thu, 29 Oct 2026 16:32:07 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "인천시·인천세관, K-제조업 보호·원산지 표시 단속 업무협약",
-   "source": "미디어인천신문",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE41a19DWWttd0tGbGtVUU85M2twWXB3UURIZWpUWW0wNmtzWTdwUVBfdnhSV294UFVTQ3RYLWFfWGhtYkJ2bUVhd0RReFVpbkt6U3NIUmt3Z1FiY0FXSGtSdW1LQ2hodlJUSE1Z?oc=5",
-   "pub": "Thu, 29 Oct 2026 00:08:26 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "고성·파행·충돌로 끝난 국정감사…“올해 국감 F학점”",
-   "source": "KBS 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NOUh5ZzNMUUpuUFBFTzFhRWFrMWhKbE5CbllSSGg4RTZYOVg3eW44Z3lTTGhjWXVQSjRxTmUyQTRoTHJsOWk0OTVWS016ZlRNZE5TM0UwS2FBOExUOWM3UGd4c2Vvdw?oc=5",
-   "pub": "Fri, 30 Oct 2026 12:47:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "[농림축산식품부X농수축산신문] 2026 축산, 현장 행정을 말하다",
-   "source": "농수축산신문",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Uek54YXNLQk12M1MyWG5zSTBNUks0YXlWTk16clBBcGlJdEo4dG1wVzZEakZJNmlxMjc4WDZFYzJUaVdtQjIzX1V6VnNPVW5wZ0ZqeHd6anJ4R28xdkRyRjZjUm41RWxCeG9HNA?oc=5",
-   "pub": "Thu, 29 Oct 2026 00:32:12 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "농수산물 원산지 표시제도 고지의무 신설! - 전체 | 카드/한컷 | 멀티미디어",
-   "source": "대한민국 정책브리핑",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SclpwT2xDV003LUZaOUljRDNwQmxRbUZPSW96VFZuTzRtZjRUWmRhd0RQM0VSSm90RVlGdDNDd3BpbkhvMGtsVV8wa3FxR3AwUmkzcWhfMkEtRXZfeHBFcmVNWjZrVnk0ejMwT29R?oc=5",
-   "pub": "Fri, 23 Oct 2026 01:58:37 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "靑 \"호르무즈서 청해부대 활동 강화·확대 검토\"",
-   "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTDNzUXpJVlBqdDd1X1hlWmhTWWpLZ1JXSlIzY0d4aExmeUVmbkJ5cTc5cUJoY2JZS3RqVmhrWkM0Z1V0amI5SE0ySjRrTGFRS0dtbzVyME5EVzZOc2hCdDVHQWxRREtEQl84aU0zSzJ6OVoybHoxS25CU2xmWXdoLVRDdkVHSXRyeUNHS0l3d0c?oc=5",
-   "pub": "Fri, 30 Oct 2026 03:01:36 GMT"
+   "title": "시카고 출신 레오 14세 교황, 미국 중간선거 한 표",
+   "source": "YTN",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fMkpZNXdSdmZXZnZINllsekRLcDFJcDFJNlFrSlBqdDQxNFFIZllzWTBtVDdXN3BSbndtSWE1MEVZaDdqNkFaNnNVUUZBX3J0VXhnY19KRkhNdTdfM3c?oc=5",
+   "pub": "Fri, 30 Oct 2026 17:05:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -80,10 +38,31 @@
   },
   {
    "feed": "원산지",
-   "title": "가짜 ‘한국산’ 집중단속…탈세·위조상품까지 추적",
-   "source": "산업종합저널",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLRnNZRkEzWmZNVnBDWmszMGpyWFV4OFhaVDlaRUc1UUF1b2Z2ejdNQXFRVGE2b2ZpU0lkR3ZWZ2NXd0x5SjJfcGI2Q0dBWkl2N3Jv?oc=5",
-   "pub": "Fri, 30 Oct 2026 02:40:53 GMT"
+   "title": "농수산물 원산지 표시제도 고지의무 신설! - 전체 | 카드/한컷 | 멀티미디어",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SclpwT2xDV003LUZaOUljRDNwQmxRbUZPSW96VFZuTzRtZjRUWmRhd0RQM0VSSm90RVlGdDNDd3BpbkhvMGtsVV8wa3FxR3AwUmkzcWhfMkEtRXZfeHBFcmVNWjZrVnk0ejMwT29R?oc=5",
+   "pub": "Fri, 23 Oct 2026 01:58:37 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "한국 국방 \"미한 동맹 굳건함 재확인\"...KF-21, 미 공군 전력과 첫 편대비행",
+   "source": "VOA 한국어 홈페이지",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxUjZKRTZPdjR1dllkeEtSbTBWWmU3c1NjclpLNzQxYzhUTW1yQ1hwQ2tRTHMwV3MyZGlpSG9IeC0xUkI5bU1qNW93TGVuR2QzZUR6dzVidjVyYWZyNlRFNDEzTnp6eFhGNERuZUVVX2FLWFnSAXZBVV95cUxORFdHaExzN09qWEV6WndDaUh1aDdPLUlZeWRFWHlabWNLcXY3enVzMFhES2haVnBYekY3VjhCNE92VGltYUlaVHFKLU02dDA2N19FNkVpNVJuZ0gwM0Yyc1RVaWpweGliNElka183aTlseUFxclJ3?oc=5",
+   "pub": "Fri, 30 Oct 2026 05:16:51 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농어촌 기본소득 시범사업으로 지역 경제 및 공동체 활력 제고 성과가 나타나고 있습니다.",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlNGxBWWVRcnZhLTA5WHZrTVM2OXNwZnhjbWtiZkJMT1diX05NdW5JU0dWWno0dmRZS2x0TE1XbnUta3pqNmJjaFJjZkdlZWlwbGhCbHBhcm1TbTNtcEF0ekg0cWk2YUQ2M0pBcm0zYw?oc=5",
+   "pub": "Thu, 29 Oct 2026 16:32:07 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "온라인 돼지고기 유통, 원산지 표시 관리 한층 강화",
+   "source": "돼지와사람",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNaUlvb3djMG9iLUpHTVZjMFJVWjlsTmFueFhobEFBeUlNOE1DdWE2b001bEhCSjZWVnIyNGJtMVVYektKTUlFLThYXzkzTDhDSkVadU11UDdwRzdndzVF?oc=5",
+   "pub": "Wed, 21 Oct 2026 10:43:12 GMT"
   },
   {
    "feed": "주요뉴스",
@@ -94,87 +73,24 @@
   },
   {
    "feed": "농식품부",
-   "title": "농식품부, 유기농업자재 지원 확대…녹비작물 종자 2종 추가",
+   "title": "[농림축산식품부X농수축산신문] 2026 축산, 현장 행정을 말하다",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Uek54YXNLQk12M1MyWG5zSTBNUks0YXlWTk16clBBcGlJdEo4dG1wVzZEakZJNmlxMjc4WDZFYzJUaVdtQjIzX1V6VnNPVW5wZ0ZqeHd6anJ4R28xdkRyRjZjUm41RWxCeG9HNA?oc=5",
+   "pub": "Thu, 29 Oct 2026 00:32:12 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "가짜 ‘한국산’ 집중단속…탈세·위조상품까지 추적",
+   "source": "산업종합저널",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLRnNZRkEzWmZNVnBDWmszMGpyWFV4OFhaVDlaRUc1UUF1b2Z2ejdNQXFRVGE2b2ZpU0lkR3ZWZ2NXd0x5SjJfcGI2Q0dBWkl2N3Jv?oc=5",
+   "pub": "Fri, 30 Oct 2026 02:40:53 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "대구·경북 맑다가 밤부터 흐려져…일교차 10도 안팎",
    "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVOS1yYmoxc3FIcVkwV0N5SlpCdXA3OFA4Y3V4NVJPVERVbFJBZHo0YUxxRGk2akU4QmpLNjN6MHppVWY3R2FBV3ZnOFZlQUhOUmJmem9sdjJDNnQ5QkZXbNIBYEFVX3lxTFBVOS1yYmoxc3FIcVkwV0N5SlpCdXA3OFA4Y3V4NVJPVERVbFJBZHo0YUxxRGk2akU4QmpLNjN6MHppVWY3R2FBV3ZnOFZlQUhOUmJmem9sdjJDNnQ5QkZXbA?oc=5",
-   "pub": "Wed, 28 Oct 2026 21:00:11 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "온라인몰 입점업체도 원산지 표시제도 제대로 안내받는다",
-   "source": "서울Pn",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MeWxyQlVEZ2hGZEJFQ3JkaGNNa05OdHBSZ09DcDc1Q19zaGtQTWx6NG8tR0thWTVVRWNudUsyc2l4Sm1YcDgxUENab256WTRVMXd3M2pnZ29mTzRJdm9TMDFn?oc=5",
-   "pub": "Tue, 27 Oct 2026 23:53:25 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "바닥 위 국화와 부캉이 코스튬…핼러윈 앞둔 이태원 ‘차분함 속 활기’",
-   "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10YzRWU1Q5a2EwUkN2RmxJSFh4c2sxTzVPa2p1UUdfZl8ya09iX0JHWG8wdk9rMmRyMDFjdXJkRVIyQTlLOHZsbWcwX2VaQ0gtYVdscGxEb01TWklaZFkzS3BscGtrclhXR2dBZXBiNnNWUQ?oc=5",
-   "pub": "Fri, 30 Oct 2026 16:43:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "국산 밀·콩 드세요…농식품부 ‘국산 밀·콩 DAY’ 캠페인 박차",
-   "source": "농민신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1val9uRlZlUlYyWnFVVnViZzJPMnlWMlhJZXlLbmowc1ZpTm9ZRHhBR2tmUXZ5TkxlU19semRsd2sxampDSkV5WlEyNC1LZ0Jtam9FdlQxTlBpUQ?oc=5",
-   "pub": "Thu, 29 Oct 2026 22:59:00 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "온라인 돼지고기 유통, 원산지 표시 관리 한층 강화",
-   "source": "돼지와사람",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15aGthbU9CcmEwNm51em5ZcHlUeEdxRjFVR3dGaVdqdFYxckZuQXVYWDNGdzZPMHlNeVNGZW1EUlZqTFpJUDBPRUhhWnNsaFV3eDlEQUh4bWlXVXBub0R3YUFn?oc=5",
-   "pub": "Wed, 21 Oct 2026 07:00:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "인천공항 항공권 발권 시스템 ‘오류’···체크인 지연에 승객 ‘발동동’",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtWUdJeTZOZDhNWWZfNWJUenJXdG5aN01kM1hnX3BOQ1VoeEJjMjVTOHFGS1c5MjlkdWR5ekRJc3VJS09hNTcyWDA5TzFLdm5TSkpNalM1ZW9ud9IBX0FVX3lxTE1QUkI5V0VHdlduYUlsY3JuOXk0MXJ1UGpqRFlTWjQyZW9wd0w0VXc2QzlWMXpvWVNncEt5MEhCRlJ5TXFvemlsMC00VXREdmp0Y0NJejgxNzliX3JWSEtZ?oc=5",
-   "pub": "Fri, 30 Oct 2026 05:07:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "K-한우 중동으로 시장진출 확대",
-   "source": "뉴뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FYjdJNGpRcHVtU1RFSllZQzVfaFVRRlFmRVRuSFdHVVpXemVZMFRLZVdhZUNjZlVJZU9ON2FrVkRKeFJ0TU1KLUtQeldzVVFSdXNocXlaV2h5aFlNbFpuTTFmb1h4QQ?oc=5",
-   "pub": "Fri, 30 Oct 2026 01:42:45 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "온라인몰 입점업체 원산지 표시 안내 의무화…22일부터 시행",
-   "source": "축산신문",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NRWRnbWVFQlg4YUxUbm9RRnBfZG1JNmdvdHQ5bnJlVFRyR3BmQkdlc01XbmxFUFdIWjBVek44QWJYbkR1bUFELTc5VW9HUGVVVWNSTG11RHBtRmRvMmRRV0JGbWY0X3kt?oc=5",
-   "pub": "Fri, 23 Oct 2026 00:21:29 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "오세훈 측, 특검 상고에 \"빈 상자는 다시 포장해도 빈 상자\"",
-   "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlFJZWtTTFlTMzBKSkd2U0J5NzJlNE1jRWF0WlNBMFpNeFRIRjBucmw2RFZHb3d2cG5pMlRlbEMya0Ruck81cFZYU2FRWnRwci13TGR6TXBxMmRQQ0hxaGdkNEJKaWI4dWxEdlpxa0FXZzV1cllPX29lUS1mQkh2S2phd0xCcEJMc1lldDlVTnY?oc=5",
-   "pub": "Fri, 30 Oct 2026 12:38:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "싱가포르와 스마트팜 협력 추진…농식품부, 기업 진출 기반 다진다",
-   "source": "한국영농신문",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QamxRbE9aWURYOE5jaVJ1WWxBbHB0czlQblh4dWlhVExVaU01M043RlktcjdIN2RPNUgyZFFERmNlTzExSG9jQnVycTJBclVvTUo0VHZTLV9OMVAyZEJTWmZsaWZYM0FPSF9NNzJn?oc=5",
-   "pub": "Fri, 30 Oct 2026 13:59:55 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "다문화음식문화거리 일원 음식점 원산지 표시 점검:시대일보",
-   "source": "시대일보",
-   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1neFVUZm9VZkl1SnYwR3NYOENSUHNaUkhRUldpRF80T2VVeDU0OXU1eGpINmtscDB3c3ItNEc4bWVpQzFIRDVlb0JB0gFnQVVfeXFMUHZlSEtFYzVKc1h6Z3pFUlJ3dkdlOGdlQ2pPajZoRGlUcDBsWk52UW5oUmRCZjBlRWctNWt1dmNxZ1Q1aUV3RVFvcHkzcUJBajN2aF9mU2h5NHZONmlkQjlNZGxwdHJMVQ?oc=5",
-   "pub": "Sun, 25 Oct 2026 21:19:37 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "공개 검증 마친 '선관위' 특검 \"투표지 현 상태 보전 요청\"",
-   "source": "MBC 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yTWxBVmZLN08yeGc4VWFSUXl6TG1NTnZtQmNGcXNVeW5IWkczTG1mVllOT3FIQlVsMmtpYnJtZ2ZkZjI1a18yN2RkZmRoWUNCbmp0VUprRGVDaTJiOElEa3RjR3JGaFBKQ190RFpDSXhkb1ZncS1F0gF3QVVfeXFMTXFpRkZURFlpdlBaT0dJMUg3NzZUSGg3VnJPT2xlVzRkUnlaZHZ1YXZjT05VUTFZYUFLN3NBZnZIQ24zcG1NMlU5ZlRSOVVwTktaTzI3RjJ1ejJoeVpxa1ZJbFdjR3FnSXBHVGFoNGJLVmJ2Wnhva3M?oc=5",
-   "pub": "Fri, 30 Oct 2026 08:55:12 GMT"
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CRE5NdkluVjVJRjR3dFhlRTQwM1ZjYTl1UGY4cWduaUd4dnFuaHoyWE16ZVY1QjR0aFZOQm05THE4UW93WGNNMzZRdVJBNVAtRjlCNERBWE5nRWvSAWBBVV95cUxQYU95aFNUd3kzczd3T2hEUm1IQTEtV2MwTVprcE9nbUpUYURtaXZtY2M5eUdnNUNmMlYtQjBlUkxPVnFNUnFLSnl4OGQ5cWhnQWFDVGM1MUJ5QlNUTDNGN1M?oc=5",
+   "pub": "Fri, 30 Oct 2026 21:37:50 GMT"
   },
   {
    "feed": "농식품부",
@@ -192,10 +108,52 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "트럼프 “이란 전쟁 곧 마무리될 것”···중재국 카타르 대표단은 이란으로",
+   "title": "새벽까지 약한 비에 짙은 안개…강원 산지 동해안엔 강풍 유의",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10ZlB4WFRwemY5MTZ2cXowd0RIZ2R6RExNbUxfS2xUdE5LMi11MVBwYllnU0E3X2tiNmUxXzB2V0pPY1ZXU2ZSRm9mM3lNZVhaWkU0RXhfbkg5T1k?oc=5",
+   "pub": "Fri, 30 Oct 2026 17:23:06 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "강릉시, 농림축산식품부 ‘축산악취개선 공모사업’ 최종 선정",
+   "source": "산경일보",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90ckVSTEZ3Tk8tVkRGRlhTT2lFMDFQZXU1Tjg1TkFqV2pUaDMydHllR3RHMXhoZ2dhczVoQVRRbTdNOEJ5bGpYQ0JCQl9WZTZSaGlNck85SFdVQjdZeUhWOFZsTy1KWHN3NWVXd1oxdVI?oc=5",
+   "pub": "Wed, 28 Oct 2026 02:59:33 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "온라인 플랫폼, 입점업체에 원산지 표시 안내 의무…위반시 과태료",
+   "source": "산경일보",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PY0lFZmxpcGZZeE14d28zNFlZa082UDRJaEh3NzRwMWxmc2ZpWTYyN0lLUlBHeDNpeWRJUnRROWRzVXFBTnU0RU81SkgxUS1ERWowcnd0MGtBWWlncndTSHhzMER3TGVVOWR4V1ZFeWg?oc=5",
+   "pub": "Wed, 21 Oct 2026 06:31:43 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "인천공항 항공권 발권 시스템 ‘오류’···체크인 지연에 승객 ‘발동동’",
    "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6UjVpUjBkdld5bGtsX2IyQlZpaGcxRkRfOTdmbXBDc2ZLbTRIWXpDZE5NSy1nSW5yUWdnMjlMRHQ0OHNGUDZYdVB1b1d5eEdSbnZ6TEo0QzEtd9IBX0FVX3lxTE95UXdCMXB4N1hySnlPMHRuUzFXNHZmaFpFSmdhUHlRWHVJalhscDI3aWRmMFZia0o2U1VsczZJcnZTR0NaVmU0U1FtYXJRb2ZjT0J0UkVkRklnQWVYLTNz?oc=5",
-   "pub": "Fri, 30 Oct 2026 13:32:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtWUdJeTZOZDhNWWZfNWJUenJXdG5aN01kM1hnX3BOQ1VoeEJjMjVTOHFGS1c5MjlkdWR5ekRJc3VJS09hNTcyWDA5TzFLdm5TSkpNalM1ZW9ud9IBX0FVX3lxTE1QUkI5V0VHdlduYUlsY3JuOXk0MXJ1UGpqRFlTWjQyZW9wd0w0VXc2QzlWMXpvWVNncEt5MEhCRlJ5TXFvemlsMC00VXREdmp0Y0NJejgxNzliX3JWSEtZ?oc=5",
+   "pub": "Fri, 30 Oct 2026 05:07:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 유기농업자재 지원 확대…녹비작물 종자 2종 추가",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RcEkyRXFOQWhQLUthclVJSXRlVHktcm1Vc0hGU1pLcmpkS2wtSm54Rm5PTThsT1QwT2tYSzRRQXhYaFEzRnhwdF96REhjVUZTUzJGT05wR0NyNmPSAWBBVV95cUxQVTktcmJqMXNxSHFZMFdDeUpaQnVwNzhQOGN1eDVST1REVWxSQWR6NGFMcURpNmpFOEJqSzYzejB6aVVmN0dhQVd2ZzhWZUFITlJiZnpvbHYyQzZ0OUJGV2w?oc=5",
+   "pub": "Wed, 28 Oct 2026 21:00:11 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "[시론] 정직한 ‘MADE IN’이 지키는 우리 제조업",
+   "source": "충청투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KdUxVTXNsZFE5V2JmRTllc1pLSkQteGpDMk5UQ0NuLVNyLUdaRk5WUVUxVlRkM0tNU25ldlktVndweFdUdjFaUHlBeXJ2MEZlMjNDUndZbEJxWXJ0Nkh5MTMxODVETF9LdnNMaWZR?oc=5",
+   "pub": "Thu, 29 Oct 2026 21:00:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "[속보] 최불암 별세, 향년 87세",
+   "source": "스타뉴스",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YTDN5UVZRTnRINktBQVptR0FSUzFPR2t3V3ZVa3lWZ3VIaTRKaDM3ZHJyMlFpR1JmS3ZBeWU5OVFJRlVIMlZwLVlIelN6cmZpMlVPbklEd0F6N0xfeDRHbl9hRmhoa0hvM0ktQi02cExDRms?oc=5",
+   "pub": "Thu, 29 Oct 2026 16:04:34 GMT"
   },
   {
    "feed": "농식품부",
@@ -206,10 +164,52 @@
   },
   {
    "feed": "원산지",
-   "title": "통신판매중개업자, 입점업체에 농수산물 원산지 표시 제도 안내해야",
-   "source": "Chosunbiz",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTnd4SmE0RjlmcUJBSXpCQmU4Tk9GNVdIRzhEOGJyUHhmVlduMXdyYm0xRmk5LXEyNktxclhtb0ppOTBEVEtHVkFrak93UGVTNmJjLVQ3cy1oOW81VUsxd2VZQkVtRzR6YUxFMUlQdjl5UVpIdGFKb1Z5dnFXOWVYRktnZGtZUdIBmgFBVV95cUxQM2lxNmQ4ZmRwS1lueWtaYVlCbW82c19FN3NtSWNibmVua0xEWGFkUFFLY3d6cVVJUDdKUExtTUxKX2hTQUZTOGY4NjdGUjJFakVhM3ByOUNZRDRILUxjRi10dWwwa19iZ3gybW1WSVF3SVNTU1dCMEJQcnU0WUxSVVdWYTBYcmFyRHdtTEVBLVd2dVM5azFKc0l3?oc=5",
-   "pub": "Wed, 21 Oct 2026 07:00:00 GMT"
+   "title": "명절 앞두고 원산지 표시 위반 최다적발 ’김치·돼지고기’",
+   "source": "연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0TnMwdjBnX1cyQ0dsM0VBcjVaRkJoZUpWRDZha21fQlhwdWk4b0pRdW4waEExc0JDcmpSS1VQR1lpQTh6VE8wWGJ1Zk9sRUFnZ2lBSEhYSEZtVEgxNGlvZGxuanFkb3c?oc=5",
+   "pub": "Sat, 26 Sep 2026 07:00:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "17개월 딸 혼자 두고 출근한 父 구속…사인 '영양 결핍 추정'",
+   "source": "한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UU3hkWllvZXFyMDFXTzRKWDRBbkhXYXZpZ3JNRFB6aFdFQWxFeXdFYUJOLWppanF4N2g1eVNVVzVBbTREVk55cTNFSkl4cjc4TE5HQUVFSTEyZw?oc=5",
+   "pub": "Fri, 30 Oct 2026 09:21:22 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 은퇴 국가봉사동물 지원 강화…전담센터 설립 추진",
+   "source": "브릿지경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MVTNxVFB4LUhIeTdyVG5UM2hoVURRajRmRXBZRWFiUXhZdkVIa0pRVG12VnF3Zmw2YnNDV0ZabHI0eUY1N00wMG54NWxaY0paUnJKOFNtd1dLQQ?oc=5",
+   "pub": "Fri, 30 Oct 2026 09:00:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "\"농축산물 원산지 표시 반복 위반, 5년여간 291곳…최다 7차례\"",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15ODhvREgzY09yMDEzSXVlUTdoX25zUU5sS0JUbXpzNzgyWnhqaF9OZGVUNHlMcDNhMjA0NnU1MTYyXzBxcnhQeVhmdlM2WmtQYk9vRnFlTE1ITWvSAWBBVV95cUxPNFNWdzFvM0ZfN0IzMkZXbDNOTDloMGp4aWtqWGtUSWJENlJwdjlIejJ0bnloT2NWVTdBSnVnamd2ZXpvcXhUY253R0Y2YXBEdEJnUUxvcnF4QWY4eUVmcFY?oc=5",
+   "pub": "Mon, 21 Sep 2026 07:00:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "김정은의 ‘드론 협박’… 스텔스 무인기 등 30종 공개",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX0N3UnNwLVAxb0ctZkRpMkZrdFdEQ0VfbWwxeTFhdHR5WDJseHVaN3RlMno3U3dsSnNZcHhLTEVxZ2pSR2JHS2NhdkYyNTZuaFYwNzg3LS1oR21PVWlKU2p4SWtQaUVCM2tWY0dvckFlaVVTTTRwWFd0S2w3dE5TeE9MQjhIbEpyOFYteTdRcWlSUQ?oc=5",
+   "pub": "Fri, 30 Oct 2026 15:56:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "싱가포르와 스마트팜 협력 추진…농식품부, 기업 진출 기반 다진다",
+   "source": "한국영농신문",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QamxRbE9aWURYOE5jaVJ1WWxBbHB0czlQblh4dWlhVExVaU01M043RlktcjdIN2RPNUgyZFFERmNlTzExSG9jQnVycTJBclVvTUo0VHZTLV9OMVAyZEJTWmZsaWZYM0FPSF9NNzJn?oc=5",
+   "pub": "Fri, 30 Oct 2026 13:59:55 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "수입 육류 원산지 위반 5561건",
+   "source": "환경일보",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ucVpNSnYtLWRybGlUYlcyTU1fcS1FUWxKN3NIQXpfQkJ4RDdvNjJzbUMtdXJpMXFTMmNjWGVOQWVBSmoyNGtQdXVwelQ0T1pEbExaVUR2Skk4SlhfdVFHallpeHp5anNW?oc=5",
+   "pub": "Sat, 24 Oct 2026 05:06:06 GMT"
   }
  ],
  "errors": []
