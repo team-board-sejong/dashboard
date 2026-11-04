@@ -1,33 +1,96 @@
 {
- "updated": "2026-11-04T00:15:13.967Z",
+ "updated": "2026-11-04T06:45:14.689Z",
  "items": [
   {
    "feed": "주요뉴스",
-   "title": "박지원 “울먹인 김민석에 진정성…공개 사과 요구 당 위하는 길 아냐”",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OQ3NzaEN5S1pCdVlob1BOQ09rTFU3QUhmaHk2S1ZBSDlfOEtmNU9aZlBGQnN6dF9MZEVJOG01OVRwOHRROVlfWktTRktLMTZjT0gyeXRKdGxtQdIBX0FVX3lxTE5MMXZxejJGU1Y3WTBpbGlFODZXeDR5Rk1YU0o1eGhTLVl2YnNmTW84QjdmcE1ncHpab0toMHdSRjZaSldBVldkZDlLdkd0RWZFbmdHNm1abkZrNW5nWVlF?oc=5",
-   "pub": "Tue, 03 Nov 2026 23:13:00 GMT"
+   "title": "[속보] 미 민주당, 상하원 동시 탈환…역사적 ‘블루 웨이브’, 트럼프 심판했다",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GOEtsY2JiUjJqcXp2QTZJY182c1hWQUs0SWZ2Qlp4d0hpU1pmUllyRWx0MS1oRzFzVXQ4UEV1R0ZQSC1MdzlmeXdod0J6WUZKM21wYlJwN2Z1Z190UlBwdURCVjJzZE5fSVAtV0d1QQ?oc=5",
+   "pub": "Wed, 04 Nov 2026 05:56:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "라면 시식하는 김종구 농림축산식품부 차관 [포토]",
+   "source": "더팩트",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13UWc5aXB1OFVub1BEMWw2N21sR0RaUU1ZaUNhRFZraGFWbjNBVzZoU2JKSXFKSW5uUDVlNUYwRFBUSHBJeTFXQnZfdVQ5NDZic0VYUmxkeHBFNDdfekHSAVhBVV95cUxONVFhdDMxcGp6TUE1U0pCWW4xZFhyR21IdkwxSnFQVGh0bnhDOWZPb25fYkFJTnJuMExEZzc0cUZyS3hVLXZxSmtPTnhBSFBvOHBPczV5VG1S?oc=5",
+   "pub": "Wed, 04 Nov 2026 03:30:56 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "국립농산물품질관리원, 김장철 앞두고 배추김치ㆍ양념류 원산지 표시 집중 점검 강화",
+   "source": "데일리대구경북뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yTXdldDJtbmI5d040RFVscDI1Y3Mya0YtakdiUDgtc1hmeEhpSk9vVjVodnZSYjFoR1daX2JCZVl0QTgwTF9aenBYN0NVQWNuQlJrUXZQa3lmTmZSbmtsUTFqTXRsUQ?oc=5",
+   "pub": "Wed, 04 Nov 2026 06:27:07 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "[속보] 尹 선거법 2심도 당선무효형...확정시 국힘 397억 반환",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdUN5TWJsM29Yc0J6UGhXZjFtYVpTeEtfSTRndTYxV2tTY2FmaVVUTWVxOHFoQ3BpSWFHRzNCaGZNV2JuaUlIZWZ4ZVU5SGs2THppdjJJM3JNZko5cm1iVEVaSlB4Z0U2WXlkV2J3bHBHRTRZTWphVm5sQ0tsQXNTMmNMWkVZRTA?oc=5",
+   "pub": "Wed, 04 Nov 2026 05:32:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "한국농어촌희망재단 신임 이사장에 이재욱 전 농식품부 차관",
+   "source": "축산신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4takdERkIyVU8yRjBfbXpSbEV2UVg3NmNzTEtXRmlsRnZOUjl1V1NRekVrWEFuVWpRN2Zrb0p1Q01OWkwydTZEMUF4V0t6ckpmYlRGSklfOF9aQnl5TW1OTVpNVFIzYjNs?oc=5",
+   "pub": "Wed, 04 Nov 2026 00:23:40 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "문경 농관원, 김장철 배추김치·양념류 원산지 표시 집중 점검",
+   "source": "경북신문",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mYkRyYVlOSzh4bk5MZ3dRbEp0U3VaN3ZxVE1WbXR0X3hFM2xuamhtMEV0SXU2Nlp6RnB2STlGbHN3anNyM21VY1BKYjV1bnhWYWtBZTBrMnU?oc=5",
+   "pub": "Wed, 04 Nov 2026 04:14:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "박지원 “김민석 공개사과 하라? 장충단공원에서 해야 사과냐”",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxaTIxU09UakJpT0g3bVYzTTVQOWNYMy13NVNjNzFiX002cFozQmdiWXphUm43VWxJdENBUkstSE1IZlVKVmpYWGc5eEpZOWZVVkYzZG82RThnR1JZSmNNSG9ET1pJSzByZHVac0lMN3RhOURG?oc=5",
+   "pub": "Wed, 04 Nov 2026 02:54:00 GMT"
   },
   {
    "feed": "농식품부",
    "title": "농림축산식품부, 김장재료 최대 규모 할인! 올해 김장도 든든하게",
-   "source": "안동데일리",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGZ1UzYkJEZ0xqQTJrNlZWWEVfVmtnTFZLUjVjMTcyNDRlMEJhQzVOYUU5a1EzRWZTUmRNUkgwaXp0c3VPbU5vblF5RDd3dDhvSmxwWm5QZlpweE05MUNySXpCV18weTBKY0h6WTRoVQ?oc=5",
+   "source": "한경일보",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TUHFuZHc2UG5FcEcwd0FvTWxUbHhRcEhqMnFNSHVTb0I4WXNFSVBBeGJORFZkUUVsUHZWeFJvNWRPN0RHR2NvMk9ZSDZwUmNCQjMtenI3SG0xVnR2Tk1aTHI2N0tVajQ?oc=5",
    "pub": "Tue, 03 Nov 2026 22:49:50 GMT"
   },
   {
    "feed": "원산지",
-   "title": "농관원 강원, 김장철 앞두고 배추김치·양념류 원산지 표시 단속",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORnpLNElEN3czWldYTGJ6U3l6Vm0yNDI4SVYydENfYVhNdGVDek5YbXpsT2lVYzVnWjNTcTNrUnJ6ZXJxZHJNNE9UM1QyUTdGcFhGRUthSlhoUUXSAWBBVV95cUxQaVdvR3JZbTJtRGhLNHdnWFgxVUhBSXBCTVBadjZZLWxLd2lfSVdldlU4NFI0SFBjNENHUDZtRGV5YnNpMVhEcEIwRlhLRFRwc0oxZWM1WndOcEtmXzNmdHY?oc=5",
-   "pub": "Tue, 03 Nov 2026 07:37:05 GMT"
+   "title": "농관원, 김장철 원산지 표시 점검 강화",
+   "source": "G1방송",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ha1psM3k0Z01LVV9raENGQVdZSUoxX25CcjJqQ05FX0NfVlo3TGFCMXZ0cUlSZnBJa3dhRkR0RHkwM3lfUFRVbmpwSUFYaVB3MU5yc1kzYkI3RU84ZXBBWlNMUndfQ1ZFbEJzVHdxVktmSFV5eDREZGpn?oc=5",
+   "pub": "Wed, 04 Nov 2026 01:46:14 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "미 중간선거, 투표 진행 중…이르면 오늘 낮 윤곽",
-   "source": "KBS 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1neURHSGtMMzh6dUtQZUpoNHBKX2RXU1pLbzJtb1pOdlp0eGRqR1Vxb3ppTl9MaWwxU3lNYzU3OF93MWlFQXV0WC1LdkhHTVJrWHJQN3lVd28zNVE?oc=5",
-   "pub": "Tue, 03 Nov 2026 21:11:00 GMT"
+   "title": "[속보] 합참 “북한, 동해상으로 미사일 수발 발사”",
+   "source": "경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvb3Jsd2pGazNJWGJRV0wtR1JEN210RzBpdkRtVkotc0w2YlVKaDlVYTBiZ182QXNOd0tvM0ZlVUUzMXlqZXNtWjBFLUxpTkozWkptVTZieXZWQdIBX0FVX3lxTFBUQUFpRVd5Wk82RkFQbnFISEZlRV9QOThoZjZYMEpfOTdDY0JaUnNpOWVWRF9ycmg2QmpxeDRKTkdpVUs3b2htQXM3Smg3aHZBVkt3Rm04T2JiS3Bqa0RJ?oc=5",
+   "pub": "Wed, 04 Nov 2026 00:56:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 푸드위크 코리아 개막…46개국 1000개사 참가",
+   "source": "중앙신문",
+   "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPSjN5a2ZsTUhTWFFYMWVSbE5KQl9XcWNOUVBnZjBkVGswQllFOGFUOGVvbnJ1TVlua3RyTk83ZFdGQUVRQVpJWE1UcnRLQ3B4MWo5Y1VMQmZLZGVCOG52QWF0SmRSMEJkS3VNTnRJNjRLUVZ1WU9mcm1JbTVmZjVOUGpLT2gySUQxMm9Bdi05N1dpY2hzSTNLM0txem5YdGJLbk5DMHF5VDZsTktVTjAwcks5XzJvQ0MyVkFFS3lObVFXTnZSQjVqVV9vVmdiVzdGNmdUcWdoRTBlVHVGR2tUeDJROTBicmc4dE5hYmdZeGJEMHhiTk9OZG5xTHJxd1dGTVhVS29Hekg0ZTRva1B5bUM5bnVwNjJab2gtNkd2aUFqMEI0MkpRaVVIZ0o5c3E2NXRXeV9EUm5UQzBiblZzeWJyWk0zNVhCc2I3dw?oc=5",
+   "pub": "Wed, 04 Nov 2026 04:36:33 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "농관원, 김장철 배추김치·양념류 원산지 표시 집중 단속",
+   "source": "축산신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GM19KYTJnTHh6aTNud0JaUFplOGRKbjBaRS1BTWNhdlVXZ2hZNl9CVWNfQ1htajJZQ29kWlBiV3pHNHgzcnY3VnN6SnR6SGI3dTFHU1NXOFZieXhqaUc4bTBFbGx1QVV1?oc=5",
+   "pub": "Wed, 04 Nov 2026 00:14:26 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "이 대통령 “서울 집값 발언, 강남만 맞았다는 것도 가짜뉴스”",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ONUJHbzhrSXpOUGZzMzRfTHV1UDEzNE95aXRHRU1MSFlDR2N1dk9GUTN4RTRHalZtaFpnRE5lekpTMlpTWDlCUVp2RnBPbHBELVhSbnBTN0tobmhxQWlfNnBYN25pdTlHOGVrbnVIZ0VRdk5w?oc=5",
+   "pub": "Wed, 04 Nov 2026 04:53:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -38,108 +101,87 @@
   },
   {
    "feed": "원산지",
-   "title": "김장철 앞두고 배추김치·양념류 원산지 표시 집중 단속",
-   "source": "경남도민일보",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82NjBSU1FoNFgwVHlUajdmVlZvVExlVEZRY0lfTXpfZGFRWjh1cnhKWDRKc2k4Q01aczY4eGpGZWxjcG1peUhVMWJlODFEdGxHYlRIMTR0dVljMVI0eVphc0cwbUtCTDhYcVE?oc=5",
-   "pub": "Tue, 03 Nov 2026 07:54:49 GMT"
+   "title": "농관원 전남지원, 김장철 맞아 배추김치·양념류 원산지 표시 집중 단속",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tQkVOWVBCLVBNeTl6QnVLNURVbm5LYWlKTDYzYzNFYjdBYmFQS3lfeDZWY3lvTkg4YTRDbjRnak8xVGhzTTdrSVBzdUtjZTVKUzQ0NFhYdmVVOVZ0RmdiZjdZN1JtNXpkYVV0dA?oc=5",
+   "pub": "Wed, 04 Nov 2026 00:35:51 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "남해안과 제주도에 밤부터 비…내일 전국으로 확산",
-   "source": "KBS 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KU1ltcmxDakhYTmRuMHBORUQtb1FSdjhBZkxhTGNiVlp2R2hJb1pJd0xvRWFZcUZ6Y250S2lWZ0k5WHVpWTMxeWVWb1N3MjlYQmdPeEhvbnlPMUE?oc=5",
-   "pub": "Tue, 03 Nov 2026 23:09:00 GMT"
+   "title": "특검 “선관위, 용지 부족 투표소에 투표록 위변조 지시”",
+   "source": "동아일보",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ObEh0UW5XcmhBdVFjVThWeVd6dlpHV3c5M2lTaHZuLXJIaVNiV0E1d1JrTllGaVZ0VXMxM0ZkVExncnFld0ZLaDd6SWtkTERRSm1ZWFV2Smk0cnZUeEo2Z0hPN0RvWlk3a2tpcVNqRzQ5NmF0M2Q0?oc=5",
+   "pub": "Wed, 04 Nov 2026 03:01:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "송미령 농식품부 장관, 가락시장 찾아 김장재료 수급 점검",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43TThJcjhLTXUyLW1GMVlXMk9SWXBFTlYwb1hNTlEwV08tbmNyUWdZY2k0dWxHcTFtVlNUQnpvWlZBN3ZHczV2ckQ0cTRLTWZOU1J4RWpIZkdLX2PSAWBBVV95cUxPdXlILWJ6MlRudm81MXlIbzRQNlRQTnlralM1MFotc0NObEZkb0JEamlIZkRrSWFRcEdRMDNxbVhUdUw5M04wQU14OEJVVklIdzFVVVJmZzEyRUpHbm9ILUQ?oc=5",
-   "pub": "Tue, 03 Nov 2026 21:00:12 GMT"
+   "title": "경남도, 2027년 농어촌 기본소득 공모에 산청군 1곳만 추천",
+   "source": "매일경제 마켓",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFTFlPWld4dDdJMmIxOFpNcDJBa3pfMDBJVHNFYTFuWEpOd3R1Q3V3bVVLZ0t2MzBzN2FIZnF3LTdUVWlielhlajVQVmtjS29UY2c?oc=5",
+   "pub": "Wed, 04 Nov 2026 02:16:58 GMT"
   },
   {
    "feed": "원산지",
-   "title": "농산물품질관리원 12월까지 김장재료 원산지 점검",
+   "title": "평창농관원, 김장철 김치·양념류 원산지 집중 단속",
    "source": "강원일보",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKM0VLM1dxd1NTekZzU3pkdnZQMElINXMyS1BMZGhNSmxYYkF3RHo5MHhCSF9OSEROdk1RUVVBbm0tZURwc2pRLWMwNVhvRXdKOUN6OGVEXzN5R2M?oc=5",
-   "pub": "Tue, 03 Nov 2026 15:05:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01RTdtdnY5ckt1c2lzck5mbERnR3VCY2lfR3otSU9FaEVIcjdjSVotQXdoRk9QWXY3T0hPc0lPSDZIREpidWpVY0ZrZy1PZmxvS2JJZ0xsWnY3czA?oc=5",
+   "pub": "Wed, 04 Nov 2026 01:58:47 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "GTX 삼성역, 연내 '무정차 통과' 무산…철거 후 재시공할 수도",
-   "source": "한국경제",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uQkhLR2xZSExzWE1XVFdVQTFvZmV1VFdJeHF4WmN6VDRuNlgzR0JCWjAtZnpCdXIyRXJmVnlPOGxZWk5kNTNFRVZoWmdTU0ZQdVRkV2ZTVUtIZw?oc=5",
-   "pub": "Tue, 03 Nov 2026 08:30:59 GMT"
+   "title": "與 주도로 ’조작기소 특검법안’ 법사위 상정…국힘 반발·퇴장",
+   "source": "연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UaTJaMXZta21YZ3o2S1k1dEZlckNxLVIxcC00WG9QS3NmR05iWUpibERBaXFKWVhUQ3FKa081dVoxQW9YTlJvdWVVU1VSd0Q0dDB4c2g1YmthWGQ2b3dGOThpWGdyMUk?oc=5",
+   "pub": "Wed, 04 Nov 2026 05:27:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "나주시, 전국으뜸농산물한마당서 농림축산식품부 장관상 수상 - 보도자료 | 기사",
-   "source": "더팩트",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ITVhJR2FnNHZENnpJYllrZnVpMWViWFRiek5KbFQzVmR3U19zR29hd25hd3RneGNGTU1BbFVpMlN4TU1KMHNrZWs1ck5Kc2U0amZONXdoMV9ZZXFtb1ZV?oc=5",
-   "pub": "Tue, 03 Nov 2026 04:46:43 GMT"
+   "title": "농식품부 해외 바이어 초청 농기자재 수출 간담회 개최",
+   "source": "농민신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81UXB5TktJOUFPSldkOTJKMHN2U1BaYUI5Y1BTb3hKVURJUnQ3OHR0NjhVZjJnYWdGMmhnc2lmaXgzXzBySElxU0EyZ3dIbk9oRmhZS29JeFg4UQ?oc=5",
+   "pub": "Wed, 04 Nov 2026 06:13:00 GMT"
   },
   {
    "feed": "원산지",
-   "title": "전북농관원, 김장철 원산지 표시 집중 단속",
-   "source": "전북제일신문",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Yb3RBWVZYaV9yX1lIRjhVSjFfNzdzMXlobDVya0dwUFNvbnh6Tk4wYmdKaGY2TnlxSTUxbG4xamhDZmhvZW5lRjhFYmVzeURwS20zbjBxVWlSc25Kc2NlQ0FKQVJGYS1HY2c?oc=5",
-   "pub": "Tue, 03 Nov 2026 05:18:18 GMT"
+   "title": "농관원 강원, 김장철 앞두고 배추김치·양념류 원산지 표시 단속",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORnpLNElEN3czWldYTGJ6U3l6Vm0yNDI4SVYydENfYVhNdGVDek5YbXpsT2lVYzVnWjNTcTNrUnJ6ZXJxZHJNNE9UM1QyUTdGcFhGRUthSlhoUUXSAWBBVV95cUxQaVdvR3JZbTJtRGhLNHdnWFgxVUhBSXBCTVBadjZZLWxLd2lfSVdldlU4NFI0SFBjNENHUDZtRGV5YnNpMVhEcEIwRlhLRFRwc0oxZWM1WndOcEtmXzNmdHY?oc=5",
+   "pub": "Tue, 03 Nov 2026 07:37:05 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "1호기 탑승자 정보, 해킹 아닌 유출에 무게… 경찰 수사 착수",
+   "title": "오세훈·한동훈 30분差 국회토론회... 국힘 의원들, 어느 쪽에 더 갔을까",
    "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnpRR3FEVVExNC1uTmItMW1pZmItY0g5cW85LWNPRGlUMkxFQWdOVm1peTNuLUh1cFM4VThJMnRhUWp5elEtUjVDYTFkbXAwUElXS1VDZWxHNHo2MnpJb253aWE2aVpSM3lIYmd5YlZWX0RSczBxRWdTeDNlQlN0cVYxUkZKYWVkc3hWQ3V5aVU?oc=5",
-   "pub": "Tue, 03 Nov 2026 15:54:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1V3cTYweXdPbUlhM0RtdllxSGN5UDJGSUJLNDhMR3lTSGhJQ2VJOGE1aVBuM1FMWkhnRDE2MXpoZTd2Q2tHMXBhbGFhR3lFT0hWWjNPNmhBMWlFeEVabHE4Y2FBU3VsMWk3TTdWVE5ya2FSMzdMd2piZF96YURCMXIzU2hIQQ?oc=5",
+   "pub": "Tue, 03 Nov 2026 10:36:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "밀양 감자 '농림축산식품부장관상'",
-   "source": "울산신문",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aTDQxal9YMHNFWXhtZENlRW9fSkMxSnRJeFhMNkhEeDhEZGF5N0JRNDg5T29haThFLVNLeFpsMFBidTN2VFB6Vlh5bWhtbk5PdkdueWNCQThDUExRbTF1cldSZEtyTWdLZkNsSERn0gFyQVVfeXFMT3NUNmlhVVR1YTRTRE9mcmFHZC1KMXh5V0NYdmxHS2dVSmFjVVVYT1M1UzBfMF8xSGdUWHZlbHNjQXNBTWtKRzQ3V3lVWVB6WXhVVTh2TFNwRHZxd2RKSEhuMF9ObE9ZTmQxVEN1LUpTUzZR?oc=5",
-   "pub": "Tue, 03 Nov 2026 11:10:00 GMT"
+   "title": "농식품부, 아세안+3 농업협력 강화…K-스마트팜·K-푸드 수출 확대 모색",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCQkdqSFRFSE94MTZCQnRwLVk1N0hEcEM3a3FnbE1DV3FtYU1MZE9ZYVRJSkhCRU1GVVRYZVdyNDlBeUYwdUdxZnI4YTYwaGtZWnpMRXZ5YXdUZnYzdDBQWUVvLXcxREdHTF9kRw?oc=5",
+   "pub": "Wed, 04 Nov 2026 01:25:45 GMT"
   },
   {
    "feed": "원산지",
-   "title": "전북농관원, 김장철 배추김치·양념류 원산지 표시 집중단속 실시",
-   "source": "전북도민일보",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RcllmeUU0Q0pZZ2Z3R2t4Zi1lZzlnTGZNYmplWW5QWWJQWi1LQ1VkWG1Vaks0YkIzbjl6bFotUnRsbmtKZEc5Q1BKQkxOYUxIaGZianpPX044LUU4bUVkQ3dYNWNxc2pRNmtR?oc=5",
-   "pub": "Tue, 03 Nov 2026 06:24:00 GMT"
+   "title": "논산시, 김장철 앞두고 김치 원료 업소 특별 단속",
+   "source": "충남일보",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLNVd5VzVNN0hBZkN5QnVTNlFEUGFyaU1lRE8xUTMtd1hKeUVGcjN6dXF4Tmh4eTIwaVFZRUFvTHQxMmdhcUs2YWxxS3BtVE9RQ0JFcWFSQk9GcjFLeHY4UDFZS2VGVHZuZmJJTzh5MDl3WjQ?oc=5",
+   "pub": "Wed, 04 Nov 2026 06:13:27 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "민주, 조작기소 특검법 5일 본회의 상정…대장동 의혹 등 망라",
-   "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HdHZZcFdmSVVDUERZZF8xZWt4cFlTWWlKRmlINFBnNDlvWldCbUNFdGV6WERqMldVUEpZVmxQb0pOV0lHQ0JWY3VLTUZicTZDN0RyTzJ3Wm5mckNvOUxrR1JVeWpCRjExa1NwUmY4TU5INUx0?oc=5",
-   "pub": "Tue, 03 Nov 2026 11:59:00 GMT"
+   "title": "국립순천대·국립경국대 의대 신설…2030년 첫 문 열어",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aSkdab2hIUFdVbVFnYXBqbTRnR0RSWjdIU1RBaHB1UW5tc1BtR3c5ZEFzMi1EWm1nUF9wNFJqdTRFcTkyaTJ4T2I4LVJpQmp6WklzY1ZxdFVnMlRvaVRQMXVQeUNmU1hMYVNHSA?oc=5",
+   "pub": "Wed, 04 Nov 2026 06:18:50 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "김장재료 가격 지난해보다 8% 하락...정부, 640억원 투입해 수급 안정",
-   "source": "M이코노미뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aVUNOcm90M19VTHc5Vm5Zak5lSnVITUxQeXpnR1BrcWdQRkZlWVVWX1c2bGpScXN5Z0RiR181SGJLN09uNm9PV08tRmFOck40VFFWbmJCRWpiNUNuajlsU0JfWHNrWUU?oc=5",
-   "pub": "Tue, 03 Nov 2026 22:51:57 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "농관원 강원지원, 김장철 배추김치·양념류 원산지 표시 집중 단속",
-   "source": "강원신문",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5WGZjRU9VTjZhM3hObUdKSEVwR0ZGb2o0N1pKSDhtd28zbERCY0ZJb2l0WUpvTnI0SXJ3MklHS2M0RnF3YllsWUV5ejFFR1dGNzJFY1oxNW5zZ0oxTld0WlRxQ0ZOaHZD?oc=5",
-   "pub": "Tue, 03 Nov 2026 07:49:34 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "[단독]이주민 단체 만난 청와대 경청수석, 이 대통령 발언에 “대신해 사과”",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WOGtGaXZ5YUxnU2RuMGUzOFFNekV2TzFuV1hSdUNBU3BkTkZtLXRwRjQ5NDRRQVM1YXNNcFFPbko5bDZ4NjZUM3BjRnFUZFhXdlNYLVJvUWcwUdIBX0FVX3lxTE15ZlNYTjBsUWVCRVNibU1UcDhFVmFqbk9sTDMtVDhPZjBFN3N3OEZmU0x6WUNNMl80enVEZWZWMjhhM2t1enJkeU1hNGFzUFZ1Sk04RlUxODVUb0VnR2VR?oc=5",
-   "pub": "Tue, 03 Nov 2026 11:19:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "나주시, ‘제35회 전국으뜸농산물한마당’ 과일류(배) 농림축산식품부장관상 수상",
-   "source": "호남타임즈",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OOXdjRjVMSDFJc2F2LTlNQk04RjNka0hjNWkzcW5EaV9ZRUN4M2tJWW91RTFCY0NxNF9hNWRMRi1NdVVWeGlIV0VoX25XdlBNTm8yOHJUbHdvQXR0T1gwQW84Mm9jd0d4SFlBMA?oc=5",
-   "pub": "Tue, 03 Nov 2026 16:04:37 GMT"
+   "title": "코리아넷뉴스 - 동물 학대하면 최대 5년간 못 키운다···2m 미만 목줄도 과태료",
+   "source": "문화체육관광부 한국문화원",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeE1TcEdHbTM4MFlaaE9qUVM0Q3J6Q1VCRHNuWnZuT054U2dBS1lXOEs4c0dLTWt1cEpIN1pmQzhBUVNMMUpEbThRVjdFazRMWFhhQ2xRWVBuS25zV2xXM2tBd1dPUHNOVktZZDVRSW0tX0xZeWlWbzVlcjZGdUd6ZjFPaDVjUXN0SEpVZ0RrNUQ1Q1dIQ20wcmZJOEJHcVY5WXloaEg0MVA4VU1DMkc2emFCQk5KQVVIb2ZLaFNLWFd4M3lIMWd1WWhfbTdBekxuRTdHYnJFdWZXeVZ6Sk9NUmJvbHZkZmx1cXduelhUNl9sYVc1Wnc?oc=5",
+   "pub": "Wed, 04 Nov 2026 02:38:27 GMT"
   },
   {
    "feed": "원산지",
@@ -150,66 +192,24 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "오세훈 38명-한동훈 19명…30분간격 토론회에 ‘눈도장’ 두 탕도",
-   "source": "동아일보",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mcXhiaS16RDVXTWZuaks4V0ItMUY2VklVOExMbzJqUjNtWm9INmo3QkM1UTFmN0t2VTJMaU4zRVdZbWZzRFQwd19EU2lOenJkVV9uYXI3UVBwWjFNeGNsUFJXbFlOTkpFN205QlVtaGtyQUNxTTBj0gFmQVVfeXFMTl9tczdnZXdlSFNnbm5qVVB6WEtJWjI0X3lnNGx3ZGJScXlISTN4YU51TElZTnY5MHhQZzczS21Dc3NlRmdoMEE2OExIV0p1clI4eHlaY1hQYmZHQ1VwWmxUZG1kdWFR?oc=5",
-   "pub": "Tue, 03 Nov 2026 11:48:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "K-펫산업 동남아 공략 분주…62억원 수출상담 ‘성과’",
-   "source": "농민신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NSFdWU2Q2Q0szSE1vckRyU2pjMHNLLUJ1ZnhQRFJaMnlhY05BVWlRM1V2a0NhYmlUdmVRbDF5NFhlVGY2ZVdFWjhrX0E4RDJVaDgwMnVkd1J1Zw?oc=5",
-   "pub": "Tue, 03 Nov 2026 23:14:06 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "서울시, 소규모 음식점 위생·원산지 집중 점검",
-   "source": "동대문 이슈",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GSFZJVWVsTmdyTVZfUHBEeUVvMm9yZG5uUVl5aDBXMkJ6RFR3OUhjQnBQUFVtM3F4ejlXbzVzeXg0VDFEYVJTMkxDWk1KV25TSWs5cUNIZm40ZnhCd3hjRXpR?oc=5",
-   "pub": "Mon, 02 Nov 2026 23:23:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "이 대통령 “주요지역 집값 하락 놀라울 정도”…강남권만 해당",
+   "title": "남서부부터 ‘비 소식’, 내일 전국 확대…토요일 아침 ‘영하’",
    "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81TWF1MUhSeWRuTVdMOWNzNk1QRHRfUm9RUXZ0SmJnTmRFYU1BY3ZJM0V3NzBkRkdrQTZGTEl5aWVXM3hFbjJZSEo2VWdXLUdlMlZPNTcwSXNBVFIySzIxamtLRmV6Vk9YMF8ta1ota1RtM2Yw?oc=5",
-   "pub": "Tue, 03 Nov 2026 16:13:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9haElqc0VFdmstdVZoMGFnaGszY2o3aUlwQXpFanpXY1J6aUJ6XzVTd3JQMXFzd2dHNzN0dlZLUEtqaE9vc0NJdTlBNnE1bVg1Q3F4cWpIVXhpcU1LbWNFTDVaUW10OVNMbWtqbw?oc=5",
+   "pub": "Wed, 04 Nov 2026 01:55:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "밀양 감자, 농림축산식품부장관상 수상",
-   "source": "아시아경제",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWkllNlJwb2NZU0pJeHVrZERra2V2NGM5aDkyR0pBNU5nMmEtZnFrOUJGemwxVFZoMHRqM1VyUFFjd2gwWWY3X2lKM3NDVzdicEpYT1B6ODBzd0lrc3oxUg?oc=5",
-   "pub": "Mon, 02 Nov 2026 07:44:31 GMT"
+   "title": "송미령 농식품부 장관, 가락시장 찾아 김장재료 수급 점검",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43TThJcjhLTXUyLW1GMVlXMk9SWXBFTlYwb1hNTlEwV08tbmNyUWdZY2k0dWxHcTFtVlNUQnpvWlZBN3ZHczV2ckQ0cTRLTWZOU1J4RWpIZkdLX2PSAWBBVV95cUxPdXlILWJ6MlRudm81MXlIbzRQNlRQTnlralM1MFotc0NObEZkb0JEamlIZkRrSWFRcEdRMDNxbVhUdUw5M04wQU14OEJVVklIdzFVVVJmZzEyRUpHbm9ILUQ?oc=5",
+   "pub": "Tue, 03 Nov 2026 21:00:12 GMT"
   },
   {
    "feed": "원산지",
-   "title": "농관원, 김장철 배추김치·양념류 원산지 표시 집중 단속",
-   "source": "매일경제 마켓",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Jd2hpNlYtVENWVzhaQ1RVZnpPNGtuUHkzUlVtV3FWeDBTSV9nV1l1d2YxM1VLY01LeldLX3pIaFcwdW1hbkhtbGNHWTB2MGpGb2c?oc=5",
-   "pub": "Mon, 02 Nov 2026 02:00:01 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "이 대통령 \"한·튀르키예 전략적 동반자 관계 심화…원전·방산 협력 확대\"",
-   "source": "대한민국 정책브리핑",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jekYxRTlnTk4zWHJsdXctLVdaMUJ4eU1IeXJ6c0NIYlgzNVF5THZCWW5iUWNfbWVEOEprSFYxbEppVEtwZkNtc3o3TWdXSUY3YjEyRnNsRVktY0gtVE00eU1yMldRWlFLb2FyYg?oc=5",
-   "pub": "Tue, 03 Nov 2026 12:39:58 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "배추값 하락에 농가 시름…송미령 “김장 붐 조성해 소비 확대”",
-   "source": "이투데이",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zd0VuQXRlNzRELXpMUnVoaEs3MkZCWTBBc1JvOTB3eWdLMEs4Z1NJbzFPMjVMU1ZzMmtualVDODVhX2dZNzhHcVhWcUJZZWhxSFY4Mw?oc=5",
-   "pub": "Tue, 03 Nov 2026 20:00:00 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "농관원, 김장철 앞두고 배추김치·양념류 원산지 표시 집중 단속",
-   "source": "매일신문",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MR3REb2JYdmVheWJXWXZkaExZaTluWjYyN1ZtSDdrekpLcXM2dGhLMjBSd2swSy0yTXZxMTZTb0k2WGZsa2dUanFvSHpQMWdqV0w0V3p2cFpyN2dwUGdQd2Fn?oc=5",
-   "pub": "Mon, 02 Nov 2026 02:00:00 GMT"
+   "title": "문경 농관원, 김장철 배추김치·양념류 원산지 표시 집중 점검",
+   "source": "웹이코노미",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tczZEUF94eFZkNjl5bTF1ckd1Y21NS1BKT3JiTnFRWmxHZzJDNDUzcWhGZmhjblNDd1J4VUZscDdnblpNeWxBcDdrdXZDYUoya0NuQm9TTGRCMjBucGdCc0JUcHV1UHJqVHJBLXc3UjYwdw?oc=5",
+   "pub": "Wed, 04 Nov 2026 02:32:06 GMT"
   }
  ],
  "errors": []
