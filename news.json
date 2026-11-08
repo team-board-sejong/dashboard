@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T19:49:16.250Z",
+ "updated": "2026-11-08T23:15:21.534Z",
  "items": [
   {
    "feed": "주요뉴스",
-   "title": "민주 “비거주 1주택도 종부세 공제 14억, 정부에 강력 요구”",
-   "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlczAyZUdhLW0yMVhCZWx2Y1hWTmRnWVBUQ1Z4S2RURUdXZks2bXJqOWFhSUZVV1dlSWhSQUt2QzBTRVhGQUxxTHlYa0luYTJiYWw1ZmlQV0NHYmZtaURTYXNFbFcxT3lZMlVLTmVWOFpiUHNG?oc=5",
-   "pub": "Sun, 08 Nov 2026 13:36:00 GMT"
+   "title": "당정, 소방 재정 최소 2조 지원···여당 ‘종부세 공제 14억 통일’ 요청",
+   "source": "경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VeWlnRXFPUF9TMmw4X0lPb0E3ejY0TmZ1THdXNUFkMHhDWTVWc1FHaG0yN2FJY3Y3UVJqNnVkR2ZzTXRUSURnWnJCVmRkUTVNQTZmYXNGWWJ1d9IBX0FVX3lxTE5DRzRXR08taWU1U3NUdVVwM2FwdC1TR0VDRmNqZDBVV0JWWTI1WTlWVVJET2ctdTh3SFNpV3lYaXRfWkRPbXIxc21jQ2xMMjZ6UUhmWnBUTy1QRW5NdHFJ?oc=5",
+   "pub": "Sun, 08 Nov 2026 11:57:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -24,38 +24,38 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "당정, 소방 재정 최소 2조 지원···여당 ‘종부세 공제 14억 통일’ 요청",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VeWlnRXFPUF9TMmw4X0lPb0E3ejY0TmZ1THdXNUFkMHhDWTVWc1FHaG0yN2FJY3Y3UVJqNnVkR2ZzTXRUSURnWnJCVmRkUTVNQTZmYXNGWWJ1d9IBX0FVX3lxTE5DRzRXR08taWU1U3NUdVVwM2FwdC1TR0VDRmNqZDBVV0JWWTI1WTlWVVJET2ctdTh3SFNpV3lYaXRfWkRPbXIxc21jQ2xMMjZ6UUhmWnBUTy1QRW5NdHFJ?oc=5",
-   "pub": "Sun, 08 Nov 2026 11:57:00 GMT"
+   "title": "‘대장동 숨은 설계자’ 공세에…이용철 법무장관 후보자 “아는 것 없다”",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVUlNzTnN4Y3VHTDBGb2dTLThWYnBBeHJhVlptVEJEX2NVOEs4OVZxdE5tS0xnZjV2ZElqd1dFX0RYUC1pU2k5NmpnSmExOEh2WGR1T3RWUXRLeWZnRnVjN0JJSG55YmZVVUE?oc=5",
+   "pub": "Sun, 08 Nov 2026 13:12:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "[농림축산식품부X농수축산신문] 2026 축산, 현장 행정을 말하다",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RU3ZNamlxaFJRQzhCalNJX3pGRFdMdUpONG9aX0ZKY1hWVy1vM0NhVU1lMzZIeWI1ZFNfVGR3Y0hXb0MyOGhIa0RZVjdqN2g1amZPeDlubEhsRzRIRmotOEEwWElFYmNOemM2aw?oc=5",
+   "pub": "Sun, 08 Nov 2026 22:00:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "[정책발언대] 기후데이터, ‘원산지‘ 표시 필요하다",
+   "source": "이투데이",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11RFFwNXlEeGlwYU85YzFRV2JMRjRzcW93bjFYcWpYTDdtbEkxMTMzNTFad0VKd0w0clQ5NnU4ZzMyaW5LMUhUMWtrR2ZULUV5Z0lnQQ?oc=5",
+   "pub": "Sun, 08 Nov 2026 21:00:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "조작기소 특검과 이용철 법무장관… ‘공소취소’ 빌드업 시작인가",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTktZaFMwY3Yza1hGNlZtVTZWNzl6V2NUdkZYdTlOM0Z5cEJKazNTOC1wUVNqWDBXeE4xN0ZuSm1IY2V2TDMyX1RvN2dXSThlcmh5WlFkU2lTQmlhZnF6UlhycFhkSV8wN281dmJmYUwzdm9YVTNIN25xbU8ya2FqSE95SU9zTEhDWDEwNWlXd18?oc=5",
+   "pub": "Sun, 08 Nov 2026 18:00:00 GMT"
   },
   {
    "feed": "농식품부",
    "title": "농림축산식품부, '2045, 농업·농촌의 미래를 그리다' 전문가 세미나 개최",
-   "source": "누리일보",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FR3lodW5hQ3d3SUxTWldHYW9MZUdKTEIwYndWMVotU0dPZlNteVRFdzVxSHR6UGN1OVk3X1VJc010T3l2THh6WF96Zk9Qa1Jpbl9XR0Q2dUZubnN5?oc=5",
-   "pub": "Sun, 08 Nov 2026 09:11:58 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "농관원 강원, 김장철 앞두고 배추김치·양념류 원산지 표시 단속",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORnpLNElEN3czWldYTGJ6U3l6Vm0yNDI4SVYydENfYVhNdGVDek5YbXpsT2lVYzVnWjNTcTNrUnJ6ZXJxZHJNNE9UM1QyUTdGcFhGRUthSlhoUUXSAWBBVV95cUxQaVdvR3JZbTJtRGhLNHdnWFgxVUhBSXBCTVBadjZZLWxLd2lfSVdldlU4NFI0SFBjNENHUDZtRGV5YnNpMVhEcEIwRlhLRFRwc0oxZWM1WndOcEtmXzNmdHY?oc=5",
-   "pub": "Tue, 03 Nov 2026 07:37:05 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "유튜브 ‘대통령의 Y’ 4회 제작으로 계획… 회당 1700만원 투입",
-   "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQUdxZVgxVS15RFRXVXhVd1gtckNrN2dfUFBoRzVJbkZXeVQtRUV1Yk1fNUdUZElhX21WdmZBd3V3NVF5Znh6MmtvXy1wd2xtMGpwTHo5WTRINXVleGdwcGoyVGo5RGdjX0g0bjRQZFpWal9XSTFJNjhwM0xtN3RPc1BsaG5PZw?oc=5",
-   "pub": "Sun, 08 Nov 2026 15:42:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농식품부, 농업·농촌 문제 해결 위한 R&D 사업 추진",
-   "source": "Chosunbiz",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONEhYajA3QXdSRl9fVmpXM0hpUmRTQ3BrR1dTSUUzVnh2NHZCN0Qydmc4Yy13MmxTVzhmaXc1czRwMFByaDhBUnVzZnExbl9zNUxhWHkzZW95eklaenFGRVg0MFVOVzdoVzdaeThXekhGdGpucUFfYnJVUnhQaEQzeTNTMGNhUdIBmgFBVV95cUxPM0trVkN6T2FCSTBrRFItYlAzMTA1WEJXRldMUk1JbDdLWHBYYklubmt3cDl0VnNCNzZ1cW1nZlNNMG9hMHZmZnhkY0tyVmZQMDJuM1dqV1VleDVfQTVxVXotNVpQZ0FrSFF0WnZjcjdTbWtqanUwaEgzWWQwbUZhTllDdHBEdldIR0dqSUJkazRnQ3dKUFBva1BB?oc=5",
-   "pub": "Sun, 08 Nov 2026 06:33:45 GMT"
+   "source": "시민행정신문",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96YXpuLWd6ZkJ6Uzlqam5hNmhZczRHR0ZRZHhxTFBxc1Z2b2hfRl92RmR2eGFXaWl3UTA2a1VjdXAyVTVlYW8wNWxCdWlJV1BBWkE0YjVUWDlpOWItdktyQk5Wd0tLZ3RId01RNzJR?oc=5",
+   "pub": "Sun, 08 Nov 2026 09:14:25 GMT"
   },
   {
    "feed": "원산지",
@@ -66,17 +66,17 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "나라는 '돈벼락' 맞는데…\"난 왜 돈 없나\" 분노 폭발한 까닭",
-   "source": "한국경제",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yNkVpM0JteUFiMVFoX3pONDY0X0dUVW9sZFlZazFOWUVWcjFoYVZHZGhpbDJPc29sd1B1ZEx3Zmp5c3VydlBYODdab0xab3NMMERvNmlzeWRzZw?oc=5",
-   "pub": "Sun, 08 Nov 2026 09:14:24 GMT"
+   "title": "美하원의장 유력 제프리스 \"백악관 새 비서실장과 협력 않겠다\"",
+   "source": "MBC 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16WDhSVTZvN3JXOTdtMDNvdGxSbFR5MDZCaUhMYmE4NUtHRGtoZ3lvTktzaDdtY3pCWGNkYVEtQkxjNjZDdWR3RHpobE83VmJpa0lYMHlzNXNTUDBIQ3F5bUNSWFdvdGZxRHJLNElOYW5mNTdQ0gF0QVVfeXFMTTI2T2xNSmc4UGpZVFRqOWJYN1ZmY2tpeEMwc1V3SFcyZi0yM1dmSTZyck5BZE5kcHd2TVJZc2dSZ3AxRlpkVHBpNW16OEpSS21SWTlXSUx4SXNiMnY1bFZwem5jRlNzLUdhYjh0Q3FmcGZSb3c?oc=5",
+   "pub": "Sun, 08 Nov 2026 20:52:38 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "농식품부, '농업·농촌문제 해결 연구 개발 사업' 추진",
-   "source": "news.sbs.co.kr",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPelF4UmI5UzA3R3lwTTBYX25EMmRFbG1Edi1hVDRCd1JsMlFSOW1sNm4zMGw4UGkzYTFXWVY4OHNjWG1VaE5udmxTT1pYczVEVjcteklqbjhxVFJMR1lsNmNMUkJZUjB6TjgtQlg0ajNNQ3ZRaDF5ajNEb2ZtRmVwN0tXWG8xeEZ4Ulh0OXZJRQ?oc=5",
-   "pub": "Sun, 08 Nov 2026 04:51:28 GMT"
+   "title": "농식품부, 농업·농촌 문제 해결 위한 R&D 사업 추진",
+   "source": "Chosunbiz",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONEhYajA3QXdSRl9fVmpXM0hpUmRTQ3BrR1dTSUUzVnh2NHZCN0Qydmc4Yy13MmxTVzhmaXc1czRwMFByaDhBUnVzZnExbl9zNUxhWHkzZW95eklaenFGRVg0MFVOVzdoVzdaeThXekhGdGpucUFfYnJVUnhQaEQzeTNTMGNhUdIBmgFBVV95cUxPM0trVkN6T2FCSTBrRFItYlAzMTA1WEJXRldMUk1JbDdLWHBYYklubmt3cDl0VnNCNzZ1cW1nZlNNMG9hMHZmZnhkY0tyVmZQMDJuM1dqV1VleDVfQTVxVXotNVpQZ0FrSFF0WnZjcjdTbWtqanUwaEgzWWQwbUZhTllDdHBEdldIR0dqSUJkazRnQ3dKUFBva1BB?oc=5",
+   "pub": "Sun, 08 Nov 2026 06:33:45 GMT"
   },
   {
    "feed": "원산지",
@@ -87,10 +87,10 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "‘조작기소 특검법’ 공방…與 “공정한 법 잣대 세울 것” VS 野 “권력 사유”",
-   "source": "동아일보",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqZHE1YWJkRnRRZkFfYlYzYUZzYmN5ZFJhOE5EbElxYnJGcEcwN3czSzczVDE3bkhQWjQ1Mm95R180QVZyYk45eU5qcWpMSmZ0d3FUSkpvdGN2Q2YtZTM3MGJrOTk3VkdrU2dZVk41Q3dENFdFYktn0gFmQVVfeXFMT1pseWVSNkJlaUFtTjY2RS1kMFBsZUxYNkxMNmZ6MGRqaDM4VTdFeTVVeVdlTXk2TXRjTDVkaEhEN3ZFMk1zWVFyejh5c1NiMWpZckRvXzhJQ1cybXJJWkNZMFRoN0dB?oc=5",
-   "pub": "Sun, 08 Nov 2026 02:46:00 GMT"
+   "title": "유튜브 ‘대통령의 Y’ 4회 제작으로 계획… 회당 1700만원 투입",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQUdxZVgxVS15RFRXVXhVd1gtckNrN2dfUFBoRzVJbkZXeVQtRUV1Yk1fNUdUZElhX21WdmZBd3V3NVF5Znh6MmtvXy1wd2xtMGpwTHo5WTRINXVleGdwcGoyVGo5RGdjX0g0bjRQZFpWal9XSTFJNjhwM0xtN3RPc1BsaG5PZw?oc=5",
+   "pub": "Sun, 08 Nov 2026 15:42:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -101,24 +101,24 @@
   },
   {
    "feed": "원산지",
-   "title": "김장철 배추김치·고춧가루 원산지 집중 단속…11월 4일부터",
-   "source": "한국영농신문",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91ckNsQ25wazRhcTZGZTNKX0dkZERvM3RvaGI0dExVRHFSLTZIdmRMSWxnQXRnSU00T1Myd2F3S2oxSUxlbmtGUXBYdU9rcmVjWjQySXhPOXZWUkItTF9Ta3dSdWx6ODhGa3dOM3Jn?oc=5",
-   "pub": "Sat, 07 Nov 2026 13:24:58 GMT"
+   "title": "농관원 강원, 김장철 앞두고 배추김치·양념류 원산지 표시 단속",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ORnpLNElEN3czWldYTGJ6U3l6Vm0yNDI4SVYydENfYVhNdGVDek5YbXpsT2lVYzVnWjNTcTNrUnJ6ZXJxZHJNNE9UM1QyUTdGcFhGRUthSlhoUUXSAWBBVV95cUxQaVdvR3JZbTJtRGhLNHdnWFgxVUhBSXBCTVBadjZZLWxLd2lfSVdldlU4NFI0SFBjNENHUDZtRGV5YnNpMVhEcEIwRlhLRFRwc0oxZWM1WndOcEtmXzNmdHY?oc=5",
+   "pub": "Tue, 03 Nov 2026 07:37:05 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "아이젠코트 \"비상 정부 구성\"…이스라엘 야권 연정 착수",
-   "source": "연합뉴스TV",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lQUZVTjFISnBmWkk0dE42Y3gzaFVWcjJVbGh4UUdqMnlZZ2VCbG1la0E2dWZCbkh5dHQzRS1xWFZWV05QYmgwbTJBY3kzaUdMdFd5eFJuUVhFcV9QcnNwcWMtNk9nRkE?oc=5",
-   "pub": "Sun, 08 Nov 2026 18:21:00 GMT"
+   "title": "與 “총선 직결” 비거주 1주택도 종부세 공제 14억 요구…靑 “불가”",
+   "source": "동아일보",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kNXMwZVFVbm9xbGFxRVYxSU1WeUVncnk1alRDLTY4R19WWVlCVVdtMTRIMWhkRnFvclRrSW1WLV9PZmMtb080UkQwYkJzV3IxY0tJUm9oWkRrNkVVYVBUT0JUWjIyWk95UGVyTG5rYXFEWjA0Nmtr0gFmQVVfeXFMUGZqY1FSaGZuaWxUZXNNbjJWbFYtb1VkWEhMNko5WjMxc2xEY2RGS1BOYXRaMmxzUy1UQzZ4b0U4c3pQYlpCRDNTM3NQRnBxS3RYeTkyeGFmMFlDOWFGYURzcDY5WHJR?oc=5",
+   "pub": "Sun, 08 Nov 2026 12:43:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "농식품부, 내년부터 '농업·농촌문제 해결 R&D 사업' 추진",
-   "source": "매일경제 마켓",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDZEdRT3hxMHpFU1dqRW96Z0E2ODhGeUpIN1dNQ2VBVlN4OXhlb1Raby1WYkF6ZVA3VllKckNEcTJYN1ZBSjkwTm95QlViVFVDTmc?oc=5",
-   "pub": "Sun, 08 Nov 2026 02:00:04 GMT"
+   "title": "농식품부, '농업·농촌문제 해결 연구 개발 사업' 추진",
+   "source": "news.sbs.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPelF4UmI5UzA3R3lwTTBYX25EMmRFbG1Edi1hVDRCd1JsMlFSOW1sNm4zMGw4UGkzYTFXWVY4OHNjWG1VaE5udmxTT1pYczVEVjcteklqbjhxVFJMR1lsNmNMUkJZUjB6TjgtQlg0ajNNQ3ZRaDF5ajNEb2ZtRmVwN0tXWG8xeEZ4Ulh0OXZJRQ?oc=5",
+   "pub": "Sun, 08 Nov 2026 04:51:28 GMT"
   },
   {
    "feed": "원산지",
@@ -129,17 +129,17 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "\"FA 구자욱+원태인 잡을 수 있나요?\" 박진만 감독이 직접 답했다 \"푸른 피가 흐르는 선수들이라…\" [KS5 승장]",
-   "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd3NELVVLMHAxVS1WOGN4XzlEbldudzk2QmVOSHVEcE56SV9pV091MlIxSkdaLTlDRUJYWWhOeFdpNndRcGc1N0pEakppZFIyOVNvVEFXclFabS1KWE5LWXduVlFPMVJRVjlrVTRSTjVHTHFOdW1QUFZnVUNKSUJONWlzOA?oc=5",
-   "pub": "Sun, 08 Nov 2026 11:42:00 GMT"
+   "title": "서초구, 신반포 재건축 착공 지원… 2027년 상반기 목표",
+   "source": "문화일보",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UVkl2WGNPVExhMWVBUkxGUjlkbVJDWHY3MlJEWmU0ZkdsakJvWDNSSXQ2TVVhSW14UG05bUhUcW9oZUZDY3huanZwRUpCcDdE?oc=5",
+   "pub": "Sun, 08 Nov 2026 21:54:13 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "농식품부, 농업·농촌 현장 R&D에 최대 20억원 지원",
-   "source": "경기일보",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtMlVoM2hQRUYwcGFYbTZNS2tDbVpaaWVSbi1CTVdTeWFqSnhWdmI1NGRxNkY4MFZBcWI4bUMxSFVHb2lfazlyb2hDX3VJT2JJQkFfWHZtNzdhNkE?oc=5",
-   "pub": "Sun, 08 Nov 2026 04:23:02 GMT"
+   "title": "농림축산식품부, 가치소비부터 AI까지 식품 소비 판도 바뀐다!",
+   "source": "누리일보",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFWHVnMFpaSzMzeDMwMEFQclJXX253YXI3VHNxbzIzSkhULTZhcm5aNHBKaXBORWt0SjJlbmRfV1JWekVSNjM4dWxoZjZ4UWdJVXpheEs4ckpGcmN2?oc=5",
+   "pub": "Sun, 08 Nov 2026 09:11:59 GMT"
   },
   {
    "feed": "원산지",
@@ -150,17 +150,17 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "이용철 법무장관 후보자 인사청문 준비단 구성‥목요일 첫 출근",
-   "source": "MBC 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53SGNJMmdHNkxuMGI4UnBNVWdURjRKcHJxRjJnemVuYUx1REdBdTJma2pwWTlvVHViRGE0bmtTMlppTEk3a2o4OWprV1Bua2dSQmpRdVo2MkYzQmlkNDRnY3ZOWHlpRmdfVGF2ZUhJak4xMEkxYW5J0gF3QVVfeXFMT2VQbUdCVVNIQVpjNTJ6TUI2V0F6RmtzQzhLNVJqTGkzSG4ySnZpN1NyQTNYT1NrRjJ2X251eGxiTzhWb0xoVUhSWW5DUnhaZGNWTFBpQ19GYUZUdVRwUjFFMVBvU1B6X0VJdXJBVUU0XzRodXdROUU?oc=5",
-   "pub": "Sun, 08 Nov 2026 06:53:22 GMT"
+   "title": "'잊지 말 것' 폴더 속 14년 전 기자 녹음이 윤석열 당선 무효 만들었다",
+   "source": "한국일보",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBaHJNR2ZDWHhxR0pLVVJzQkdMZWJhR0tlOHYtVGNiTjE0VzVrTFhBQUx0NC1OZjJLNHBmb1ljMTEtLUlrOHpoUTVjQS1Gbl9Vdk5yVmcza2FOS2wzWHQ2TFktV1V3QmU1TzhIT2N30gFzQVVfeXFMUHhrZzctc0k2c1Z5YVpEYlNrMV9DdVBtWXdibDZZZ0VqZVBmcG5yWTgyWU1Yem03MkhhbkROSzlVa1NGZndOWkxNZHBoVVRlSHJfenNjcWs3YTRwY2dvRzZld1daMGxyaFA1dnN6WU5FeGFDdw?oc=5",
+   "pub": "Sun, 08 Nov 2026 19:30:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "농림축산식품부, 내 농지의 기상재해 위험, 매일 아침 모바일로 확인하세요!",
-   "source": "정필",
-   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB6Y21ocm9QVTFjRGxZMXd3aDMtWXFwYldmakVTd0xXMjlDT0pDWGp5b3hCTXNDLURGdThWZW9Ub0FrV054cU5z?oc=5",
-   "pub": "Sun, 08 Nov 2026 05:56:00 GMT"
+   "title": "농식품부, 농업·농촌 현장 R&D에 최대 20억원 지원",
+   "source": "경기일보",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtMlVoM2hQRUYwcGFYbTZNS2tDbVpaaWVSbi1CTVdTeWFqSnhWdmI1NGRxNkY4MFZBcWI4bUMxSFVHb2lfazlyb2hDX3VJT2JJQkFfWHZtNzdhNkE?oc=5",
+   "pub": "Sun, 08 Nov 2026 04:23:02 GMT"
   },
   {
    "feed": "원산지",
@@ -171,17 +171,17 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "국회 예결위, 오늘 820조 규모 내년도 예산안 심사 착수",
-   "source": "YTN",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCbTR2cVJWd083UGd5bjlkRFZlX19DZmZNS1BFVkhfRVpkRS1USFcza00zT1N6ZktFQTdzb0MtMXl0VEt0Sl9jSU5NclFoZ2pIcFdxMTZ1VkFMd0RaOGc?oc=5",
-   "pub": "Sun, 08 Nov 2026 15:26:00 GMT"
+   "title": "한국전쟁 참전했던 중국 ‘건국 장군’, 104세로 사망",
+   "source": "문화일보",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45eUhzemcwaF9jOG1jbGZKUlJyUjJTNzJzOUZKN1Y3RVNrQWQzMzFjRmZaT0JWN1RpQkZ4NXFfelFJRVoyeVZMZ2hRa1lKaW9t?oc=5",
+   "pub": "Sun, 08 Nov 2026 21:01:04 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "제주 제일양돈영농조합법인, 축산환경 전국 대상",
-   "source": "국제뉴스",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QMExLRngwQjBnQUpHNlNoam5YMFpkal9STGJ4dTRTMGl1Y2d1elhLbWk3b2Z0UXhhSmVueWhJejhGTUZUd2x0bjMwOW5CZEROTUY3VUlETGdHcUtZOFY1V0RhdTg1QUdiWFJhNXJB?oc=5",
-   "pub": "Sun, 08 Nov 2026 12:45:09 GMT"
+   "title": "농림축산식품부, 내 농지의 기상재해 위험, 매일 아침 모바일로 확인하세요!",
+   "source": "정필",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB6Y21ocm9QVTFjRGxZMXd3aDMtWXFwYldmakVTd0xXMjlDT0pDWGp5b3hCTXNDLURGdThWZW9Ub0FrV054cU5z?oc=5",
+   "pub": "Sun, 08 Nov 2026 05:56:00 GMT"
   },
   {
    "feed": "원산지",
@@ -192,17 +192,17 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "\"첫눈 오면 만나자\"던 그날 벌써 왔다…26일 빨라진 '서울 첫눈'",
-   "source": "한국경제",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51aEtyc191OWpPb2N4SlktNzFZTW5wMl95dHdmUGM0bm5TdHlGWUJrT2tUTTF3UkFtOFJxZmZhaVZLWDBvN0UtTlNadVp1WnBEdDR3dTFCNVBVQQ?oc=5",
-   "pub": "Sun, 08 Nov 2026 05:02:29 GMT"
+   "title": "필버 등 혼돈 속 내년 예산안 심사 본격화…충청권 동력 확보 배수진",
+   "source": "대전일보",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DUWdJTzlUSENSNnNwMllzQmtIdndfRzM2LWktSWxnRGs3aEhNQ0dGUl90MUlGVzNQZzgwOGM5VXZ5b1dSRGI0SFQtMXFIQkZFdWVhcjhBVkl0bnZJMGRjUjRlcDBockIwQm8zNl9PWdIBc0FVX3lxTE95SnlMRnNObGpaRnNPaXhnTVl2bERodXplX0dzQ2dDZGZibThLWEd5ZmhEX1NnMkFzZDE1dnJXNThnTVYtM2h1NTgyd04zTTJxSHRRRmxhbWo1Rjd3QXVuN0V1VnAxN3pyU19NRGNOM3hna0E?oc=5",
+   "pub": "Sun, 08 Nov 2026 08:32:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "농식품부 장관, 푸드위크 코리아서 K-푸드 미래 확인",
-   "source": "한국식품의약신문",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15dGxRbmpXSUkyOXg5amZodlpzLURKOG5DbW1rR2Q3a3YydkZBYjUwb0lEZ0xUN1Y1TEtZOVhpUTFBWHBLVWVkU0ZkVHAzYVRvSjBYeEo5aV93dEIyRnZVT0R4cW14VTQ?oc=5",
-   "pub": "Sun, 08 Nov 2026 06:55:03 GMT"
+   "title": "농식품부, 내년부터 '농업·농촌문제 해결 R&D 사업' 추진",
+   "source": "매일경제 마켓",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDZEdRT3hxMHpFU1dqRW96Z0E2ODhGeUpIN1dNQ2VBVlN4OXhlb1Raby1WYkF6ZVA3VllKckNEcTJYN1ZBSjkwTm95QlViVFVDTmc?oc=5",
+   "pub": "Sun, 08 Nov 2026 02:00:04 GMT"
   },
   {
    "feed": "원산지",
