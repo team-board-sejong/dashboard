@@ -1,117 +1,33 @@
 {
- "updated": "2026-11-21T00:25:34.356Z",
+ "updated": "2026-11-21T07:29:17.540Z",
  "items": [
   {
    "feed": "주요뉴스",
-   "title": "[뉴스분석]수능 끝났지만 ‘AI 위기’ 계속…대입·진상규명·시험개편까지 ‘첩첩산중’",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WX0JLZW1yYWk4Z2xPYnVxSTVuRldLYzJrNkQ5VHFmdi1yakFuSUlNaVNvVW5adFZOODY5MFdvUS11SDZLRnR4OHVGVV96a0pTQ2JPaTNTTklXQdIBX0FVX3lxTE9uZmItSU9nYmMzOFhuYjVZN2RsNktjLTUxOUZYbUNac19JY3FzMDl4SzRDbkpPYzRHSjROM3g3QzZOY1Y1Y2ozbUx2R2NrWXJkRDR6VEtJZ1ItaDZjMjcw?oc=5",
-   "pub": "Fri, 20 Nov 2026 21:00:00 GMT"
+   "title": "이번 주말부터 주요 대학들 논술 실시... ‘AI 부정행위’ 대응 총력",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOU5qQzduVE9jNGFmaXJHSFFxY3Y3a2xheHBPMlI0T2FMTlJiTTctZXpnN2dXTUstT3hSV2dNYmVzSlc1b0MwUDdacFp0Y2piV01yWEw4VHpMWWZqMzV3QVpfc3VIamRWSVVYRkI5Yzl2SWFlaUZwTTg3eFF2a0Fnb2Z4eDdNMzg?oc=5",
+   "pub": "Sat, 21 Nov 2026 03:52:00 GMT"
   },
   {
    "feed": "농식품부",
    "title": "농림축산식품부 장관, 현장·전문가와 함께 농촌 사회연대경제 활성화를 위한 방안 논의",
-   "source": "뉴스다",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vMzc5Zm5pY2lLMm5tNDNLLVRzbnRGbnVJVGd1ZnBMRUxnWEY2U2NJbHJnRXhCSW9yYTIyb2FJdHR6eXZHSm5RWkg2Rk1DRklOd2dzUXhuNW45djREc0FB?oc=5",
-   "pub": "Fri, 20 Nov 2026 09:31:48 GMT"
+   "source": "국악타임즈",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zT3QyandnUVU2TElES3BteFdYNXVSTkdxS1M5bEJXQTdraDFHSnlnLTBtcW1LX0xhQ0w3VmJxU3dMUC1JODE0VzJwU0c0ajBxdkdDZ2pmM3dDVndNdUZ0a2VMdw?oc=5",
+   "pub": "Sat, 21 Nov 2026 05:48:56 GMT"
   },
   {
    "feed": "원산지",
    "title": "경남도, 김장철 맞아 천일염·젓갈류 등 원산지 표시 지도단속",
    "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81XzVKQ2F6Q1FPQ0ZIRDd1SVZ3SlNNWi1fTUZTZDVlbDV2YkdVdFdoaVVNNF9ZZmtiRlR0bVdxTzJHZHVsbHJYa0JsSDB1Y2hCTDl4cFRPWTR3WG_SAWBBVV95cUxPSUpnWTdiOHFFd1FRUHQ4Z2JWNVowTWprbTV1RTF1ZW5keVczcG1TRUJTcXlqLW5IYjZleWxuTVlvWU5UeUMzR0JfUXJtdURNNGFUTEh6TDBxOHEwdkd5NUU?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JSmdZN2I4cUV3UVFQdDhnYlY1WjBNamttNXVFMXVlbmR5VzNwbVNFQlNxeWotbkhiNmV5bG5NWW9ZTlR5QzNHQl9Rcm11RE00YVRMSHpMMHE4cTB2R3k1RdIBYEFVX3lxTE9JSmdZN2I4cUV3UVFQdDhnYlY1WjBNamttNXVFMXVlbmR5VzNwbVNFQlNxeWotbkhiNmV5bG5NWW9ZTlR5QzNHQl9Rcm11RE00YVRMSHpMMHE4cTB2R3k1RQ?oc=5",
    "pub": "Sat, 21 Nov 2026 00:05:00 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "[금주의 관심인물] 'LEET 만점자' 故이진우·'AI 대책 논란' 최교진",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JbGo3RmtiSVRTNllHY2ZYZEhydVRuOU5NOXJ3Z3JuRWdFaHNMU0Q4Q1FWWUEtNDJ4VnA0eDh0dG5HYll3Q1lqLXVzdGY2N3dSZEVRVlNHWjBXVzTSAWBBVV95cUxOenlYS3hVWDhPcUpNWFYtTWtvZUZ1eGU5ZGZmbU1IcFJDOW5YT1NqTzcyQ2ljZ2wxTVNpdVhLd294SnMzbUdqQUpBWnVJREV3UE55VzIzREFrQVRVaE9iLTc?oc=5",
-   "pub": "Fri, 20 Nov 2026 21:00:02 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농림축산식품부, 국민과 세계인이 함께 맛보고 버무린 '제7회 김치의 날', 성황리 개최",
-   "source": "누리일보",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fXzNaOTlmTllzU0VscWg1ckl1UFYzTkFTbkRCakdyVWtFT2dQaGlFRlgzZXBOUldVeHJVX2RDdm43S1JlX082RWlnazhIMW4wN214bjRYV0xJZVVid0hj?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:50:37 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
-   "source": "https://www.theleader.co.kr/",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QWmJYbWRNYXhuRXBGS2xBb2VBTHktN1g4LXZsenJZN1hBcUc1VWFSR3pPTWJINnh6bFB5ejRvalpoR2dpc3lBU3poZXRRVDVqanFnOHhEblQ3UzZnVENQai1JYUt6VTYyMjJVWUV3?oc=5",
-   "pub": "Fri, 20 Nov 2026 21:11:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "민주당, ‘조희대 탄핵’ 당론 채택했지만…당 내부서도 ‘기각 역풍’ 우려",
+   "title": "민주, ‘조희대 탄핵’ 당론 채택했지만…‘기각 역풍’ 우려도 만만찮아",
    "source": "한겨레",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wMW5WVnJSWEUzVVVpbEdyblZHdlpVV201Snp5cTlPNEFYNm02eHUwUDlZajdVTkJ1eDVjUWd4SHQ4UzAwOUlSOVJ2a1JrNGZ0QWZEU2x3WnhVdjFqNGlFem9wOENDYkZSRmlhUExKSGwzekFP?oc=5",
    "pub": "Fri, 20 Nov 2026 23:18:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "[인터뷰] 김석재 농림축산검역본부 축산물수출위생팀장",
-   "source": "농수축산신문",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UR1lUQWVURElHTWxOeVpEYjg0bjhTeEMzRTNpN3JxeHVFVUt5ZHcxbHJYRkJBTlczOTJQQjJjSzByQlNhMUhhdkJWWkMzZjBHZUJSY0M4X2pUNTdCbVpwZmY1d3hpNWJHX1lkdQ?oc=5",
-   "pub": "Fri, 20 Nov 2026 13:39:09 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
-   "source": "대한뉴스통신",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42RkF0Q3RLaE4yNnN6cnRXeVl5ZjIxX3p2RUlyNmphTE5IQ1FSVE1rWkRQWVMzTmlUZWRSaElqNjNudFJqaWhyS3g4dlBEV0k5TW9URVhSOA?oc=5",
-   "pub": "Fri, 20 Nov 2026 10:20:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "트럼프 “한반도 위협 대응 논의”…미중러 정상회담 성과 강조",
-   "source": "VOA 한국어 홈페이지",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4ZDR0b1Q3QmEwUG9sN3Y3NHhKeXIzUC1tNG5Tc3RtZXBkb3N4eV81eEJlYmdJOW5OOFpHcTdkS0xLR2x2VlZnRURlaDlTV19fLTJkbVdxLVdpVnhvcUNkRVRhT2dUdmo2NVl4VzZRcHo5LUV2NmVvdtIBe0FVX3lxTE53c1dhUXJHaTBSRThNUDhjdXdvNTdWMzdqSHVVcjZ4MUFKQjV6ZERGUFpNUms1SHM1QzM2UDZRa2hMYV9KWVhUdW0wZ0pYUVlaSDAwbnpQTlE5Ynh5NFd4OUtUSVh4NVlmYm4wSFI3ZnZWZzYxeF9OS0xCSQ?oc=5",
-   "pub": "Fri, 20 Nov 2026 19:43:22 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농림축산식품부, 제4회 스마트축산 AI 경진대회 개최",
-   "source": "축산정보뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1dGxsMDNlZkYwNkJFQ0pwX1pwdHpacG1BQVo5OHYwbjBHZlRIazN6eDRieE14VjlZNm5xMUpNNXhvWkJLRHhQcDNfZFBqd0VRczdyc3k4V3lvUXJCdXVj?oc=5",
-   "pub": "Thu, 19 Nov 2026 03:59:48 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "경남도, 김장철 수산물 원산지 표시 특별단속",
-   "source": "뉴스저널리즘",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qN05TQ2M4WUExeUU5eVV1eGZRWVE0bUFXMVBGN0I2dkstNkZBZmc3SzBUYms5dy1WekRwQXFpU1hfTUlJZ1U1Rm9oOWRjVUI1ZEhMV2dyLUxnQmRlSURuQ2daWWxpbVNOZ2dJ?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:49:17 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "토요일 오전 전국 곳곳 영하권 추위…제주 산지 최대 7㎝ 눈",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Mb0wtalNuV095NWR6NGRxbV9WTHY5RDlBODFKUGgtSC1idW5pZUJ6M3FGU3k5RmRpLVJURzdPZDJfa0dWbjdlaVVmMFpLOVh3VGh3cDZnUDAyd9IBX0FVX3lxTE5scXVkdHRYc1V3cFNHcFlMcDVzWE1lTkFNdzRlRTBWNV8yVWlYampmclpJdEM1MmNvY0hlalROZ0k0b01NOGJSQXhyV2tWUG9lckZfdG01VmZqT3dMS2xB?oc=5",
-   "pub": "Fri, 20 Nov 2026 23:10:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "송미령 농식품부 장관, 농촌 사회연대경제 활성화 위한 방안 논의",
-   "source": "뉴스1",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Nd21qS0VDc1hxQ0FjSWJ3R0VXMEc3anBLYlk0SnF3M215djU1X0FUTmtfNklVcE15TndwWHJfQjVPM1ZpT3ZOVkNuNA?oc=5",
-   "pub": "Fri, 20 Nov 2026 12:09:20 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "경남도, 수산물 원산지 표시 지도·단속…\"김장철 소비자 보호\"",
-   "source": "뉴스핌",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WRDkwbjh4d1c1WEoteVZpbWpnUjJMQXctOUg2U1lWTDAzeGludDNMTVU3MllValpVakNFWjIyWUsyaENfLVgyQmVLVWRrbnY2Z0tfUTVOYWJWSlRj?oc=5",
-   "pub": "Fri, 20 Nov 2026 04:51:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "김정은, 북·미 회동 불발 뒤 교육공장으로…내정 집중",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xMVJMajJRcnhzUHNBY1ZLWTEtYnJpUkZrZms4QTZXVG1pWjBwZ2lBa0x4ci12MmNKcnFSRmk5QkhHaE5kTWRmNHZHUGhnSVlrc0RyaVRGWGRPQdIBX0FVX3lxTFBia0lSckJad1I2MDdCUDFwYjBsTjVUazFUbVRERmFkN3BKaEE3dXJXSVRWMWluMUdBZERYOE45YXgwZVJ2WEFEbV8yRkpraUdpekRMVGtGZTh6QWgwRjg4?oc=5",
-   "pub": "Fri, 20 Nov 2026 23:27:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -122,6 +38,69 @@
   },
   {
    "feed": "원산지",
+   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
+   "source": "https://www.theleader.co.kr/",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QWmJYbWRNYXhuRXBGS2xBb2VBTHktN1g4LXZsenJZN1hBcUc1VWFSR3pPTWJINnh6bFB5ejRvalpoR2dpc3lBU3poZXRRVDVqanFnOHhEblQ3UzZnVENQai1JYUt6VTYyMjJVWUV3?oc=5",
+   "pub": "Fri, 20 Nov 2026 21:11:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "미·중·러 정상회담에 오른 한반도 문제…트럼프 \"위험 대응 논의\"",
+   "source": "한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aY2Q0UkZUclBmSW5TcTY2ODlab3ZqMVV5MDlZZDcyYmQ2ZnBTMjNEX2h1REZjQnBrYnl0V291X1ZIMTdfNnZzNm9QUEtQX0RHQldhb1JMZjJmQQ?oc=5",
+   "pub": "Sat, 21 Nov 2026 01:31:34 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "[농지제도 새판 짠다] 농식품부 법안 지역별 설명회…현장 우려와 기대는",
+   "source": "농민신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84eUNXNDdkUlVSQXFFMENoM0VJNG5UQmRNQVdqcTVabnQyU1hQRFBqcnRieGt2TkxGVUI4Rm52eXI0SklhMXJneF9BeTNQSTh5YWE2dm9acWxvZw?oc=5",
+   "pub": "Thu, 19 Nov 2026 08:12:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "경남도, 김장철 수산물 원산지 표시 지도단속…위반 시 최대 징역 7년",
+   "source": "핀포인트뉴스",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaXzN6ek1DdG0zRjYxa0QzczZNeFgwZ25HdVppQjNRbF91UXp1eWQ4NWNlY3RZbDR4c0ctdHN1enlqRlBlUHk1aE1fb2VDSG5VYTQwdzdkQndnTEFpdTlQNUxXaW84aWNZSDk2WGpvMHhjRW0yczhF0gF3QVVfeXFMUFpfM3p6TUN0bTNGNjFrRDNzNk14WDBnbkd1WmlCM1FsX3VRenV5ZDg1Y2VjdFlsNHhzRy10c3V6eWpGUGVQeTVoTV9vZUNIblVhNDB3N2RCd2dMQWl1OVA1TFdpbzhpY1lIOTZYam8weGNFbTJzOEU?oc=5",
+   "pub": "Sat, 21 Nov 2026 00:45:39 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "탈선으로 경부선 일부 구간 중단… KTX 등 15대 임시 투입",
+   "source": "KBS 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1paU1NdXBqZUV6TEE2bEhtRmdLZ09DWXFGSW1qQi0ySGVUdDh2S2dZLW14WVV4end3c3JfSWIwYVRGX212N19HeDVwRGl3aTAzd1ZMY1dGLURjQWs?oc=5",
+   "pub": "Sat, 21 Nov 2026 07:14:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부·코트라, 중국 우한서 스마트농업 수출 상담회 개최",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5odTl1bGxOMGlLczVpYl84dF9sem1Jei1BbEZPYTJyWDN2Uk1tUTQyRHlkcHQ4TktCRUF5bUZOYVVzcUJGYlI4dndYWnJEdm02X0kwQldPRl9zbGvSAWBBVV95cUxOTGt5aFU1ejhMdkU5ZnF5dWFBWFFnZXJidEM0ZzcxUG9uSmdQZGVsQWFGMEJGVVlpazRleUg4cE9YbG5VRVdzeC1uNzUteVNMMEZxbVVET1N4T0l6al8yMEs?oc=5",
+   "pub": "Thu, 19 Nov 2026 02:00:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
+   "source": "대한뉴스통신",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42RkF0Q3RLaE4yNnN6cnRXeVl5ZjIxX3p2RUlyNmphTE5IQ1FSVE1rWkRQWVMzTmlUZWRSaElqNjNudFJqaWhyS3g4dlBEV0k5TW9URVhSOA?oc=5",
+   "pub": "Fri, 20 Nov 2026 10:20:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "사형수에 주삿바늘 꽂는 데만 34분…미 텍사스주 “고문 같은 사형 집행” 논란",
+   "source": "경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WMUFwbjhFRjR4RUZ0UjVyYlpuaWV1clhqRUFWWEhpTEp1WU9meFJMaUpJUDNCTktWMTA3TEw3amZlSU45cVZsVE5YM2ZrMFZxalBORnFTNF9Wd9IBX0FVX3lxTE9mMWJ0SWdWb2IzX2NVcFBxT0w5c19VMjZKRE1FZWtZRlJVYkhNWi1hQVg1M1hrQnVQMUtJZWVNYzlEZXVVNTl5T2padjFqLUlMakdZUzVzZWppSlIxU2ZN?oc=5",
+   "pub": "Sat, 21 Nov 2026 00:22:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "송미령 장관 농촌 사회적연대경제 성장 위해 적극 지원",
+   "source": "아주경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CT0ZWUGZNVi1fUE5TTTY3cXd6RUUxV1JHcG9fMDZBaFF1azhtQk5OSWRYRGRIRUR3N2FPRTNIOUdOald2LWVvek9jQzM4TWxUd0d1NThtaEdWd9IBWEFVX3lxTFBWa01lVXNzMUlfU0ZYa08xZjVTUjl6ZUtJa1cxNlFtczItRzh1ZXdGRWdrbUpENHJyOXpSS2hGODFiTWd1Y1FoWVhPN1R3Tjg1RTNjcHFmOXc?oc=5",
+   "pub": "Fri, 20 Nov 2026 08:30:00 GMT"
+  },
+  {
+   "feed": "원산지",
    "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시 > 뉴스",
    "source": "더코리아",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzZVB4VlpycjVLTENFVUsyWmF1SEZGWmJ2VnJDRzNYSV9rNUE0WmR4RDNqaTkyWWgwai14Tm5WcGVNQUNJTXFmMzRYMA?oc=5",
@@ -129,31 +108,10 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "세종교육청, 중등교사 임용시험서 스마트안경 집중 단속",
-   "source": "뉴스핌",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wa3JNZXdaVFRQdXJUNTdveEtlNFYxSjA0NW80NzhDNXQwLUxoYjY1TnJkVWJvS1J4SzJRYmk4em5sT2YwWWZ2UUVNaWdTWlZhSldyYXA4bmFoU3pL?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:56:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농식품부, 미국 CIA서 한식 교육 확대 방안 논의",
-   "source": "BBS불교방송",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1naEdwU190M3JoRGFpcElocS04Qy1jaFB6LUxkNE8zYkRpaUpXYUEteGc4dTN3alItSHlXTF8ySkc5bnF4eFpnUDl6WlAyUXUzbXBhb3pwSEZiMTJzQ0JjUHdnSVBiem5nTWdz?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:28:10 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "경남도, 김장철 수산물 원산지 집중단속…거짓 표시 최대 1억 원 벌금",
-   "source": "창원특례신문",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ1VqX2FNaEMyUDNWSVVFOVk4V0xIWGhhcndld2FzTWVMbVhncEJaTGVSNXA2SzhPTDNhU1EwTWw1Z3lUWTZHY3MxZ0hwWWlsNkxqVF84RzFLdDJVd2FNUGYzWWhCZW_SAWtBVV95cUxPRmFNblA3SGowTWJiNkFSUjk5VjBXLXpYUjh2anpMLUV3eEZpQ1NVRXl6VGUyeWYxVXdsVDl4YmFJSWRBeEItQ2dxcklWcjFzZG53aFJMQUtrY2dTUVRiSmlWQWdhOGIzeWNkNA?oc=5",
-   "pub": "Fri, 20 Nov 2026 12:59:11 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "국힘, 오늘 대구에서 ’조작기소특검법’ 규탄 장외집회",
-   "source": "연합뉴스TV",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VYklWVnN3TE9tMG94NHdQQ3NyemRyS1pxbmdBVjRvY3dZUFJEUGpCS1lPT1k0WWk1bzhZZlZoRVNQRkpvckJKQkZOSllJaUF1c25kVzJ5Ui1kVXhZR2UxQVhXWmFOTVU?oc=5",
-   "pub": "Fri, 20 Nov 2026 20:20:00 GMT"
+   "title": "국어 7→2등급…‘리트 만점자’ 3년 전 수능에도 물음표",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMFRNdVctZjRoS055SEVZS3lZMmJpVGx3MVhRUUJoUFdoZGVYWlhtSy1KbmItR2JzZTN2WkpIU0dvTk9iZWlheDB3Ti05aGFTTTIzbkNzUWZrNUU5QWcyNFE4SHBIaHZfbV9QXzExdG1UOVZlY0d2Q1JtSF9XMmwycFF2b2xGWGQwZkVHZ1BRTW8?oc=5",
+   "pub": "Sat, 21 Nov 2026 05:02:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -164,52 +122,94 @@
   },
   {
    "feed": "원산지",
-   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
-   "source": "뉴스파이어",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fcE9FOHRlUVRvaGNtOEdiN3JlcmQzeTN4bHFFd1QyMzU1LVpTaFViTERVdzF1N2xHdm55b1gzLXNFRzZZLTdPUENrR2Z5R2poSGFncElsM0VPNzZjOXlLNTVTM0E5amsxQVJLOXFHTQ?oc=5",
-   "pub": "Fri, 20 Nov 2026 04:44:13 GMT"
+   "title": "경남도, 김장철 수산물 원산지 집중단속…거짓 표시 최대 1억 원 벌금",
+   "source": "창원특례신문",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ1VqX2FNaEMyUDNWSVVFOVk4V0xIWGhhcndld2FzTWVMbVhncEJaTGVSNXA2SzhPTDNhU1EwTWw1Z3lUWTZHY3MxZ0hwWWlsNkxqVF84RzFLdDJVd2FNUGYzWWhCZW_SAWtBVV95cUxPRmFNblA3SGowTWJiNkFSUjk5VjBXLXpYUjh2anpMLUV3eEZpQ1NVRXl6VGUyeWYxVXdsVDl4YmFJSWRBeEItQ2dxcklWcjFzZG53aFJMQUtrY2dTUVRiSmlWQWdhOGIzeWNkNA?oc=5",
+   "pub": "Fri, 20 Nov 2026 12:59:11 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "아버지는 10대 여성 살해 혐의…아들은 ‘의제강간’ 혐의로 재판행",
+   "title": "李대통령, 울산 AI데이터센터 현장 찾아 \"세계경쟁서 속도가 생명\"",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80V0ZycVhLWlR4dGJYM01oVDJJbEJJaXg0NVRnYjBERFRsX3BwQlVQSDJZeWFsUnF2TXdwLTJHTlZEekRiSEpMZWVYZnMzMC03UjFMYko2NEhNU0U?oc=5",
+   "pub": "Sat, 21 Nov 2026 04:34:07 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농림축산식품부 장관, 현장·전문가와 함께 농촌 사회연대경제 활성화를 위한 방안 논의",
+   "source": "뉴스다",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vMzc5Zm5pY2lLMm5tNDNLLVRzbnRGbnVJVGd1ZnBMRUxnWEY2U2NJbHJnRXhCSW9yYTIyb2FJdHR6eXZHSm5RWkg2Rk1DRklOd2dzUXhuNW45djREc0FB?oc=5",
+   "pub": "Fri, 20 Nov 2026 09:31:48 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "경남도, 김장철 맞이 수산물 원산지 표시 단속 나선다",
+   "source": "뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MRW53NHo2VFpTRFZFc0U0MVBoLXdVWVBvaE5BY01tMWZxTExmX1ZhVF9mOGZneTNCbFBSSGdIZ09waXlRaVVycGhOamVWU2RoYVNHSzRVanAxVUFHQ3JxemVwOG1zR09rYlhNekYyRHVvZWZNcXJYZNIBeEFVX3lxTE9MRW53NHo2VFpTRFZFc0U0MVBoLXdVWVBvaE5BY01tMWZxTExmX1ZhVF9mOGZneTNCbFBSSGdIZ09waXlRaVVycGhOamVWU2RoYVNHSzRVanAxVUFHQ3JxemVwOG1zR09rYlhNekYyRHVvZWZNcXJYZA?oc=5",
+   "pub": "Fri, 20 Nov 2026 01:25:12 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "아침 영하 8도, 주말 나들이 패딩 필수…곳곳 눈, 제주 대설특보",
    "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nWlllWkUwU0hOa085UlRxVmtWVVU4SVVtQVI1aFgwWVo4QkxEbjBsN2NYOWJKM2MyZmRKQVFwY1h0QWFyclJjcXY1emVlSXpqY3dHQUxXZm90V3RqbXo4NG9CREJLbVJSQU9CWV8yeUpyQQ?oc=5",
-   "pub": "Fri, 20 Nov 2026 16:17:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02YW1EVE9rbHVNNUtvWWZjNzhMOXNLNnVzQVNqR2pvR1pVV1JvTnBLdmYzV3NEbnBTbWRSS1RGZjF3NVN4LUpYYW9oeGNnOVJDb2V6R2pGb3I0bXMySXlsUDYwRHJ1dlhMOUZEbnJORElQZw?oc=5",
+   "pub": "Sat, 21 Nov 2026 00:28:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "성남산업단지관리공단, 농림축산식품부 ‘푸드테크 연구지원센터’ 유치 총력",
-   "source": "경기포커스",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcXZyNm04Tk53NDhyVTJoUDVtalZmS05CZ3hzczJPeXZLNjkzN1pyTUpLTDNHaUMyc0stRU9yX3EzbUlwakJjWC1WdC1zYXMtaFllOXFRQlFNclUxVWZXWTNYeWNENFI1NFFhMw?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:15:11 GMT"
+   "title": "농림축산식품부, 제4회 스마트축산 AI 경진대회 개최",
+   "source": "축산정보뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1dGxsMDNlZkYwNkJFQ0pwX1pwdHpacG1BQVo5OHYwbjBHZlRIazN6eDRieE14VjlZNm5xMUpNNXhvWkJLRHhQcDNfZFBqd0VRczdyc3k4V3lvUXJCdXVj?oc=5",
+   "pub": "Thu, 19 Nov 2026 03:59:48 GMT"
   },
   {
    "feed": "원산지",
-   "title": "농특위, 가공식품 국산 원료 비율 표시·공공급식 소비 확대 방안 모색",
-   "source": "팜인사이트",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEYXdEUG45bEd6OUVYSzRUYTEzQ1lIRVR4enJQbDR3N3ExQlJfYlNFalRHcDJiOWFuQXluWlVUTk5FbzhhQ0c2XzA4dzBjTUEtLUg3WjNSMXA4cnBPcmtHZkhCTlJSMmxZREpXNURB?oc=5",
-   "pub": "Fri, 20 Nov 2026 07:15:02 GMT"
+   "title": "국표원, 6각 볼트 KS에 ‘원산지’ 표시 신설",
+   "source": "철강금속신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0WHRZVTFSX3B0SWN1eXVvRTRiZmp6amVjdHJ0dk5iZ3dFYWdwNWVDNkMwcWJHX1JPRjBseHJtaGw0bHZneXNqNklodXBzQWtHTXdPNEpOYWhTZl85dWJFa3BTQ0xFNU5x?oc=5",
+   "pub": "Thu, 19 Nov 2026 00:12:50 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "민주당, 민주유공자법 무제한토론 종결 후 강행 처리",
-   "source": "조선일보",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQVhXTGxlOUpTWTFabURuMmVUREpodzd6bFhNWUZ5cXE3ZjR3RXNxU1hUaWhaRVpncDlqYmQ3MGw4ZWlDNjZhSlhoOXVuWnpBT1lROUVHR25KQ1RFbHRvN2NvTVhmV2JfaERlZkdodmF6ZGdKdjVtWUd6VXB6cVA5d09RTzZvQQ?oc=5",
-   "pub": "Fri, 20 Nov 2026 06:09:24 GMT"
+   "title": "국민의힘, 오늘 대구서 '조작기소 특검법' 규탄 집회",
+   "source": "MBC 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45NW04UWFUcTlHX014a1BQc3JfZWh0eE9JVDFNWlU4S2ZEWWJmZ01pbUNzZjAyaFBqYWdwSEcyWDRqWWlJZTcyZ0pzNWdmSUN4cFVjQm9TQVQ5MTg2RGZRbjZKV2RsM1RrTGZJT0RZai14MmJvbFFLN9IBeEFVX3lxTE9PcUxLODBxdERHZWtWTmFwcGZ0MGlKMXJ3eDVRSWtHWU4tVlVrQnQtd3VKcjNQbUNkbkVub3BRZkxtVHFTOVhwYnI2YkdqenJ1OG5xejFsZXlyME9ueVNpU0pIay1xX1E3c1J3aTFHdWk5R1Y2d2ZCcA?oc=5",
+   "pub": "Fri, 20 Nov 2026 23:58:50 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "제주 콩·메밀·녹두, 잦은 비 피해 확산...정부, 합동점검 착수",
-   "source": "헤드라인제주",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tcTdhdGRTZlUwZE5Ib2tuNUNKWUVPRFcxbW1oWWNmdzdjV0lVTTY0X2lLMGdPX1FfaHZTd3I1MmlKTTMwUDNMQnByUWJXaTY3a1didkFzZXVPM05uSkxUMTJiNXlGT2ZqSWtnVzlJemF6djA?oc=5",
-   "pub": "Fri, 20 Nov 2026 06:58:34 GMT"
+   "title": "[인터뷰] 김석재 농림축산검역본부 축산물수출위생팀장",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UR1lUQWVURElHTWxOeVpEYjg0bjhTeEMzRTNpN3JxeHVFVUt5ZHcxbHJYRkJBTlczOTJQQjJjSzByQlNhMUhhdkJWWkMzZjBHZUJSY0M4X2pUNTdCbVpwZmY1d3hpNWJHX1lkdQ?oc=5",
+   "pub": "Fri, 20 Nov 2026 13:39:09 GMT"
   },
   {
    "feed": "원산지",
-   "title": "진도군, 김장철 맞아 수산물 원산지 표시 특별점검 실시",
-   "source": "웹이코노미",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRNmV4Ni1uSVBxZGRZeGJCSVFCdkI5eUN4TFNoYm5GdVpGMjV2bkhva20tNjEzV0tnVWxZRkVfUXBHdm1IZm5KNnJ2ZVB6RnhMRW9qWmRTUGlMeTZzM2oxTXVlVzA4Z1lzNnNGRVVYQl9Udw?oc=5",
-   "pub": "Fri, 20 Nov 2026 08:04:22 GMT"
+   "title": "경남도, 수산물 원산지 표시 지도·단속…\"김장철 소비자 보호\"",
+   "source": "뉴스핌",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WRDkwbjh4d1c1WEoteVZpbWpnUjJMQXctOUg2U1lWTDAzeGludDNMTVU3MllValpVakNFWjIyWUsyaENfLVgyQmVLVWRrbnY2Z0tfUTVOYWJWSlRj?oc=5",
+   "pub": "Fri, 20 Nov 2026 04:51:00 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "제주 서부 앞바다 풍랑주의보 해제",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MVWNIUTFFV3lRUEN6MlBGTGlrZDJlYjk2VWpOb2g1bjdPRVZ3M182NmQyNVotemJzeEpJZUd4Q1c2S2FvSXJWV3hJUmNwTGw4MVNfV1NMaWQ3TU0?oc=5",
+   "pub": "Sat, 21 Nov 2026 03:03:12 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "[빅데이터로본다] 농림축산식품부 공공기관 2026년 11월 브랜드평판... 1위 한국농어촌공사, 2위 한국농수산식품유통공사, 3위 축산물품질평가원",
+   "source": "일간투데이",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YQjBsaXpYZHJCQkl6aGwxUFpMc202OWVNLWVQbE1jNDhVMm5zWDQ5b0UxdFNVS2s1Zi1wU2U1Y280S1JBUGpXdWNsXzB1S2RyZThrS2xwT1RuZEU5TXlGTXF1dWUtRVRiZWdF?oc=5",
+   "pub": "Wed, 18 Nov 2026 21:12:00 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "경남도, 김장철 수산물 원산지 표시 특별단속",
+   "source": "뉴스저널리즘",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qN05TQ2M4WUExeUU5eVV1eGZRWVE0bUFXMVBGN0I2dkstNkZBZmc3SzBUYms5dy1WekRwQXFpU1hfTUlJZ1U1Rm9oOWRjVUI1ZEhMV2dyLUxnQmRlSURuQ2daWWxpbVNOZ2dJ?oc=5",
+   "pub": "Fri, 20 Nov 2026 07:49:17 GMT"
   }
  ],
  "errors": []
