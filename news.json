@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T02:04:16.456Z",
+ "updated": "2026-11-23T10:57:10.217Z",
  "items": [
   {
    "feed": "주요뉴스",
-   "title": "[단독] 전국법관대표회의 의장 “조희대 탄핵소추 땐 법관들 행동 나서야”",
-   "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sX3NFc1dKWGl0b3B2dGV3RHVUYkI3YWsyclZ3Y1hDRDg2b3pwZXcwWl9TbzYwSU43RVpJSWMtclZqRHlHNXBSZHQycktpeklzV0tQLXpYN0lkTDZadTFTSktaX2J0aW42RUwyV0oxbHdQQQ?oc=5",
-   "pub": "Sun, 22 Nov 2026 15:21:00 GMT"
+   "title": "국힘 \"재활용·돌려막기 개각, 레임덕 징후\"",
+   "source": "조선일보",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOVZZdk4yZ2Y2VklSSUhBM0xBYUtIbEEwYjFKNktiMUNPT1ZjTERhZ2ZRVlQ4UWIzdVY0b3A4ZjQzYWFkR0k1aEEtYTlTOWR0ZW9BSVJEQVFwN2w0ZHg1QWdtT0pIaTFhdkloYTVzRVJNN2NtaVBZOG5EZ2ZrU2U4SGNFc2tiUQ?oc=5",
+   "pub": "Mon, 23 Nov 2026 09:15:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -17,6 +17,27 @@
   },
   {
    "feed": "원산지",
+   "title": "내달 4일까지 김장철 '수산물 원산지 표시' 특별 점검",
+   "source": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMDNFQVcwSk9ReTJGdWN3by14TWtYdGtRQmV1YXpKLXRGYmhMNm1VQ3FOR2ZKV2lTbTJjMUktUDFxY3ZjUmpBNkF2SG9oV1d2QzJmZV90MURUQ1RDX0VuanVXcmV0N0N6cGlIY1hTNkw3TTkxb0F2S21FR1h1cWZMQlppekJROHJpQXc?oc=5",
+   "pub": "Mon, 23 Nov 2026 08:48:45 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "조희대 탄핵소추 추진, 실효성 있을까…윤석열 등 내란 재판 지연 우려",
+   "source": "경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlLUNWdzBxQ25aOEUzSVlaZklXQU5UUXRmWWpxWXZRVlQtYVVOdXdnWXlUelF5aEZGcXFyZTc0NHRXNktKNG9ZTWJzUmxfTFlUNmQxZlNOeEpHZ9IBX0FVX3lxTE00Y0hDMUtMT2tNMEZNQ1E5VlJsZ1FYd1FfcEI5VGxQOUNtbXYySWpVc1FabXB1Yk1mZkRTXzZHZDFzbXB0aDhzeVVzbGZBR2ZXMWx4dFhILTAycC10QWZ3?oc=5",
+   "pub": "Mon, 23 Nov 2026 08:07:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "인천 삼산농산물도매시장, 농림축산식품부 주최 공영도매시장 우수사례 경진대회‘우수상’선정",
+   "source": "인천교육일보",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92dzhQMFZDUDlOaHJEbGlYeXhUd3Y1aUM4VmgtejlEMTJSdU9QVERkMjZTOE5ONC1GMXd4TGF4TXV4QVJvaHEzTmZYOThKQnhKTkNlXzluMl9oRGsteEVqeFE0UlVwRHVV?oc=5",
+   "pub": "Mon, 23 Nov 2026 07:58:25 GMT"
+  },
+  {
+   "feed": "원산지",
    "title": "충남도, 김장철 앞두고 김치 원료 원산지 표시 집중 단속",
    "source": "티제이비",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GT2tiRXJmQnJYYXJoaHVIalZQUnd0Y01WbmZtcmFvVTBsdW1faWxZVTBLaExvYTUxMVJrRzZCdGloWkRrckN4aXl1QXpEQ1NsMzQ5RnI0NEM0b3pSNXBhY21n?oc=5",
@@ -24,10 +45,52 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "[기고] AI 부정행위 막을 수 없을 때 바꿔 볼 질문",
+   "title": "최교진, 수능 부정 무사안일 대처에 ‘나이’ 발언 겹쳐 결국 하차",
+   "source": "한겨레",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zcjRvZ3A1QlAycVNZTVpXVk1tUFV0Sks2QUVBb0lORDBPNHlFQkl4Y05vLUtPR0NRSlFESFpfemJYSDBINGd5XzQ5TWEwZUlWOWs3bHZyUTVzMV9GaV9jejlmUFEtenU5OTAw?oc=5",
+   "pub": "Mon, 23 Nov 2026 05:29:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "농식품부, 튀르키예 농산업박람회서 국내 농기자재 수출 지원",
+   "source": "BBS 불교방송",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zV1pZSkczdlgwc2lNSVVVQ2NlVGpCMFZ4VG03bnBFMmUzb29ha1Z1YXdaZzE4RG1BVzZ5ZnMxUlRlS21Pay1sMGloMWFhZ3dHbEpyWkxtWmZ2bWhzUWNucVdmSGR0SHZ6NGNv?oc=5",
+   "pub": "Mon, 23 Nov 2026 04:36:04 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "김장철, 천일염과 젓갈에 대한 원산지 표시 꼼꼼하게 점검한다",
+   "source": "여수넷통뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6NnhNX0hjbk1SVEpjT0lrc3RnQWt2OEd0QlB4SG5uUEJZekhIdTVKU0NvUEdfT2NyT0d1NWZmUVBldEUzZWpKeWpBeXk5cm9FTDIzT2V5WUpVVy0xLVQ4dHJNQmhMY1Fjc3c?oc=5",
+   "pub": "Mon, 23 Nov 2026 04:15:25 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "경찰, 수능 부정행위 4건 수사… 시험 부정행위 TF도 33건 수사·내사",
+   "source": "한국일보",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sWV9uUVUtZWhMMHBrTWVvTlczWjFUY2luWHZhUncwVUVjZWFaTVY5YUw2ck1sSy1BVVhVb09FU0l3aFZqbjZvUjJOT0ZpTVB4TmFwLXcxS2YxOXpjM0NBdThJaFA4al95UDBuUHV30gFzQVVfeXFMUG5rTjNxY3JHRE1MN0lfcUcwWnZtNUNfWW1STUhPaUFJeVQ3cURKZXFObUhBZXltYmYtVE4tdlRhZE4yUzY2QjFOU2lsdWpiYTduZXJ2aUw5bmFtMG93alJuWmxHR2dDQ0RENEQ4MV9lOEdKRQ?oc=5",
+   "pub": "Mon, 23 Nov 2026 06:55:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "군위군, 축산과 경종농업의 유기적 연계로 군위형 경축순환농업 실현",
+   "source": "데일리대구경북뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95QUpGdktJeUhhcXdISXR1Z0NSRWctOGxIRWsxejNaeTVsQUhUbkwxZmtFR2VCTWp4c0VMTlhkbWczYjJDemRUejgwRDBGeHVKZnRkWUJZbGlPYzB2b3ZRRnh1S3Rmdw?oc=5",
+   "pub": "Mon, 23 Nov 2026 06:23:58 GMT"
+  },
+  {
+   "feed": "원산지",
+   "title": "김장철 수산물 원산지 단속 강화",
+   "source": "대한급식신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hYlRWQ0k0c09VR0l1YmZnN1lGS2czZXNmc2hiQkUydmRjVFhETE95Tm9qNUhlcFRLS0dkT0FpN05wZzBWajNnQ3lVMkN6cWgzWE1ZYjVvT0lmeDhIRlBxZm5YdURVSFdw?oc=5",
+   "pub": "Mon, 23 Nov 2026 09:02:38 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "국민의힘 \"민주당 신천지 당원 최대 4.3만 추산…강제수사와 특검 수용하라\"",
    "source": "뉴스핌",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16ZjRJRWdHX3BQUzRud09mR3dSc1g2VXV0WFF1TmNZdEg4bXlqUFpCanpqdHUxMmtVWkkyeE5qZTQ3Y290VnhidEUwUGc2eFg4cnI5a2NQNkZoTTRa?oc=5",
-   "pub": "Sun, 22 Nov 2026 23:30:00 GMT"
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVenFHN0JndzloZEVkYjVYV0tWSmQ2TkxEVktIRGpOZ0p0bnpucEJlXzY5VjM4X3JxZWtYb09aY3pIU0tvM1JveEQ2WEZseWRuTFN3bVNfTERud1RK?oc=5",
+   "pub": "Mon, 23 Nov 2026 07:26:00 GMT"
   },
   {
    "feed": "농식품부",
@@ -38,6 +101,27 @@
   },
   {
    "feed": "원산지",
+   "title": "진도군, 김장철 수산물 원산지 표시 특별점검 실시",
+   "source": "농수축산신문",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tQkh2YldlUnBfbVFLOW02N2V3NjVXY0tnNGJVbzlySldyOTlZV3d1ejg5Um0weDNhTk9JOGU4MmdYZWdiWG1TMUFzTkNudHZPZk84UENNSHE3dTdjaF9YNEVkdGZ4X0dBTmU0Vg?oc=5",
+   "pub": "Mon, 23 Nov 2026 02:08:30 GMT"
+  },
+  {
+   "feed": "주요뉴스",
+   "title": "최민희 “녹취록 제보자 ID ’조추털래유 아웃’…발언 취사선택 됐다“",
+   "source": "연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90clA5ZXJ5a1lad0pZS1ZWUFhWRnF1T1Q4V0FLRWcxeUdDWmpqeXB4bHNlT3VmNVFTeWZ0dnRpd2lYdXhqTnJUNEVfSlhGV0QzWVRqOFVBYTgzSkE2MzI3WVJmZGl3Tjg?oc=5",
+   "pub": "Mon, 23 Nov 2026 05:13:00 GMT"
+  },
+  {
+   "feed": "농식품부",
+   "title": "진도군, 7개 읍면서 농식품부 ‘농업이(e)지’ 이용",
+   "source": "천지일보",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RUnh6YlF1UHJxcWtvQV9YdDVTTnk0bElyeDdUaHRGS2dJa3VZQlZaOF83Wmd2UndvT2p0SG13ZTZ2SGdaYmRDcEpZcG9odDh3RmdCNDRfYnp6NEZzZkhjQV82R0NfVm1CaUE?oc=5",
+   "pub": "Mon, 23 Nov 2026 06:07:25 GMT"
+  },
+  {
+   "feed": "원산지",
    "title": "김장철 수산물 원산지 표시…관련기관 합동 단속",
    "source": "KBS 뉴스",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13dzdwdWdhUTZYeUNwUjdKNjZ6SWROSTJMQjlMNXd0UzFvX1d2TWgyZU1jZVBxZHRyblJqa2tvajJTYjhkUnlpaXlVQzM0SjBYVmhMRkVDV2tGYjJBam9aZGtyZE10QQ?oc=5",
@@ -45,38 +129,38 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "교육장관 빈자리, 개각 판 키우나… 연말 인사 셈법 복잡",
-   "source": "천지일보",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ISVAtbUtQWW90bEptMHF2cWl4U0Q4cTlkb2FrMHdUWnRCc1BBNktGdkVmV0JlTGNnNjNpLURoN3RDbHVXSFFNNU1yS1FNQ2VkeE42ZnBaeURwXzN5UE91WnljcU5CcklpMWc?oc=5",
-   "pub": "Mon, 23 Nov 2026 00:00:00 GMT"
+   "title": "경찰, '부정시험 의혹' 리트 만점자 유족 면담‥과외 교사도 조사 예정",
+   "source": "MBC 뉴스",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5a3doel9NaVBlaTBuUDE3N1FfMDNLT2dKb3JpRU1LUExuWVdVWERWVndBbFRBU0VLY1Mtc3pMTVpaWkQwQzFGTlV2dWIwaDFEWTRBMWZrUmJWV2U5ci1pX0taUEotLWtKNTAzbVF3M09MemsyMnlV0gF3QVVfeXFMUHNYSVVCS2pnY3F4aUdmOV82ckx2bmJGSks1RmtXckczbk96QTJackR6bFc0OURodU56T2JwZ3JhT2xONDRzaTVrQVIySmVxVFJfendXWGR6bllNbDl6TW9TQjFIQmd2d1lmZnBCOEN6MzBLNC1aUGc?oc=5",
+   "pub": "Mon, 23 Nov 2026 05:18:19 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "인천 삼산농산물도매시장, 농림축산식품부 주최 공영도매시장 우수사례 경진대회‘우수상’선정",
-   "source": "내외일보",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ldTVMOVlDZTAwYXVwemlRb2QzN3U3a0p3N3V1cUpYVm40MkN3ZGprQnd6UUhZd0VPQkh6VU9SMmw2V3Y3OE9Mc3ZraUU5R2VCcVg5MEpyZU9DTUNaOVZkWVloaUR6Tk1zQTZ6UHpzbw?oc=5",
-   "pub": "Mon, 23 Nov 2026 01:28:38 GMT"
+   "title": "농식품부, 뉴욕에서 ‘글로벌 김치 비전 선포식’",
+   "source": "월드코리안뉴스",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqVmpJZmVLMnhNeDBTN1lzT1I4VS1OSXo2WngxbEhBZFBpWlcyQzZFUFk0UjBBWlBZN1RzR0EyQnJlYzdGY0FhVFUzcU5EMndISmhhaG1DUFhqYnpCXzVhQVc1YUVaVV9MSGxlQndR?oc=5",
+   "pub": "Mon, 23 Nov 2026 04:24:07 GMT"
   },
   {
    "feed": "원산지",
-   "title": "진도군, 김장철 천일염·젓갈류 원산지 표시 집중 점검",
-   "source": "매일일보",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZbVVMY0JicWVtdFhnV3ZuUF9vREpEQUVUajdRdUwyZGMwU0JpV0g1dk1HaHdmMGNHUVdERzlmYnlzWUJCRGQtNUlld1Z6UEZHTmFyWWlUc2xTcnBndTYyRktpT2c?oc=5",
-   "pub": "Sun, 22 Nov 2026 11:40:00 GMT"
+   "title": "횡성군, 김장철 맞아 수산물 원산지 표시 특별 점검…27일까지 실시",
+   "source": "뉴스1",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IN1ZzNDhNR21ZdmpsbE11M1JyMktBZnNwTXBnV0kzUzhFbjBITExMN3Q4UlU0c0o3OW1KejEyd0tmdVZtaVhSZG56dVRVV1hnRUo0ag?oc=5",
+   "pub": "Mon, 23 Nov 2026 02:17:36 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "“트럼프, 김정은에 편지…北, 열지도 않고 내던져”",
-   "source": "동아일보",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52a1FOM2VXNzRIemg3cWluN2c1bDJjZWdIeW5LVnNyNVJ2bS1OSVRGZUxEdVZocm93VnpHa2QzcHZfQXNQc082cnpoaXRpaWdpNnFLMmhxNGJlcUoyX3hjWHN4c2dGYmRJUG9UMTFQSlRnZ3fSAWZBVV95cUxPTGRzLXVjd0I3QVpYeHI5bnZ3ZmR2WmwyYmdUT0dYa1hoMkdUSTlKYnY4Y3pXbFdBYnF5MjVra2V4MmhJR0cwc1RZYjRSaDRjdlotcHFZQVQ1ajlITmkzZGpCdWo4Unc?oc=5",
-   "pub": "Sun, 22 Nov 2026 19:30:00 GMT"
+   "title": "눈·비에 언 도로…강원서 교통사고 24건, 40여명 중경상(종합2보)",
+   "source": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Da25wX0d2Z1g5WHNMMjMzSTRvbExHclhLN2U5MlM4d2NmR0h5NU1GTHg3UkhMRDd0Y1BTdWtacWIwUUdLa3FJRU9wM0h0WW5xWW1RdkF2TjFJcEXSAWBBVV95cUxNSHVNYWdDUFNMZndQZTRBT0xOb3gzc1lCOElaQ0hLWjRDdXRhVThyMlRsNnZzT2xZcEY3dHVDdHo0LXBaVUp0ZnlpOUNteTVvLWRMamhVcG11OXdBblFRRWo?oc=5",
+   "pub": "Mon, 23 Nov 2026 07:37:36 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "K-농기자재 20개사, 튀르키예서 유럽·중동 시장 공략",
-   "source": "매일신문",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LU3dGeDNrb2preDBBUk1JTnJQMXRkR0Y0amgtakpSZzBRUXBMTkdPOWhUZGItMHlkc0c4ZU1uOXhRRzN2dng0d1hudVpzdUlzTDVpbjl1cFJkTE4wSjZfLTFn?oc=5",
-   "pub": "Mon, 23 Nov 2026 02:00:00 GMT"
+   "title": "농식품부, 튀르키예 농산업박람회 참가…농기자재 수출 지원",
+   "source": "매일경제 마켓",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kNnNsUm1oVjJPeTNZMjRhd0dIZU1IMkZsUG43TzhSSUQyYWE3anNueG9HbHVwaUZvaHB0Z1JYU0ZjNllmV0VDR2phQndPcEM2TWc?oc=5",
+   "pub": "Mon, 23 Nov 2026 02:00:03 GMT"
   },
   {
    "feed": "원산지",
@@ -87,52 +171,10 @@
   },
   {
    "feed": "주요뉴스",
-   "title": "월요일부터 춥고 미끄럽다…전국 비 또는 눈, ‘살얼음’ 주의",
-   "source": "한겨레",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5icEVPUmdheGpzamVoTVlERGJaTWdpQkVNd0JRRDdoVXhHUUdvY3oyWUVUeENFR3JrajBMbFVQQUZ6VkRreWo3MGRfLWFNUXQ4LXlISUdiM0dhbXZ6d29sM1YxakJ1UHhZQ0ExMw?oc=5",
-   "pub": "Sun, 22 Nov 2026 23:32:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농림축산식품부 장관, 현장·전문가와 함께 농촌 사회연대경제 활성화를 위한 방안 논의",
-   "source": "뉴스다",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vMzc5Zm5pY2lLMm5tNDNLLVRzbnRGbnVJVGd1ZnBMRUxnWEY2U2NJbHJnRXhCSW9yYTIyb2FJdHR6eXZHSm5RWkg2Rk1DRklOd2dzUXhuNW45djREc0FB?oc=5",
-   "pub": "Fri, 20 Nov 2026 09:31:48 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "경남도, 김장철 맞아 천일염·젓갈류 등 원산지 표시 지도단속",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JSmdZN2I4cUV3UVFQdDhnYlY1WjBNamttNXVFMXVlbmR5VzNwbVNFQlNxeWotbkhiNmV5bG5NWW9ZTlR5QzNHQl9Rcm11RE00YVRMSHpMMHE4cTB2R3k1RdIBYEFVX3lxTE9JSmdZN2I4cUV3UVFQdDhnYlY1WjBNamttNXVFMXVlbmR5VzNwbVNFQlNxeWotbkhiNmV5bG5NWW9ZTlR5QzNHQl9Rcm11RE00YVRMSHpMMHE4cTB2R3k1RQ?oc=5",
-   "pub": "Sat, 21 Nov 2026 00:05:00 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "’리트 만점자’ 이진우 “5만원 주면 끝내겠다“…보험사기 의혹 제기",
-   "source": "연합뉴스TV",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ieFlGOGNBOV9SdktKRzJpaUxrMXZsR0kxY2NEQkx4YUExcVowSTJ4XzB6cWdLT0lqczV6Z2E1U1YxanZlRUxRc0hMSlpJbTlYY2d6aU1Id05sRkVxMVJjX2dnUkNua1U?oc=5",
-   "pub": "Mon, 23 Nov 2026 01:03:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농림축산식품부, 제4회 스마트축산 AI 경진대회 개최",
-   "source": "축산정보뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1dGxsMDNlZkYwNkJFQ0pwX1pwdHpacG1BQVo5OHYwbjBHZlRIazN6eDRieE14VjlZNm5xMUpNNXhvWkJLRHhQcDNfZFBqd0VRczdyc3k4V3lvUXJCdXVj?oc=5",
-   "pub": "Thu, 19 Nov 2026 03:59:48 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "해수부, 내달 4일까지 김장철 수산물 원산지 표시 특별점검",
-   "source": "MBC 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKWWpjMkpONVlFYUZUcTU3ZDVSc2pYdXV3MTN6SXR4ZlllQzIwVEw3N3hWNmtmeGZrMWtWdmpfUE5ZNnljS1R2bEl4X2dEUGVya08wdGtjeVJfdFFQc2ZZdFNDTlJHN013V2kyVXJEOUdOWkNh0gF0QVVfeXFMTTJEaGhIMWRPbFg3WG5TaU5HRUluVTRXbTk0WHFNSlktSF9ORWFHYUQ2dlRGS2ZmV0c5WUdTc25tUTFRRW1PdWhWQUFmNlFuc0JaMEItaUZ5bGNkVy1MZFZCWmFQNTRsQlNaWmxUV2xGSEFWUVk?oc=5",
-   "pub": "Sun, 22 Nov 2026 02:14:59 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "이 대통령 지지율 37.3% 2주 연속 상승…국힘 42.5%·민주 35.6%",
-   "source": "경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16Qm5xYlBkNWtFSHFsQWx1ZktzNHZxRmtjVHpYWUxDWlRZcjJZM3ZEajhVVjJ2QkRYUmM2UGRfVDhpQWp6MkI5UjdKLTVSWG9tWjJHOFJOamdRQdIBX0FVX3lxTFBQTUh5MVNBTUhaM1pCb2VrVzZyNm1RR0Z1ejJETTFCNl82MmMybDdMQnFxS3gzRkpXMURubF9VR0NRbU8xbEExV1IxRFBLTXB5enQtNXB1RVp5cTYxOFdj?oc=5",
-   "pub": "Sun, 22 Nov 2026 23:32:00 GMT"
+   "title": "밤사이 눈비 이어져…화요일 출근길 '도로·길 살얼음' 조심",
+   "source": "한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjRmFpZGtfVnhWXzZkVVdPS3JmV3VpOE9jeTJycWMzWG45QkoyRWhOTzg5eGctN0dZQklRejRWVUJXRWtHUjZsMEZ6bnB5aU1RcFByalByUy0tUQ?oc=5",
+   "pub": "Mon, 23 Nov 2026 08:20:54 GMT"
   },
   {
    "feed": "농식품부",
@@ -143,73 +185,31 @@
   },
   {
    "feed": "원산지",
-   "title": "해수부, 김장철 천일염과 젓갈류 수산물 원산지 표시 특별 점검",
-   "source": "기호일보",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zcldaZGEwc2dZUndFNVVHa2pubkNkRjRYSlRLWUVtdjhKVGdKeWEzcTVZZHdhei05bDFqZEU3Zl9TMF9zakNVd0JBWlAyMXp5ejNkNTdMaXBXUXF6SVBtcWJIRGMtd2hJSDJLNmJ6UQ?oc=5",
-   "pub": "Sun, 22 Nov 2026 04:29:38 GMT"
+   "title": "진도군, 김장철 천일염·젓갈류 원산지 표시 집중 점검",
+   "source": "매일일보",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZbVVMY0JicWVtdFhnV3ZuUF9vREpEQUVUajdRdUwyZGMwU0JpV0g1dk1HaHdmMGNHUVdERzlmYnlzWUJCRGQtNUlld1Z6UEZHTmFyWWlUc2xTcnBndTYyRktpT2c?oc=5",
+   "pub": "Sun, 22 Nov 2026 11:40:00 GMT"
   },
   {
    "feed": "주요뉴스",
-   "title": "태안군, 해광호 실종자 가족 1대1 지원…사고 수습 총력",
-   "source": "뉴스1",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcnMxUUFfZXpOMjZpWVNja3dsTmRVUUpWRWxHS2xKWGhpUXdEaU1aNFRGb1pKaHNYZ1hNbWdNOGVGb1cteGtnaFNuYm5uSEN5WTlIdFdRQ1lFOEltbGd3NA?oc=5",
-   "pub": "Sun, 22 Nov 2026 23:59:57 GMT"
+   "title": "전자발찌 끊고 변장하며 도주…성범죄자 정영모 ’공개수배’",
+   "source": "연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wZV9lMGF4WVctd0dVU2hDZktlTU5tUk5OR2FYdmhPVi1LcXdrc2lJVGFVMHBlQkUzSmU4M1BjMmR2M3Ntd3BVdUJmVHFPTWViTE42YUFLUjVXMFpqTWtvQk5aa1FCTTg?oc=5",
+   "pub": "Mon, 23 Nov 2026 07:22:00 GMT"
   },
   {
    "feed": "농식품부",
-   "title": "평택시, 대한민국 조경대상 농림축산식품부장관상 수상 > 뉴스",
-   "source": "더코리아",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MRmZBdm9VaXBQMmJieEVNZWtlYlJQazdZWWpxdERCei1SQVJUVzA4WjJpRmVHck9pM200dlhyYW9yc3RFeVFaemRHdw?oc=5",
-   "pub": "Sun, 22 Nov 2026 08:07:59 GMT"
+   "title": "한돈자조금, 농식품부 기자단 함께 제주 수출 현장 찾아",
+   "source": "농축유통신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LTXo5ZGpfS1V3QWNZTi1pQ1RQNHN6SHEwYjhhVzZFdEFYUjZjUERpQkxYSFZNcDRQeFVfakJLaW5UNjRiZ29mcDF3cENvNldYa2IzWFQzRmtPX0tVWlJlNV8wMl8tZnBP?oc=5",
+   "pub": "Mon, 23 Nov 2026 07:56:44 GMT"
   },
   {
    "feed": "원산지",
-   "title": "해수부, 김장철 앞두고 천일염·젓갈 '원산지 표시' 특별점검",
-   "source": "국제뉴스",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aWkp1UFdDZzRWRzNYQ00wV1oybXpsQ1QzbVNPb0Q2RjF0M3ZYSHVvR3R2QnBWTllHTVhBQWtQREFwdlhfaFJNelY0eEpONThaWXEyZnp0MG0yeEdUY19ybU5sRkZENkZMczBWWkpB?oc=5",
-   "pub": "Sun, 22 Nov 2026 09:53:46 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "대구·경북 23일 흐리고 오후부터 비…동해안·북동산지 강풍 주의",
-   "source": "뉴스핌",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40VUMwQm1zSDFEWnMyUE9rZzIxLVVZT1FPblJ5SlZGNDB5b05xbmZ0S2xJVWtPYTF1RjB3NTA5akpVZ0szVnp4a2I3Uk9fVGV1bTYteFFrVUZqblVm?oc=5",
-   "pub": "Sun, 22 Nov 2026 09:47:00 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "농식품부 “K-푸드 핵심으로 김치 육성”",
-   "source": "아시아투데이",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UeXFySmoxOERreGhZLW1OVW45eDNlbFJXdHdCZHhNNC1hTktyYVlSNkFzcDFYek1WUjRpcm1oTUlWbTNEczlqWjBpWVZsbUVBZXV3cklGUmxfMzdTUFhEYjJ4MFJOekduRG5VdThR?oc=5",
-   "pub": "Sun, 22 Nov 2026 08:11:27 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "인천시, 김장철 농·축산물 유통 점검…표시 누락·해동육 냉장판매 4곳 적발",
-   "source": "자치의정브리핑",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SaDFzRTdaekZvNUh2a3U3WmpRYm0xQVp5cXhKeTlzRnA2RVpRdkJPdFhKT292cTlCUVRPSjl3ODZyaUI0bGd1ZHVmRTRRM25lUkFPeF9CcDF6RTBXWjNZ?oc=5",
-   "pub": "Mon, 23 Nov 2026 00:43:18 GMT"
-  },
-  {
-   "feed": "주요뉴스",
-   "title": "제주, 차차 흐려지다 늦은 오후부터 비…낮 최고 18도",
-   "source": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1b0lqa1plQUZjRHlYWnNhdnJQUVhWOFVBTUozWUZUTUtVeUwwLW4xT2VCU2kxLUctZUEwcThRSS1zWkYzeTJ2dFNrdVpoM0paSUZTbldSYVRXYU3SAWBBVV95cUxQQlVOQWIyY2RyUFNuNHRkdWNEYmFqM0Ewa2JPZkYwYXM2M09hNFFKYnJ1MmlLMVBOQ1FSYlFKdkRFNGdqQ2FmR1NWVlByOWFXclBmNVptYzh2RU0xNWVzeVY?oc=5",
-   "pub": "Sun, 22 Nov 2026 21:27:12 GMT"
-  },
-  {
-   "feed": "농식품부",
-   "title": "[농림축산식품부X농수축산신문] 2026 축산, 현장 행정을 말하다",
-   "source": "농수축산신문",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iY3NwQ1oydkNyUDdGaWVWX0dYT3ItWXZETmRyd016MlN0YU45cjNvajVwaTRtQmdGaWNZZy1Ka0ZPZG9nN29ReS1iSnljX0lwMXJpYXFFUG1zclhsaXd4T3N5RGtYMnVCN21Paw?oc=5",
-   "pub": "Sun, 22 Nov 2026 22:00:00 GMT"
-  },
-  {
-   "feed": "원산지",
-   "title": "정부, 김장철 수산물 안전성 강화...원산지 표시 특별점검",
-   "source": "미디어인천신문",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDNnlpeWp4YVczUFBQTUZNbHVTUHlVZzVGNlZVWk50MUdIQzdtUWJraG5jdUFFcDBhaFRMaS1TQ3lHRTJfb2tkSEtfYWpEaWlmU0lTSDhrZndJUDN6STFOTVZsWU9VRTlleGc?oc=5",
-   "pub": "Sun, 22 Nov 2026 02:12:36 GMT"
+   "title": "김장철 틈탄 원산지 둔갑·식품 밀수 잡는다…평택해경 특별단속 실시",
+   "source": "경기일보",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdHFrdktYenNwMVVBRXdydGxucVlFZmo4WUZraWhpSlBnMF9HV3NSaGwtMFZWNzJKRVd1V1FaZzRuR05qTkZxNzNPTlZWaXU4V3RzVWMzY0NST2s?oc=5",
+   "pub": "Mon, 23 Nov 2026 04:56:12 GMT"
   }
  ],
  "errors": []
